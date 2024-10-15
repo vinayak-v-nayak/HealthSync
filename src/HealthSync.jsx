@@ -5,11 +5,12 @@ import Features from '../src/components/Features';
 import Testimonials from '../src/components/Testimonials';
 import Chatbot from '../src/components/Chatbot';
 import Footer from '../src/components/Footer';
-import './assets/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/flex-slider.css'
 import './assets/css/font-awesome.css';
 import './assets/css/insurance-landing.css';
 import './assets/css/chatbot.css';
+
 
 const HealthSync = () => {
   return (
