@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/InsuranceServices.css'; // Add your styles here
+import '../assets/css/InsuranceServices.css'; // Add your styles here
 
 const InsuranceServices = () => {
   const services = [

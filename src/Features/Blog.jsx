@@ -1,5 +1,5 @@
 import React from 'react';
-import './assets/css/Blog.css'
+import '../assets/css/Blog.css'
 
 const blogs = [
   {

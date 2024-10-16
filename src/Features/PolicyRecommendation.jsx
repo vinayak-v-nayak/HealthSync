@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './assets/css/PolicyRecommendation.css'; // Import the CSS file for styling
+import '../assets/css/PolicyRecommendation.css'; // Import the CSS file for styling
 
 const PolicyRecommendation = () => {
   const [formData, setFormData] = useState({
