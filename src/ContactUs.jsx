@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
-import './assets/css/contactus.css'
+import './assets/css/ContactUs.css';
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+    subject: '',
+    phone: '',
+    preferredContactMethod: 'email' // Default value
   });
 
   const handleChange = (e) => {
@@ -19,8 +22,20 @@ const ContactUs = () => {
     e.preventDefault();
     // Handle form submission logic, like sending data to a backend
     console.log('Form submitted:', formData);
-    alert('Thank you for contacting us!');
-    setFormData({ name: '', email: '', message: '' });
+    alert('Thank you for contacting us! We will get back to you shortly.');
+    setFormData({
+      name: '',
+      email: '',
+      message: '',
+      subject: '',
+      phone: '',
+      preferredContactMethod: 'email'
+    });
+  };
+
+  const validatePhoneNumber = (phone) => {
+    const phoneRegex = /^[0-9]{10}$/; // Simple regex for 10-digit phone numbers
+    return phoneRegex.test(phone);
   };
 
   return (
@@ -49,6 +64,49 @@ const ContactUs = () => {
             onChange={handleChange}
             required
           />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="phone">Phone Number:</label>
+          <input
+            type="text"
+            id="phone"
+            name="phone"
+            value={formData.phone}
+            onChange={handleChange}
+            maxLength="10" // Limit to 10 digits
+            placeholder="1234567890"
+            required
+          />
+          {!validatePhoneNumber(formData.phone) && formData.phone && (
+            <span className="error-message">Phone number must be 10 digits.</span>
+          )}
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="subject">Subject:</label>
+          <input
+            type="text"
+            id="subject"
+            name="subject"
+            value={formData.subject}
+            onChange={handleChange}
+            required
+          />
+        </div>
+
+        <div className="form-group">
+          <label htmlFor="preferredContactMethod">Preferred Contact Method:</label>
+          <select
+            id="preferredContactMethod"
+            name="preferredContactMethod"
+            value={formData.preferredContactMethod}
+            onChange={handleChange}
+            required
+          >
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+          </select>
         </div>
 
         <div className="form-group">

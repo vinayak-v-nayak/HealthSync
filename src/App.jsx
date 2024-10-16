@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import InsuranceServices from './Insurance-Services'; // Import the new component
+import InsuranceServices from './InsuranceServices'; // Import the new component
 import HealthSync from './HealthSync';
 import Blog from './Blog'
 import PolicyRecommendation from './PolicyRecommendation';

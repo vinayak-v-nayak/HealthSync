@@ -1,0 +1,62 @@
+.insurance-services {
+  padding: 20px;
+  margin-top: 120px;
+  background-color: #f7f7f7; /* Light gray background for the section */
+}
+
+.insurance-services h2 {
+  color: #165EAB; /* Dark blue color for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+  text-align: center; /* Center the heading */
+}
+
+.services-list {
+  display: block; /* Change to block for single column */
+  gap: 20px; /* Space between service cards */
+}
+
+.service-card {
+  background-color: #fff; /* White background for each card */
+  border: 2px solid #4a90e2; /* Blue border for cards */
+  border-radius: 10px; /* Slightly larger border radius */
+  padding: 20px; /* Increased padding for better spacing */
+  width: 100%; /* Full width for single column */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+  position: relative; /* Positioning context for pseudo-elements */
+  margin-bottom: 20px; /* Space below each card */
+}
+
+.service-card::before {
+  content: ""; /* Create a decorative line at the top */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5px; /* Height of the decorative line */
+  background-color: #4a90e2; /* Blue color for the line */
+  border-radius: 10px 10px 0 0; /* Rounded corners on top */
+}
+
+.service-card:hover {
+  transform: translateY(-5px); /* Lift the card on hover */
+}
+
+.service-card h3 {
+  margin-top: 0; /* No margin on top of the title */
+  color: #165EAB; /* Dark blue color for titles */
+  font-size: 1.2em; /* Slightly larger font size for titles */
+}
+
+.service-card p {
+  margin-bottom: 10px; /* Space below paragraph */
+  color: #555; /* Dark gray for description text */
+  line-height: 1.5; /* Increased line height for readability */
+}
+
+.service-card strong {
+  display: block; /* Make strong text block level */
+  margin-top: 10px; /* Space above strong text */
+  color: #4a90e2; /* Blue color for strong text */
+  font-weight: bold; /* Bold weight for emphasis */
+}

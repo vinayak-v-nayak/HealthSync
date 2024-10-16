@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/flex-slider.css'
 import './assets/css/font-awesome.css';
 import './assets/css/insurance-landing.css';
-import './assets/css/chatbot.css';
+import './assets/css/Chatbot.css';
 
 
 const HealthSync = () => {

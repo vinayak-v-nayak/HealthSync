@@ -5,7 +5,13 @@ const PolicyRecommendation = () => {
   const [formData, setFormData] = useState({
     age: '',
     location: '',
-    coverage: ''
+    salary: '',
+    fitnessScore: '',
+    coverage: '',
+    premiumLevel: '',
+    insuranceType: '',
+    maritalStatus: '',
+    comments: ''
   });
 
   const [recommendedPolicy, setRecommendedPolicy] = useState(null);
@@ -22,19 +28,18 @@ const PolicyRecommendation = () => {
     e.preventDefault();
 
     // Placeholder for policy recommendation logic
-    // Here, you might want to send the form data to a backend or use a third-party API to get recommendations
     const policy = await getPolicyRecommendation(formData); // Simulating API call
     setRecommendedPolicy(policy);
   };
 
   // Simulating an API call to get a recommended policy
   const getPolicyRecommendation = async (formData) => {
-    // Logic to recommend a policy can be added here, for now, we're returning a mock recommendation
+    // Logic to recommend a policy can be added here
     return {
-      name: 'Comprehensive Health Plan',
-      description: 'A comprehensive health insurance policy for individuals.',
-      premium: '$200/month',
-      coverageDetails: 'Covers hospitalization, outpatient care, maternity, and more.'
+      name: 'Tailored Insurance Plan',
+      description: 'An insurance plan tailored to your needs based on the provided details.',
+      premium: '$250/month',
+      coverageDetails: 'Covers a variety of needs based on your preferences.'
     };
   };
 
@@ -65,6 +70,28 @@ const PolicyRecommendation = () => {
           />
         </div>
         <div className="form-group">
+          <label htmlFor="salary">Salary</label>
+          <input
+            type="number"
+            id="salary"
+            name="salary"
+            value={formData.salary}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="fitnessScore">Fitness Score</label>
+          <input
+            type="number"
+            id="fitnessScore"
+            name="fitnessScore"
+            value={formData.fitnessScore}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className="form-group">
           <label htmlFor="coverage">Coverage Needs</label>
           <select
             id="coverage"
@@ -78,6 +105,63 @@ const PolicyRecommendation = () => {
             <option value="comprehensive">Comprehensive</option>
             <option value="family">Family</option>
           </select>
+        </div>
+        <div className="form-group">
+          <label htmlFor="premiumLevel">Premium Level</label>
+          <select
+            id="premiumLevel"
+            name="premiumLevel"
+            value={formData.premiumLevel}
+            onChange={handleInputChange}
+            required
+          >
+            <option value="">Select Premium Level</option>
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+        <div className="form-group">
+          <label htmlFor="insuranceType">Type of Insurance</label>
+          <select
+            id="insuranceType"
+            name="insuranceType"
+            value={formData.insuranceType}
+            onChange={handleInputChange}
+            required
+          >
+            <option value="">Select Insurance Type</option>
+            <option value="health">Health</option>
+            <option value="life">Life</option>
+            <option value="auto">Auto</option>
+            <option value="home">Home</option>
+          </select>
+        </div>
+        <div className="form-group">
+          <label htmlFor="maritalStatus">Marital Status</label>
+          <select
+            id="maritalStatus"
+            name="maritalStatus"
+            value={formData.maritalStatus}
+            onChange={handleInputChange}
+            required
+          >
+            <option value="">Select Marital Status</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="divorced">Divorced</option>
+            <option value="widowed">Widowed</option>
+          </select>
+        </div>
+        <div className="form-group">
+          <label htmlFor="comments">Additional Comments</label>
+          <textarea
+            id="comments"
+            name="comments"
+            value={formData.comments}
+            onChange={handleInputChange}
+            rows="4"
+          />
         </div>
         <button type="submit" className="submit-btn">Get Recommendation</button>
       </form>
