@@ -19,13 +19,13 @@ const Chatbot = () => {
       </button>
       {isOpen && (
         <div id="chat-window" className="chat-window">
-          <div className="chat-header">
-            <button className="close-btn" onClick={closeChat}>×</button>
+          <div className="chat-header" >
+            <h2>Insurance Virtual Assistant</h2>
           </div>
           <iframe
-            src="https://your-bot-url-here" // Replace with your chatbot's URL
+            src="" // Replace with your chatbot's URL
             width="100%"
-            height="calc(100% - 40px)" // Adjust height to account for header
+            height="100%" // Adjust height to account for header
             title="Chatbot"
             className="chat-iframe"
           />

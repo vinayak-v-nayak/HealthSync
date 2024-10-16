@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../assets/images/healthsynclogo.png';
+import { Link } from 'react-router-dom';
+
 
 const Header = () => {
   return (
@@ -12,11 +14,11 @@ const Header = () => {
                 <img src={logo} alt="Insurance Company" style={{ width: '90px', height: '70px', borderRadius:'20px' }} />
               </a>
               <ul className="nav">
-                <li><a href="#welcome" className="active">Home</a></li>
-                <li><a href="#features">Insurance Services</a></li>
-                <li><a href="#testimonials">Get Recommendations</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#contact-us">Contact Us</a></li>
+                  <li><Link to="/" className="active">Home</Link></li>
+                  <li><Link to="/services">Insurance Services</Link></li>
+                  <li><Link to="/recommendation">Get Recommendations</Link></li>
+                  <li><Link to="/blog">Blog</Link></li>
+                  <li><Link to="/ContactUs">Contact Us</Link></li>
               </ul>
               <a className='menu-trigger'>
                 <span>Menu</span>

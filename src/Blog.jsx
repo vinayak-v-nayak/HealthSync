@@ -1,36 +1,47 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import '../src/assets/css/blog.css'
+import React from 'react';
+import './assets/css/blog.css'
 
-const InsurancePolicies = () => {
-  const [policies, setPolicies] = useState([]);
+const blogs = [
+  {
+    title: "Understanding Different Types of Health Insurance Plans",
+    date: "October 16, 2024",
+    content: "Choosing the right health insurance plan can be overwhelming. With so many options available, it’s important to understand the differences between each type of plan. In this blog post, we will break down the four most common types of health insurance plans..."
+  },
+  {
+    title: "5 Tips to Save Money on Car Insurance",
+    date: "October 14, 2024",
+    content: "Car insurance is essential, but it doesn’t have to be expensive. Here are five tips to save money on your car insurance..."
+  },
+  {
+    title: "Life Insurance: Do You Really Need It?",
+    date: "October 12, 2024",
+    content: "Life insurance is often overlooked, but it’s one of the most important financial products to consider, especially if you have dependents..."
+  },
+  {
+    title: "The Importance of Travel Insurance for International Trips",
+    date: "October 10, 2024",
+    content: "Travel insurance might seem like an unnecessary expense, but it can save you from significant financial losses if something goes wrong during your trip..."
+  },
+  {
+    title: "The Benefits of Disability Insurance: Protecting Your Income",
+    date: "October 5, 2024",
+    content: "Disability insurance is an often-overlooked but essential coverage that protects your income in case you are unable to work due to injury or illness..."
+  }
+];
 
-  useEffect(() => {
-    // Fetch the index of all posts
-    const fetchPolicies = async () => {
-      try {
-        const response = await axios.get('https://www.healthcare.gov/api/index.json');
-        setPolicies(response.data);
-      } catch (error) {
-        console.error('Error fetching insurance policies:', error);
-      }
-    };
-
-    fetchPolicies();
-  }, []);
-
+const Blog = () => {
   return (
-    <div>
-      <h1>Insurance Policies</h1>
-      <ul>
-        {policies.map(policy => (
-          <li key={policy.url}>
-            <a href={policy.url} target="_blank" rel="noopener noreferrer">{policy.title}</a>
-          </li>
-        ))}
-      </ul>
+    <div className="blog-section">
+      <h2>Our Latest Blogs</h2>
+      {blogs.map((blog, index) => (
+        <div key={index} className="blog-post">
+          <h3>{blog.title}</h3>
+          <p><em>{blog.date}</em></p>
+          <p>{blog.content}</p>
+        </div>
+      ))}
     </div>
   );
 };
 
-export default InsurancePolicies;
+export default Blog;

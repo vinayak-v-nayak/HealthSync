@@ -39,3 +39,17 @@
 .chat-window:hover {
   display: block;
 }
+.chat-header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
+.chat-header h2{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+.chat-iframe{
+    border: 5px black;
+}
