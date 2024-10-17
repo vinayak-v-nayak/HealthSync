@@ -1,35 +1,35 @@
-import React, { useState } from 'react';
-import '../assets/css/ContactUs.css';
+import React, { useState } from "react";
+import "../assets/css/contactus.css";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-    subject: '',
-    phone: '',
-    preferredContactMethod: 'email' // Default value
+    name: "",
+    email: "",
+    message: "",
+    subject: "",
+    phone: "",
+    preferredContactMethod: "email", // Default value
   });
 
   const handleChange = (e) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic, like sending data to a backend
-    console.log('Form submitted:', formData);
-    alert('Thank you for contacting us! We will get back to you shortly.');
+    console.log("Form submitted:", formData);
+    alert("Thank you for contacting us! We will get back to you shortly.");
     setFormData({
-      name: '',
-      email: '',
-      message: '',
-      subject: '',
-      phone: '',
-      preferredContactMethod: 'email'
+      name: "",
+      email: "",
+      message: "",
+      subject: "",
+      phone: "",
+      preferredContactMethod: "email",
     });
   };
 
@@ -79,7 +79,9 @@ const ContactUs = () => {
             required
           />
           {!validatePhoneNumber(formData.phone) && formData.phone && (
-            <span className="error-message">Phone number must be 10 digits.</span>
+            <span className="error-message">
+              Phone number must be 10 digits.
+            </span>
           )}
         </div>
 
@@ -96,7 +98,9 @@ const ContactUs = () => {
         </div>
 
         <div className="form-group">
-          <label htmlFor="preferredContactMethod">Preferred Contact Method:</label>
+          <label htmlFor="preferredContactMethod">
+            Preferred Contact Method:
+          </label>
           <select
             id="preferredContactMethod"
             name="preferredContactMethod"
@@ -120,7 +124,9 @@ const ContactUs = () => {
           />
         </div>
 
-        <button type="submit" className="submit-btn">Submit</button>
+        <button type="submit" className="submit-btn">
+          Submit
+        </button>
       </form>
     </div>
   );

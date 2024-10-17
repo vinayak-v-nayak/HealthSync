@@ -1,17 +1,17 @@
-import React, { useState } from 'react';
-import '../assets/css/PolicyRecommendation.css'; // Import the CSS file for styling
+import React, { useState } from "react";
+import "../assets/css/PolicyRecommendation.css"; // Import the CSS file for styling
 
 const PolicyRecommendation = () => {
   const [formData, setFormData] = useState({
-    age: '',
-    location: '',
-    salary: '',
-    fitnessScore: '',
-    coverage: '',
-    premiumLevel: '',
-    insuranceType: '',
-    maritalStatus: '',
-    comments: ''
+    age: "",
+    location: "",
+    salary: "",
+    fitnessScore: "",
+    coverage: "",
+    premiumLevel: "",
+    insuranceType: "",
+    maritalStatus: "",
+    comments: "",
   });
 
   const [recommendedPolicy, setRecommendedPolicy] = useState(null);
@@ -20,7 +20,7 @@ const PolicyRecommendation = () => {
     const { name, value } = e.target;
     setFormData({
       ...formData,
-      [name]: value
+      [name]: value,
     });
   };
 
@@ -36,10 +36,11 @@ const PolicyRecommendation = () => {
   const getPolicyRecommendation = async (formData) => {
     // Logic to recommend a policy can be added here
     return {
-      name: 'Tailored Insurance Plan',
-      description: 'An insurance plan tailored to your needs based on the provided details.',
-      premium: '$250/month',
-      coverageDetails: 'Covers a variety of needs based on your preferences.'
+      name: "Tailored Insurance Plan",
+      description:
+        "An insurance plan tailored to your needs based on the provided details.",
+      premium: "$250/month",
+      coverageDetails: "Covers a variety of needs based on your preferences.",
     };
   };
 
@@ -163,15 +164,22 @@ const PolicyRecommendation = () => {
             rows="4"
           />
         </div>
-        <button type="submit" className="submit-btn">Get Recommendation</button>
+        <button type="submit" className="submit-btn">
+          Get Recommendation
+        </button>
       </form>
 
       {recommendedPolicy && (
         <div className="recommended-policy">
           <h3>Recommended Policy: {recommendedPolicy.name}</h3>
           <p>{recommendedPolicy.description}</p>
-          <p><strong>Premium:</strong> {recommendedPolicy.premium}</p>
-          <p><strong>Coverage Details:</strong> {recommendedPolicy.coverageDetails}</p>
+          <p>
+            <strong>Premium:</strong> {recommendedPolicy.premium}
+          </p>
+          <p>
+            <strong>Coverage Details:</strong>{" "}
+            {recommendedPolicy.coverageDetails}
+          </p>
         </div>
       )}
     </div>

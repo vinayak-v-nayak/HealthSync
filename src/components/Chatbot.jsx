@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import '../assets/css/Chatbot.css'; // Assuming you have a separate CSS file for styling
+import React, { useState } from "react";
+import "../assets/css/chatbot.css"; // Assuming you have a separate CSS file for styling
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const toggleChat = () => {
     setIsOpen(!isOpen);
   };
@@ -14,12 +14,16 @@ const Chatbot = () => {
 
   return (
     <div id="chat-widget" className="chat-widget">
-      <button id="chat-toggle-btn" className="chat-toggle-btn" onClick={toggleChat}>
-        {isOpen ? 'Close Chat' : 'Ask IVA'}
+      <button
+        id="chat-toggle-btn"
+        className="chat-toggle-btn"
+        onClick={toggleChat}
+      >
+        {isOpen ? "Close Chat" : "Ask IVA"}
       </button>
       {isOpen && (
         <div id="chat-window" className="chat-window">
-          <div className="chat-header" >
+          <div className="chat-header">
             <h2>Insurance Virtual Assistant</h2>
           </div>
           <iframe
