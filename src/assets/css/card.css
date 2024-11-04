@@ -1,0 +1,143 @@
+.insurance-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-bottom: 10px;
+  max-width: 100%; /* Full width of container */
+  width: 100%;
+  transition: box-shadow 0.2s ease, transform 0.2s ease; /* Transition for hover effect */
+}
+
+.insurance-card:hover {
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+  transform: translateY(-2px); /* Lift effect on hover */
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.icon {
+  width: 32px; /* Kept original size */
+  height: 32px;
+  margin-right: 8px;
+}
+
+.card-header-text {
+  flex-grow: 1;
+}
+
+.brand-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #1f2937; /* Darker color for better contrast */
+}
+
+.policy-description {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-top: 4px;
+}
+
+.card-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  align-items: center;
+}
+
+.claim-settlement {
+  grid-column: 1 / span 2;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.cashless-hospitals,
+.coverage {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+.value {
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.premium {
+  text-align: right;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #dc2626;
+}
+
+.annual-premium {
+  display: block;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
+.compare-option {
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+  gap: 4px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-body {
+    grid-template-columns: 1fr 1fr; /* Two columns on smaller screens */
+  }
+
+  .claim-settlement {
+    grid-column: 1 / span 2;
+  }
+
+  .premium,
+  .annual-premium {
+    text-align: left;
+  }
+}
+
+@media (max-width: 480px) {
+  .insurance-card {
+    padding: 12px;
+  }
+
+  .card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .brand-name {
+    font-size: 1rem; /* Slightly smaller for smaller screens */
+  }
+
+  .policy-description {
+    font-size: 0.8rem;
+  }
+
+  .card-body {
+    grid-template-columns: 1fr; /* Single column on very small screens */
+    gap: 4px; /* Adjusted gap for smaller screens */
+  }
+
+  .premium,
+  .annual-premium {
+    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+  }
+}

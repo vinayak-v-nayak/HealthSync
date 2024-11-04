@@ -1,0 +1,81 @@
+/* General Page Styles */
+.page-container {
+  max-width: 800px; /* Maximum width for the content */
+  margin: 0 auto; /* Center the content */
+  padding: 20px; /* Padding around the content */
+  font-family: 'Arial', sans-serif; /* Font for the page */
+  background-color: #f7f7f7; /* Light background color */
+  margin-top: 120px;
+}
+
+/* Heading Styles */
+.heading {
+  text-align: center; /* Center the heading */
+  font-size: 2.5em; /* Large font size for the heading */
+  color: #333; /* Dark color for the heading */
+  margin-bottom: 30px; /* Space below the heading */
+}
+
+/* Articles Container */
+.articles-container {
+  display: flex; /* Flexbox layout for articles */
+  flex-direction: column; /* Stack articles vertically */
+  gap: 20px; /* Space between articles */
+}
+
+/* Article Card Styles */
+.article-card {
+  background-color: #fff; /* White background for each article */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 20px; /* Padding inside the card */
+  transition: transform 0.2s; /* Smooth scaling effect on hover */
+}
+
+/* Hover Effect on Article Card */
+.article-card:hover {
+  transform: scale(1.02); /* Scale up the card on hover */
+}
+
+/* Article Title */
+.article-title {
+  font-size: 1.5em; /* Font size for the article title */
+  color: #007bff; /* Bootstrap primary color for links */
+  margin: 0; /* Remove default margin */
+}
+
+/* Article Description */
+.article-description {
+  font-size: 1em; /* Standard font size */
+  color: #555; /* Gray color for text */
+  margin: 10px 0; /* Space above and below the description */
+}
+
+/* Article Source */
+.article-source {
+  font-size: 0.9em; /* Smaller font size for source info */
+  color: #999; /* Lighter gray for source text */
+}
+
+/* Loading Container */
+.loading-container {
+  text-align: center; /* Center the loading message */
+  font-size: 1.2em; /* Slightly larger font for loading */
+  margin: 20px; /* Margin around loading message */
+}
+
+/* Error Container */
+.error-container {
+  text-align: center; /* Center the error message */
+  font-size: 1.2em; /* Slightly larger font for error */
+  color: #d9534f; /* Bootstrap danger color */
+  margin: 20px; /* Margin around error message */
+}
+
+/* No Articles Message */
+.no-articles-message {
+  text-align: center; /* Center the no articles message */
+  font-size: 1.2em; /* Slightly larger font for message */
+  color: #555; /* Gray color for text */
+  margin: 20px; /* Margin around message */
+}

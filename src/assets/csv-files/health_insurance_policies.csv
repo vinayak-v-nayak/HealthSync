@@ -1,0 +1,810 @@
+Brand_Name,Policy_Name,Cashless_Hospitals,Coverage_Amount,Monthly_Premium,Annual_Premium,Claim_Settlement_Ratio
+Care Health,Care Advantage,15,₹2 Cr,"₹3,468/month","₹41,611 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with NCB,15,₹2 Cr,"₹3,594/month","₹43,122 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period,15,₹2 Cr,"₹3,468/month","₹41,611 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹2 Cr,"₹4,070/month","₹48,834 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹2 Cr,"₹3,468/month","₹41,611 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹2 Cr,"₹4,070/month","₹48,834 / Year",93 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹2 Cr,"₹2,272/month","₹27,263 / Year",85.80 % claim settlement ratio
+Niva Bupa,Health Premia Platinum,16,₹2 Cr,"₹5,815/month","₹69,780 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹2 Cr,"₹1,896/month","₹22,756 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹1.5 Cr,"₹2,156/month","₹25,874 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹3 Cr,"₹2,011/month","₹24,136 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹2 Cr,"₹2,873/month","₹34,475 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹2 Cr,"₹2,873/month","₹34,475 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹2 Cr,"₹2,904/month","₹34,846 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹2 Cr,"₹2,904/month","₹34,846 / Year",99.80 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹1.5 Cr,"₹2,518/month","₹30,212 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹1.5 Cr,"₹1,332/month","₹15,989 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹1.5 Cr,"₹1,351/month","₹16,213 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹1.5 Cr,"₹1,326/month","₹15,915 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹1.5 Cr,"₹2,499/month","₹29,989 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹1.5 Cr,"₹2,493/month","₹29,915 / Year",93.4 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹1.5 Cr,"₹6,976/month","₹83,717 / Year",92 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹1 Cr,"₹1,659/month","₹19,908 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹1 Cr,"₹1,709/month","₹5,128 for 3 months",93 % claim settlement ratio
+Care Health,Care Advantage,15,₹1 Cr,"₹1,397/month","₹16,761 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with NCB,15,₹1 Cr,"₹1,501/month","₹18,017 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period,15,₹1 Cr,"₹1,397/month","₹16,761 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹1 Cr,"₹2,470/month","₹29,642 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹1 Cr,"₹2,189/month","₹26,267 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹1 Cr,"₹2,470/month","₹29,642 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹1 Cr,"₹1,936/month","₹23,231 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹1 Cr,"₹2,048/month","₹24,579 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹1 Cr,"₹2,045/month","₹24,536 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹1 Cr,"₹2,213/month","₹26,556 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹1 Cr,"₹2,877/month","₹34,523 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹1 Cr,"₹1,590/month","₹19,081 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹1 Cr,"₹2,299/month","₹27,584 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹1 Cr,"₹2,356/month","₹28,266 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹1 Cr,"₹2,158/month","₹25,894 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹1 Cr,"₹1,803/month","₹21,638 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹1 Cr,"₹2,031/month","₹24,377 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹1 Cr,"₹2,236/month","₹26,833 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹1 Cr,"₹2,250/month","₹27,000 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹1 Cr,"₹2,594/month","₹31,130 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹1 Cr,"₹2,789/month","₹33,465 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Platinum,16,₹1 Cr,"₹5,302/month","₹63,627 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹1 Cr,"₹1,679/month","₹20,142 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹1 Cr,"₹2,015/month","₹24,182 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹1 Cr,"₹1,670/month","₹20,039 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹1 Cr,"₹2,530/month","₹30,362 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹1 Cr,"₹2,530/month","₹30,362 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹1 Cr,"₹2,561/month","₹30,733 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹1 Cr,"₹2,561/month","₹30,733 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹1 Cr,"₹1,843/month","₹22,120 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹1 Cr,"₹1,848/month","₹22,176 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹1 Cr,"₹1,848/month","₹22,176 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹1 Cr,"₹1,848/month","₹22,176 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹1 Cr,"₹2,325/month","₹27,901 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹1 Cr,"₹1,273/month","₹15,279 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹1 Cr,"₹1,291/month","₹15,492 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹1 Cr,"₹1,267/month","₹15,208 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹1 Cr,"₹2,307/month","₹27,688 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹1 Cr,"₹2,301/month","₹27,617 / Year",93.4 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹1 Cr,"₹1,583/month","₹18,991 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹1 Cr,"₹5,641/month","₹67,695 / Year",92 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹1 Cr,"₹1,832/month","₹21,983 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹1 Cr,"₹1,889/month","₹22,668 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹1 Cr,"₹2,098/month","₹25,181 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹1 Cr,"₹1,908/month","₹22,892 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹1 Cr,"₹1,965/month","₹23,576 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹1 Cr,"₹2,174/month","₹26,090 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹1 Cr,"₹2,211/month","₹26,526 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹1 Cr,"₹2,268/month","₹27,211 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹1 Cr,"₹2,477/month","₹29,724 / Year",96 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹1 Cr,"₹1,613/month","₹19,352 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹1 Cr,"₹1,932/month","₹23,189 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹1 Cr,"₹3,447/month","₹41,360 / Year",96 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹1.5 Lac,₹432/month,"₹5,189 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹1 Lac,₹382/month,"₹4,578 / Year",85.80 % claim settlement ratio
+Star Health,Out Patient Care Platinum,16,₹1 Lac,"₹1,236/month","₹14,827 / Year",85.80 % claim settlement ratio
+Star Health,Out Patient Care Gold,16,₹1 Lac,"₹1,172/month","₹14,066 / Year",85.80 % claim settlement ratio
+Star Health,Out Patient Care Silver,16,₹1 Lac,"₹1,019/month","₹12,231 / Year",85.80 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹1 Lac,₹436/month,"₹5,237 / Year",98 % claim settlement ratio
+New India Assurance,Aarogya sanjeevani,16,₹1 Lac,₹374/month,"₹4,490 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Classic,15,₹2 Lac,₹615/month,"₹7,374 / Year",92 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹1.5 Lac,₹413/month,"₹4,958 / Year",98.90 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹2 Cr,"₹4,070/month","₹48,834 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹2 Cr,"₹3,468/month","₹41,611 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹2 Cr,"₹4,070/month","₹48,834 / Year",93 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹2 Cr,"₹2,272/month","₹27,263 / Year",85.80 % claim settlement ratio
+Niva Bupa,Health Premia Platinum,16,₹2 Cr,"₹5,815/month","₹69,780 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹2 Cr,"₹1,896/month","₹22,756 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹2 Cr,"₹2,405/month","₹28,858 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹3 Cr,"₹2,011/month","₹24,136 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹2 Cr,"₹2,873/month","₹34,475 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹2 Cr,"₹2,873/month","₹34,475 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹2 Cr,"₹2,904/month","₹34,846 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹2 Cr,"₹2,904/month","₹34,846 / Year",99.80 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹2 Cr,"₹2,730/month","₹32,759 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹2 Cr,"₹1,411/month","₹16,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹2 Cr,"₹1,431/month","₹17,168 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹2 Cr,"₹1,404/month","₹16,851 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹2 Cr,"₹2,710/month","₹32,522 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹2 Cr,"₹2,704/month","₹32,442 / Year",93.4 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹2 Lac,₹448/month,"₹5,376 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹2 Lac,₹411/month,"₹4,927 / Year",85.80 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹2 Lac,₹683/month,"₹8,200 / Year",98 % claim settlement ratio
+New India Assurance,Aarogya sanjeevani,16,₹2 Lac,₹517/month,"₹6,203 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Classic,15,₹2 Lac,₹615/month,"₹7,374 / Year",92 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹2 Lac,₹471/month,"₹5,646 / Year",98.90 % claim settlement ratio
+Care Health,Care Supreme VFM Discounted,15,₹5 Lac,₹581/month,"₹6,969 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹5 Lac,₹732/month,"₹8,783 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹5 Lac,₹755/month,"₹2,264 for 3 months",93 % claim settlement ratio
+Care Health,Care Freedom,15,₹3 Lac,₹502/month,"₹6,024 / Year",93 % claim settlement ratio
+Care Health,Care Heart,15,₹3 Lac,₹750/month,"₹9,000 / Year",93 % claim settlement ratio
+Care Health,Care Freedom with Health Check Plus,15,₹3 Lac,₹502/month,"₹6,024 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹5 Lac,"₹1,276/month","₹15,312 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹3 Lac,₹456/month,"₹5,466 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹3 Lac,₹570/month,"₹6,839 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹5 Lac,₹683/month,"₹8,192 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹5 Lac,₹794/month,"₹9,529 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹3 Lac,₹661/month,"₹7,937 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹3 Lac,₹618/month,"₹7,419 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹5 Lac,"₹1,032/month","₹12,388 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-A,16,₹3 Lac,"₹1,526/month","₹18,307 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-B,16,₹3 Lac,"₹1,695/month","₹20,341 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹3 Lac,₹442/month,"₹5,298 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹5 Lac,₹618/month,"₹7,417 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹5 Lac,₹912/month,"₹10,943 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹5 Lac,₹937/month,"₹11,239 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹5 Lac,₹830/month,"₹9,955 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹5 Lac,₹683/month,"₹8,194 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹5 Lac,₹782/month,"₹9,383 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹5 Lac,₹843/month,"₹10,114 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹5 Lac,₹848/month,"₹10,179 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹3 Lac,₹873/month,"₹10,470 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹3 Lac,₹960/month,"₹11,518 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Silver,16,₹5 Lac,"₹1,413/month","₹16,953 / Year",92 % claim settlement ratio
+Niva Bupa,Health Pulse,16,₹5 Lac,₹601/month,"₹7,207 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹5 Lac,₹654/month,"₹7,846 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹5 Lac,₹710/month,"₹8,522 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹5 Lac,₹736/month,"₹8,832 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹5 Lac,₹876/month,"₹10,507 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹5 Lac,₹909/month,"₹10,913 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,₹5 Lac,"₹1,139/month","₹13,670 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,₹5 Lac,"₹1,105/month","₹13,263 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹5 Lac,₹940/month,"₹11,284 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹5 Lac,₹907/month,"₹10,878 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,₹5 Lac,"₹1,136/month","₹13,634 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,₹5 Lac,"₹1,170/month","₹14,040 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Plus,15,₹5 Lac,₹535/month,"₹6,416 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Individual,16,₹5 Lac,₹879/month,"₹10,550 / Year",94 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹3 Lac,₹804/month,"₹9,642 / Year",98 % claim settlement ratio
+New India Assurance,Aarogya sanjeevani,16,₹3 Lac,₹593/month,"₹7,120 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Classic,15,₹3 Lac,₹707/month,"₹8,481 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹5 Lac,₹797/month,"₹9,566 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹5 Lac,"₹1,309/month","₹15,707 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹5 Lac,₹613/month,"₹7,351 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹5 Lac,₹657/month,"₹7,882 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹5 Lac,₹828/month,"₹9,936 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,₹6 Lac,₹866/month,"₹10,396 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Essential,20,₹4 Lac,₹708/month,"₹8,496 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,₹4 Lac,₹652/month,"₹7,823 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹5 Lac,₹641/month,"₹7,694 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹5 Lac,₹685/month,"₹8,225 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹5 Lac,₹857/month,"₹10,278 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹5 Lac,₹753/month,"₹9,039 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹5 Lac,₹798/month,"₹9,570 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹5 Lac,₹969/month,"₹11,623 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹3 Lac,₹610/month,"₹7,321 / Year",98.90 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹4 Lac,₹629/month,"₹7,550 / Year",90 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹3 Cr,"₹4,577/month","₹54,927 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹3 Cr,"₹3,893/month","₹46,716 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹3 Cr,"₹4,577/month","₹54,927 / Year",93 % claim settlement ratio
+Niva Bupa,Health Premia Platinum,16,₹3 Cr,"₹6,208/month","₹74,497 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹3 Cr,"₹2,185/month","₹26,221 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹3 Cr,"₹2,011/month","₹24,136 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹3 Cr,"₹3,122/month","₹37,458 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹3 Cr,"₹3,122/month","₹37,458 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹3 Cr,"₹3,152/month","₹37,829 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹3 Cr,"₹3,152/month","₹37,829 / Year",99.80 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹3 Cr,"₹3,287/month","₹39,448 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹3 Cr,"₹1,655/month","₹19,864 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹3 Cr,"₹1,679/month","₹20,143 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹3 Cr,"₹1,648/month","₹19,772 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹3 Cr,"₹3,264/month","₹39,169 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹3 Cr,"₹3,256/month","₹39,076 / Year",93.4 % claim settlement ratio
+Care Health,Care Supreme VFM Discounted,15,₹5 Lac,₹581/month,"₹6,969 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹5 Lac,₹732/month,"₹8,783 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹5 Lac,₹755/month,"₹2,264 for 3 months",93 % claim settlement ratio
+Care Health,Care Freedom,15,₹3 Lac,₹502/month,"₹6,024 / Year",93 % claim settlement ratio
+Care Health,Care Heart,15,₹3 Lac,₹750/month,"₹9,000 / Year",93 % claim settlement ratio
+Care Health,Care Freedom with Health Check Plus,15,₹3 Lac,₹502/month,"₹6,024 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹5 Lac,"₹1,276/month","₹15,312 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹3 Lac,₹456/month,"₹5,466 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹3 Lac,₹570/month,"₹6,839 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹5 Lac,₹683/month,"₹8,192 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹5 Lac,₹794/month,"₹9,529 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹3 Lac,₹661/month,"₹7,937 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹3 Lac,₹618/month,"₹7,419 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹5 Lac,"₹1,032/month","₹12,388 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-A,16,₹3 Lac,"₹1,526/month","₹18,307 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-B,16,₹3 Lac,"₹1,695/month","₹20,341 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹3 Lac,₹442/month,"₹5,298 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹5 Lac,₹618/month,"₹7,417 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹5 Lac,₹912/month,"₹10,943 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹5 Lac,₹937/month,"₹11,239 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹5 Lac,₹830/month,"₹9,955 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹5 Lac,₹683/month,"₹8,194 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹5 Lac,₹782/month,"₹9,383 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹5 Lac,₹843/month,"₹10,114 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹5 Lac,₹848/month,"₹10,179 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹3 Lac,₹873/month,"₹10,470 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹3 Lac,₹960/month,"₹11,518 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Silver,16,₹5 Lac,"₹1,413/month","₹16,953 / Year",92 % claim settlement ratio
+Niva Bupa,Health Pulse,16,₹5 Lac,₹601/month,"₹7,207 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹5 Lac,₹654/month,"₹7,846 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹5 Lac,₹710/month,"₹8,522 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹5 Lac,₹736/month,"₹8,832 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹5 Lac,₹876/month,"₹10,507 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹5 Lac,₹909/month,"₹10,913 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,₹5 Lac,"₹1,139/month","₹13,670 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,₹5 Lac,"₹1,105/month","₹13,263 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹5 Lac,₹940/month,"₹11,284 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹5 Lac,₹907/month,"₹10,878 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,₹5 Lac,"₹1,136/month","₹13,634 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,₹5 Lac,"₹1,170/month","₹14,040 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Plus,15,₹5 Lac,₹535/month,"₹6,416 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Individual,16,₹5 Lac,₹879/month,"₹10,550 / Year",94 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹3 Lac,₹804/month,"₹9,642 / Year",98 % claim settlement ratio
+New India Assurance,Aarogya sanjeevani,16,₹3 Lac,₹593/month,"₹7,120 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Classic,15,₹3 Lac,₹707/month,"₹8,481 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹5 Lac,₹797/month,"₹9,566 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹5 Lac,"₹1,309/month","₹15,707 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹5 Lac,₹613/month,"₹7,351 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹5 Lac,₹657/month,"₹7,882 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹5 Lac,₹828/month,"₹9,936 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,₹6 Lac,₹866/month,"₹10,396 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Essential,20,₹4 Lac,₹708/month,"₹8,496 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,₹4 Lac,₹652/month,"₹7,823 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹5 Lac,₹641/month,"₹7,694 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹5 Lac,₹685/month,"₹8,225 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹5 Lac,₹857/month,"₹10,278 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹5 Lac,₹753/month,"₹9,039 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹5 Lac,₹798/month,"₹9,570 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹5 Lac,₹969/month,"₹11,623 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹3 Lac,₹610/month,"₹7,321 / Year",98.90 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹4 Lac,₹629/month,"₹7,550 / Year",90 % claim settlement ratio
+Care Health,Care Supreme VFM Discounted,15,₹5 Lac,₹581/month,"₹6,969 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹5 Lac,₹732/month,"₹8,783 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹5 Lac,₹755/month,"₹2,264 for 3 months",93 % claim settlement ratio
+Care Health,Care Freedom,15,₹5 Lac,₹589/month,"₹7,062 / Year",93 % claim settlement ratio
+Care Health,Care Heart,15,₹5 Lac,₹956/month,"₹11,469 / Year",93 % claim settlement ratio
+Care Health,Care Freedom with Health Check Plus,15,₹5 Lac,₹589/month,"₹7,062 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹5 Lac,₹625/month,"₹7,497 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹5 Lac,₹740/month,"₹8,876 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹5 Lac,₹683/month,"₹8,192 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹5 Lac,₹794/month,"₹9,529 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹5 Lac,₹884/month,"₹10,609 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹5 Lac,₹826/month,"₹9,915 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹5 Lac,"₹1,032/month","₹12,388 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-A,16,₹5 Lac,"₹1,764/month","₹21,167 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-B,16,₹5 Lac,"₹2,004/month","₹24,053 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹5 Lac,₹533/month,"₹6,396 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹5 Lac,₹618/month,"₹7,417 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹5 Lac,₹912/month,"₹10,943 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹5 Lac,₹937/month,"₹11,239 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹5 Lac,₹830/month,"₹9,955 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹5 Lac,₹683/month,"₹8,194 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹5 Lac,₹782/month,"₹9,383 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹5 Lac,₹843/month,"₹10,114 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹5 Lac,₹848/month,"₹10,179 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹5 Lac,₹802/month,"₹9,629 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹5 Lac,₹883/month,"₹10,592 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹10 Lac,"₹1,840/month","₹22,081 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Silver,16,₹5 Lac,"₹1,413/month","₹16,953 / Year",92 % claim settlement ratio
+Niva Bupa,Health Pulse,16,₹5 Lac,₹601/month,"₹7,207 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹5 Lac,₹654/month,"₹7,846 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹5 Lac,₹710/month,"₹8,522 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum Essential - Waiver of mandatory co-payment,14,₹5 Lac,₹710/month,"₹8,522 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹5 Lac,₹736/month,"₹8,832 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹5 Lac,₹876/month,"₹10,507 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹5 Lac,₹909/month,"₹10,913 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,₹5 Lac,"₹1,139/month","₹13,670 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,₹5 Lac,"₹1,105/month","₹13,263 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹5 Lac,₹940/month,"₹11,284 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹5 Lac,₹907/month,"₹10,878 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,₹5 Lac,"₹1,136/month","₹13,634 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,₹5 Lac,"₹1,170/month","₹14,040 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Plus,15,₹5 Lac,₹535/month,"₹6,416 / Year",99.90 % claim settlement ratio
+Reliance,Health Gain Power,15,₹10 Lac,₹756/month,"₹9,071 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Supreme Plus,16,₹7.5 Lac,"₹1,009/month","₹12,112 / Year",94 % claim settlement ratio
+Cholamandalam MS,Flexi Health Individual,16,₹5 Lac,₹879/month,"₹10,550 / Year",94 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹5 Lac,₹903/month,"₹10,832 / Year",98 % claim settlement ratio
+New India Assurance,Aarogya sanjeevani,16,₹5 Lac,₹688/month,"₹8,260 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹5 Lac,₹797/month,"₹9,566 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹5 Lac,"₹1,309/month","₹15,707 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹5 Lac,₹613/month,"₹7,351 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹5 Lac,₹657/month,"₹7,882 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹5 Lac,₹828/month,"₹9,936 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,₹6 Lac,₹866/month,"₹10,396 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Essential,20,₹5 Lac,₹791/month,"₹9,487 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,₹5 Lac,₹594/month,"₹7,127 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹5 Lac,₹641/month,"₹7,694 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹5 Lac,₹685/month,"₹8,225 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹5 Lac,₹857/month,"₹10,278 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹5 Lac,₹753/month,"₹9,039 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹5 Lac,₹798/month,"₹9,570 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹5 Lac,₹969/month,"₹11,623 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹5 Lac,₹872/month,"₹10,464 / Year",98.90 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹5 Lac,₹672/month,"₹8,068 / Year",90 % claim settlement ratio
+Care Health,Care Supreme VFM Discounted,15,₹7 Lac,₹603/month,"₹7,232 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹7 Lac,₹757/month,"₹9,084 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹7 Lac,₹780/month,"₹2,341 for 3 months",93 % claim settlement ratio
+Care Health,Care Heart,15,₹7 Lac,"₹1,220/month","₹14,635 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹7 Lac,"₹1,374/month","₹16,489 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹10 Lac,₹814/month,"₹9,767 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹10 Lac,₹926/month,"₹11,117 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹10 Lac,₹922/month,"₹11,059 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹7.5 Lac,₹996/month,"₹11,948 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹10 Lac,"₹1,149/month","₹13,792 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹10 Lac,"₹1,074/month","₹12,889 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹7.5 Lac,"₹1,294/month","₹15,532 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-A,16,₹10 Lac,"₹2,121/month","₹25,448 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-B,16,₹10 Lac,"₹2,305/month","₹27,660 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹7 Lac,₹616/month,"₹7,393 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹10 Lac,₹761/month,"₹9,137 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹10 Lac,"₹1,072/month","₹12,868 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹10 Lac,"₹1,101/month","₹13,213 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹10 Lac,₹984/month,"₹11,810 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹7.5 Lac,₹903/month,"₹10,834 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹7.5 Lac,₹971/month,"₹11,647 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹10 Lac,"₹1,840/month","₹22,081 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Silver,16,₹7.5 Lac,"₹1,606/month","₹19,271 / Year",92 % claim settlement ratio
+Niva Bupa,Health Pulse,16,₹7.5 Lac,₹679/month,"₹8,149 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹7 Lac,₹730/month,"₹8,764 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹7 Lac,₹792/month,"₹9,509 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹7.5 Lac,₹805/month,"₹9,655 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹7.5 Lac,₹946/month,"₹11,355 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹7.5 Lac,₹980/month,"₹11,762 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹7.5 Lac,"₹1,011/month","₹12,132 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹7.5 Lac,₹977/month,"₹11,726 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Power,15,₹10 Lac,₹756/month,"₹9,071 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Supreme Plus,16,₹7.5 Lac,"₹1,009/month","₹12,112 / Year",94 % claim settlement ratio
+Cholamandalam MS,Flexi Health Individual,16,₹7.5 Lac,₹998/month,"₹11,970 / Year",94 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹8 Lac,"₹1,119/month","₹13,428 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹7.5 Lac,₹957/month,"₹11,480 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹7.5 Lac,"₹1,426/month","₹17,109 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹7.5 Lac,₹762/month,"₹9,145 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹7.5 Lac,₹808/month,"₹9,700 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹7.5 Lac,₹986/month,"₹11,835 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,₹7 Lac,₹976/month,"₹11,717 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,₹7 Lac,₹875/month,"₹10,502 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹7.5 Lac,₹799/month,"₹9,582 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹7.5 Lac,₹845/month,"₹10,136 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹7.5 Lac,"₹1,023/month","₹12,272 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹7.5 Lac,₹941/month,"₹11,293 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹7.5 Lac,"₹1,077/month","₹12,921 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹7.5 Lac,"₹1,165/month","₹13,983 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹7 Lac,"₹1,082/month","₹12,985 / Year",98.90 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹7.5 Lac,₹807/month,"₹9,680 / Year",90 % claim settlement ratio
+Care Health,Care Supreme VFM Discounted,15,₹10 Lac,₹672/month,"₹8,061 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹10 Lac,₹839/month,"₹10,063 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹10 Lac,₹864/month,"₹2,593 for 3 months",93 % claim settlement ratio
+Care Health,Care Heart,15,₹10 Lac,"₹1,347/month","₹16,161 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹10 Lac,"₹1,481/month","₹17,775 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹10 Lac,₹814/month,"₹9,767 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹10 Lac,₹926/month,"₹11,117 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹10 Lac,₹922/month,"₹11,059 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹10 Lac,"₹1,158/month","₹13,895 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹10 Lac,"₹1,149/month","₹13,792 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹10 Lac,"₹1,074/month","₹12,889 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹10 Lac,"₹1,505/month","₹18,063 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-A,16,₹10 Lac,"₹2,121/month","₹25,448 / Year",85.80 % claim settlement ratio
+Star Health,Diabetes Safe Plan-B,16,₹10 Lac,"₹2,305/month","₹27,660 / Year",85.80 % claim settlement ratio
+Star Health,Arogya Sanjivini Individual,16,₹10 Lac,₹713/month,"₹8,555 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹10 Lac,₹761/month,"₹9,137 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹10 Lac,"₹1,072/month","₹12,868 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹10 Lac,"₹1,101/month","₹13,213 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹10 Lac,₹984/month,"₹11,810 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹10 Lac,₹746/month,"₹8,950 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹10 Lac,₹847/month,"₹10,169 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹10 Lac,₹964/month,"₹11,562 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹10 Lac,₹969/month,"₹11,632 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹10 Lac,"₹1,000/month","₹11,999 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹10 Lac,"₹1,365/month","₹16,383 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹10 Lac,"₹1,840/month","₹22,081 / Year",92 % claim settlement ratio
+Niva Bupa,Health Pulse,16,₹10 Lac,₹732/month,"₹8,778 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹10 Lac,₹773/month,"₹9,281 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹10 Lac,₹880/month,"₹10,557 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum Essential - Waiver of mandatory co-payment,14,₹10 Lac,₹855/month,"₹10,259 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹10 Lac,₹845/month,"₹10,142 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹10 Lac,"₹1,089/month","₹13,071 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹10 Lac,"₹1,123/month","₹13,479 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹10 Lac,"₹1,154/month","₹13,850 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹10 Lac,"₹1,120/month","₹13,442 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,₹10 Lac,"₹1,577/month","₹18,920 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,₹10 Lac,"₹1,611/month","₹19,328 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Power,15,₹10 Lac,₹756/month,"₹9,071 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹10 Lac,₹766/month,"₹9,196 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Supreme Plus,16,₹10 Lac,"₹1,112/month","₹13,342 / Year",94 % claim settlement ratio
+Cholamandalam MS,Flexi Health Individual,16,₹10 Lac,"₹1,102/month","₹13,224 / Year",94 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Total,16,₹10 Lac,₹918/month,"₹11,010 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Edge,16,₹10 Lac,"₹1,023/month","₹12,274 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Elite,16,₹10 Lac,"₹1,157/month","₹13,880 / Year",97 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹10 Lac,"₹1,265/month","₹15,177 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹10 Lac,"₹1,043/month","₹12,510 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹10 Lac,"₹1,549/month","₹18,584 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹10 Lac,"₹1,028/month","₹12,331 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹10 Lac,"₹1,078/month","₹12,933 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹10 Lac,"₹1,265/month","₹15,175 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,₹10 Lac,"₹1,362/month","₹16,343 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Plus,20,₹15 Lac,"₹1,553/month","₹18,632 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,₹10 Lac,"₹1,222/month","₹14,667 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹10 Lac,"₹1,075/month","₹12,897 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹10 Lac,"₹1,125/month","₹13,499 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹10 Lac,"₹1,312/month","₹15,741 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹10 Lac,"₹1,266/month","₹15,187 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹10 Lac,"₹1,316/month","₹15,788 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹10 Lac,"₹1,503/month","₹18,030 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹10 Lac,"₹1,172/month","₹14,066 / Year",98.90 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹10 Lac,₹977/month,"₹11,729 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹10 Lac,"₹1,171/month","₹14,054 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹10 Lac,"₹1,269/month","₹15,233 / Year",96 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹10 Lac,₹873/month,"₹10,475 / Year",90 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹15 Lac,₹998/month,"₹11,970 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹15 Lac,"₹1,028/month","₹3,084 for 3 months",93 % claim settlement ratio
+Care Health,Care Advantage,15,₹25 Lac,₹926/month,"₹11,109 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹15 Lac,"₹1,812/month","₹21,745 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with NCB,15,₹25 Lac,"₹1,018/month","₹12,219 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period,15,₹25 Lac,₹949/month,"₹11,386 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹25 Lac,"₹1,673/month","₹20,076 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹25 Lac,"₹1,483/month","₹17,801 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹25 Lac,"₹1,673/month","₹20,076 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹15 Lac,₹990/month,"₹11,880 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹15 Lac,"₹1,102/month","₹13,223 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹15 Lac,"₹1,167/month","₹14,008 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹15 Lac,"₹1,404/month","₹16,845 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹15 Lac,"₹1,379/month","₹16,550 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Silver,16,₹15 Lac,"₹1,289/month","₹15,468 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹15 Lac,"₹1,825/month","₹21,898 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹15 Lac,₹920/month,"₹11,043 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹15 Lac,"₹1,361/month","₹16,326 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹15 Lac,"₹1,112/month","₹13,348 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹15 Lac,"₹1,196/month","₹14,349 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹15 Lac,"₹2,067/month","₹24,801 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹15 Lac,₹986/month,"₹11,828 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹15 Lac,"₹1,084/month","₹13,012 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹15 Lac,"₹1,021/month","₹12,249 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹15 Lac,"₹1,289/month","₹15,469 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹15 Lac,"₹1,289/month","₹15,469 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹15 Lac,"₹1,320/month","₹15,840 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹15 Lac,"₹1,320/month","₹15,840 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Power,15,₹15 Lac,₹941/month,"₹11,286 / Year",99.90 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹25 Lac,"₹1,163/month","₹13,952 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹15 Lac,₹914/month,"₹10,972 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹15 Lac,₹914/month,"₹10,972 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹15 Lac,₹914/month,"₹10,972 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹2,106/month","₹25,277 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹1,212/month","₹14,545 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹1,229/month","₹14,747 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹1,206/month","₹14,477 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹2,090/month","₹25,075 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹2,084/month","₹25,008 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Supreme Plus,16,₹15 Lac,"₹1,292/month","₹15,498 / Year",94 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Total,16,₹15 Lac,₹991/month,"₹11,887 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Edge,16,₹15 Lac,"₹1,096/month","₹13,149 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Elite,16,₹15 Lac,"₹1,234/month","₹14,810 / Year",97 % claim settlement ratio
+New India Assurance,New India Mediclaim 2012,16,₹15 Lac,"₹1,559/month","₹18,702 / Year",98 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹15 Lac,"₹1,104/month","₹13,247 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹25 Lac,"₹3,301/month","₹39,617 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹15 Lac,"₹1,696/month","₹20,354 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹15 Lac,"₹1,353/month","₹16,237 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹15 Lac,"₹1,410/month","₹16,921 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹15 Lac,"₹1,621/month","₹19,446 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Plus,20,₹15 Lac,"₹1,553/month","₹18,632 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Premier,20,₹25 Lac,"₹1,727/month","₹20,721 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹15 Lac,"₹1,404/month","₹16,850 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹15 Lac,"₹1,461/month","₹17,535 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹15 Lac,"₹1,672/month","₹20,060 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹15 Lac,"₹1,614/month","₹19,364 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹15 Lac,"₹1,671/month","₹20,048 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹15 Lac,"₹1,881/month","₹22,573 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹15 Lac,"₹1,339/month","₹16,072 / Year",98.90 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹15 Lac,"₹1,059/month","₹12,707 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹15 Lac,"₹1,269/month","₹15,226 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹15 Lac,"₹1,450/month","₹17,403 / Year",96 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹15 Lac,"₹1,135/month","₹13,617 / Year",90 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹25 Lac,"₹1,170/month","₹14,044 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹25 Lac,"₹1,206/month","₹3,618 for 3 months",93 % claim settlement ratio
+Care Health,Care Advantage,15,₹25 Lac,₹926/month,"₹11,109 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹20 Lac,"₹1,872/month","₹22,461 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with NCB,15,₹25 Lac,"₹1,018/month","₹12,219 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period,15,₹25 Lac,₹949/month,"₹11,386 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹25 Lac,"₹1,673/month","₹20,076 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹25 Lac,"₹1,483/month","₹17,801 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹25 Lac,"₹1,673/month","₹20,076 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹20 Lac,"₹1,131/month","₹13,570 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹20 Lac,"₹1,243/month","₹14,913 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹20 Lac,"₹1,306/month","₹15,676 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹20 Lac,"₹1,588/month","₹19,057 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹20 Lac,"₹1,586/month","₹19,034 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹20 Lac,"₹2,065/month","₹24,774 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹20 Lac,"₹1,037/month","₹12,448 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹20 Lac,"₹1,458/month","₹17,490 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹20 Lac,"₹1,492/month","₹17,907 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹20 Lac,"₹1,347/month","₹16,168 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹20 Lac,"₹1,030/month","₹12,359 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹20 Lac,"₹1,177/month","₹14,126 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹20 Lac,"₹1,328/month","₹15,941 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹20 Lac,"₹1,336/month","₹16,037 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹20 Lac,"₹1,352/month","₹16,223 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹20 Lac,"₹1,585/month","₹19,024 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹20 Lac,"₹2,189/month","₹26,270 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹20 Lac,"₹1,051/month","₹12,616 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹20 Lac,"₹1,140/month","₹13,685 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹20 Lac,"₹1,129/month","₹13,546 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹20 Lac,"₹1,408/month","₹16,890 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹20 Lac,"₹1,408/month","₹16,890 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹20 Lac,"₹1,438/month","₹17,261 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹20 Lac,"₹1,438/month","₹17,261 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Power,15,₹20 Lac,"₹1,002/month","₹12,021 / Year",99.90 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹25 Lac,"₹1,163/month","₹13,952 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹2,106/month","₹25,277 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹1,212/month","₹14,545 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹1,229/month","₹14,747 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹1,206/month","₹14,477 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹2,090/month","₹25,075 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹2,084/month","₹25,008 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Supreme Plus,16,₹20 Lac,"₹1,435/month","₹17,220 / Year",94 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Total,16,₹20 Lac,"₹1,045/month","₹12,543 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Edge,16,₹20 Lac,"₹1,151/month","₹13,807 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Elite,16,₹20 Lac,"₹1,293/month","₹15,512 / Year",97 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹20 Lac,"₹1,165/month","₹13,983 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹25 Lac,"₹3,301/month","₹39,617 / Year",92 % claim settlement ratio
+Zuno,Zuno Gold + Health 241,10,₹20 Lac,"₹1,850/month","₹22,197 / Year",95 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹20 Lac,"₹1,499/month","₹17,983 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹20 Lac,"₹1,556/month","₹18,668 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹20 Lac,"₹1,592/month","₹19,104 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Plus,20,₹20 Lac,"₹1,610/month","₹19,317 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Premier,20,₹25 Lac,"₹1,727/month","₹20,721 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹20 Lac,"₹1,553/month","₹18,632 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹20 Lac,"₹1,610/month","₹19,317 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹20 Lac,"₹1,823/month","₹21,877 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹20 Lac,"₹1,769/month","₹21,228 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹20 Lac,"₹1,826/month","₹21,913 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹20 Lac,"₹2,039/month","₹24,473 / Year",96 % claim settlement ratio
+IFFCO Tokio,Individual Health Protector,12,₹20 Lac,"₹1,530/month","₹18,365 / Year",98.90 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹20 Lac,"₹1,124/month","₹13,487 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹20 Lac,"₹1,347/month","₹16,162 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹20 Lac,"₹1,606/month","₹19,271 / Year",96 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹20 Lac,"₹1,178/month","₹14,140 / Year",90 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹25 Lac,"₹1,170/month","₹14,044 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹25 Lac,"₹1,206/month","₹3,618 for 3 months",93 % claim settlement ratio
+Care Health,Care Advantage,15,₹25 Lac,₹926/month,"₹11,109 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹25 Lac,"₹2,134/month","₹25,604 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with NCB,15,₹25 Lac,"₹1,018/month","₹12,219 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period,15,₹25 Lac,₹949/month,"₹11,386 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹25 Lac,"₹1,673/month","₹20,076 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹25 Lac,"₹1,483/month","₹17,801 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹25 Lac,"₹1,673/month","₹20,076 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹25 Lac,"₹1,293/month","₹15,512 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹25 Lac,"₹1,405/month","₹16,855 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹25 Lac,"₹1,442/month","₹17,300 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹25 Lac,"₹1,732/month","₹20,786 / Year",85.80 % claim settlement ratio
+Star Health,Mediclassic Individual Gold,16,₹25 Lac,"₹1,776/month","₹21,317 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹25 Lac,"₹2,252/month","₹27,022 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹25 Lac,"₹1,134/month","₹13,606 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹25 Lac,"₹1,517/month","₹18,208 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹25 Lac,"₹1,102/month","₹13,227 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹25 Lac,"₹1,256/month","₹15,071 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹25 Lac,"₹1,410/month","₹16,915 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹25 Lac,"₹1,418/month","₹17,018 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹30 Lac,"₹1,699/month","₹20,383 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹30 Lac,"₹1,522/month","₹18,261 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹30 Lac,"₹2,261/month","₹27,135 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹25 Lac,"₹1,095/month","₹13,141 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹25 Lac,"₹1,191/month","₹14,289 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹25 Lac,"₹1,183/month","₹14,195 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹25 Lac,"₹1,730/month","₹20,757 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹25 Lac,"₹1,730/month","₹20,757 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹25 Lac,"₹1,761/month","₹21,128 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹25 Lac,"₹1,761/month","₹21,128 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹25 Lac,"₹1,163/month","₹13,952 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹2,106/month","₹25,277 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹1,212/month","₹14,545 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹1,229/month","₹14,747 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹1,206/month","₹14,477 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹2,090/month","₹25,075 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹2,084/month","₹25,008 / Year",93.4 % claim settlement ratio
+Cholamandalam MS,Flexi Health Supreme Plus,16,₹25 Lac,"₹1,570/month","₹18,834 / Year",94 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Total,16,₹25 Lac,"₹1,100/month","₹13,202 / Year",97 % claim settlement ratio
+Kotak Mahindra,Kotak Health Premier – Elite,16,₹25 Lac,"₹1,351/month","₹16,213 / Year",97 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹25 Lac,"₹1,221/month","₹14,646 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹25 Lac,"₹3,301/month","₹39,617 / Year",92 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹25 Lac,"₹1,389/month","₹16,662 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹25 Lac,"₹1,600/month","₹19,199 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹25 Lac,"₹1,632/month","₹19,588 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Premier,20,₹25 Lac,"₹1,727/month","₹20,721 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Executive,20,₹40 Lac,"₹1,627/month","₹19,529 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹25 Lac,"₹1,596/month","₹19,151 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹25 Lac,"₹1,494/month","₹17,924 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹25 Lac,"₹1,686/month","₹20,237 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹25 Lac,"₹1,664/month","₹19,966 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹25 Lac,"₹1,875/month","₹22,503 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹25 Lac,"₹1,908/month","₹22,892 / Year",96 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹25 Lac,"₹1,222/month","₹14,660 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹25 Lac,"₹1,464/month","₹17,568 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹25 Lac,"₹1,803/month","₹21,639 / Year",96 % claim settlement ratio
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,₹25 Lac,"₹1,222/month","₹14,664 / Year",90 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹30 Lac,"₹2,298/month","₹27,577 / Year",93 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹30 Lac,"₹1,699/month","₹20,383 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹30 Lac,"₹1,522/month","₹18,261 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹30 Lac,"₹2,261/month","₹27,135 / Year",92 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹30 Lac,"₹1,278/month","₹15,340 / Year",96 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹30 Lac,"₹1,236/month","₹14,831 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹2,106/month","₹25,277 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹1,212/month","₹14,545 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹1,229/month","₹14,747 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹1,206/month","₹14,477 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹2,090/month","₹25,075 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹2,084/month","₹25,008 / Year",93.4 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹30 Lac,"₹3,570/month","₹42,834 / Year",92 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Premier,20,₹30 Lac,"₹1,754/month","₹21,051 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Executive,20,₹40 Lac,"₹1,627/month","₹19,529 / Year",96 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹50 Lac,"₹1,318/month","₹15,818 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹50 Lac,"₹1,358/month","₹4,075 for 3 months",93 % claim settlement ratio
+Care Health,Care Advantage,15,₹50 Lac,"₹1,077/month","₹12,923 / Year",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹50 Lac,"₹5,511/month","₹66,131 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with NCB,15,₹50 Lac,"₹1,158/month","₹13,892 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period,15,₹50 Lac,"₹1,265/month","₹15,183 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Inc US,15,₹50 Lac,"₹2,110/month","₹25,325 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Global Coverage Ex US,15,₹50 Lac,"₹1,889/month","₹22,669 / Year",93 % claim settlement ratio
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,₹50 Lac,"₹2,110/month","₹25,325 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹50 Lac,"₹1,541/month","₹18,494 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹50 Lac,"₹1,653/month","₹19,837 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹50 Lac,"₹1,685/month","₹20,223 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹50 Lac,"₹1,906/month","₹22,868 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹50 Lac,"₹2,477/month","₹29,729 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹50 Lac,"₹1,293/month","₹15,518 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹50 Lac,"₹1,686/month","₹20,226 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹50 Lac,"₹1,726/month","₹20,709 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹50 Lac,"₹1,575/month","₹18,897 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹50 Lac,"₹1,361/month","₹16,331 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹50 Lac,"₹1,548/month","₹18,580 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹50 Lac,"₹1,737/month","₹20,839 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹50 Lac,"₹1,747/month","₹20,967 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹50 Lac,"₹1,695/month","₹20,344 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹50 Lac,"₹2,187/month","₹26,244 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Gold,16,₹50 Lac,"₹2,363/month","₹28,359 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹50 Lac,"₹1,317/month","₹15,801 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹50 Lac,"₹1,709/month","₹20,502 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹50 Lac,"₹1,437/month","₹17,243 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹50 Lac,"₹2,061/month","₹24,730 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹50 Lac,"₹2,061/month","₹24,730 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹50 Lac,"₹2,092/month","₹25,100 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹50 Lac,"₹2,092/month","₹25,100 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹50 Lac,"₹1,497/month","₹17,958 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹50 Lac,"₹1,573/month","₹18,879 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹50 Lac,"₹1,573/month","₹18,879 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹50 Lac,"₹1,573/month","₹18,879 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,859/month","₹22,307 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,161/month","₹13,930 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹50 Lac,"₹1,177/month","₹14,124 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,156/month","₹13,866 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹50 Lac,"₹1,843/month","₹22,114 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹50 Lac,"₹1,837/month","₹22,049 / Year",93.4 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹50 Lac,"₹1,420/month","₹17,042 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹50 Lac,"₹4,943/month","₹59,319 / Year",92 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹50 Lac,"₹1,458/month","₹17,499 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹50 Lac,"₹1,510/month","₹18,125 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹50 Lac,"₹1,706/month","₹20,473 / Year",96 % claim settlement ratio
+Universal Sompo,Complete HealthCare Insurance - Executive,20,₹50 Lac,"₹1,877/month","₹22,526 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹50 Lac,"₹1,517/month","₹18,207 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹50 Lac,"₹1,569/month","₹18,833 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹50 Lac,"₹1,765/month","₹21,181 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹50 Lac,"₹1,750/month","₹21,004 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹50 Lac,"₹1,802/month","₹21,629 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹50 Lac,"₹1,998/month","₹23,978 / Year",96 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹50 Lac,"₹1,409/month","₹16,909 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹50 Lac,"₹1,689/month","₹20,262 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹50 Lac,"₹2,446/month","₹29,349 / Year",96 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹60 Lac,"₹6,416/month","₹76,988 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹75 Lac,"₹1,690/month","₹20,279 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹75 Lac,"₹1,802/month","₹21,628 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹75 Lac,"₹1,886/month","₹22,635 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹75 Lac,"₹2,068/month","₹24,815 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹75 Lac,"₹2,688/month","₹32,260 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹75 Lac,"₹1,481/month","₹17,767 / Year",85.80 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹75 Lac,"₹1,512/month","₹18,138 / Year",96 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹75 Lac,"₹2,299/month","₹27,583 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹75 Lac,"₹2,299/month","₹27,583 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹75 Lac,"₹2,330/month","₹27,954 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹75 Lac,"₹2,330/month","₹27,954 / Year",99.80 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹2,106/month","₹25,277 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹1,212/month","₹14,545 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹1,229/month","₹14,747 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹1,206/month","₹14,477 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹2,090/month","₹25,075 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹2,084/month","₹25,008 / Year",93.4 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹75 Lac,"₹1,733/month","₹20,792 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹75 Lac,"₹1,789/month","₹21,464 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹75 Lac,"₹1,993/month","₹23,919 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹75 Lac,"₹1,802/month","₹21,629 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹75 Lac,"₹1,859/month","₹22,302 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹75 Lac,"₹2,063/month","₹24,756 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹75 Lac,"₹2,084/month","₹25,004 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹75 Lac,"₹2,140/month","₹25,677 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹75 Lac,"₹2,344/month","₹28,131 / Year",96 % claim settlement ratio
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,₹1 Cr,"₹1,659/month","₹19,908 / Year",93 % claim settlement ratio
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,₹1 Cr,"₹1,709/month","₹5,128 for 3 months",93 % claim settlement ratio
+Care Health,Care with Care Shield,15,₹75 Lac,"₹7,831/month","₹93,969 / Year",93 % claim settlement ratio
+Star Health,Young Star Silver,16,₹75 Lac,"₹1,690/month","₹20,279 / Year",85.80 % claim settlement ratio
+Star Health,Young Star Gold,16,₹75 Lac,"₹1,802/month","₹21,628 / Year",85.80 % claim settlement ratio
+Star Health,Assure Insurance Policy,16,₹75 Lac,"₹1,886/month","₹22,635 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive Individual,16,₹75 Lac,"₹2,068/month","₹24,815 / Year",85.80 % claim settlement ratio
+Star Health,Comprehensive with PED Buy Back,16,₹75 Lac,"₹2,688/month","₹32,260 / Year",85.80 % claim settlement ratio
+Star Health,Smart Health Pro,16,₹75 Lac,"₹1,481/month","₹17,767 / Year",85.80 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,₹1 Cr,"₹2,299/month","₹27,584 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,₹1 Cr,"₹2,356/month","₹28,266 / Year",92 % claim settlement ratio
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,₹1 Cr,"₹2,158/month","₹25,894 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Gold + (Direct),16,₹1 Cr,"₹1,803/month","₹21,638 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Diamond + (Direct),16,₹1 Cr,"₹2,031/month","₹24,377 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Platinum + (Direct),16,₹1 Cr,"₹2,236/month","₹26,833 / Year",92 % claim settlement ratio
+Niva Bupa,Aspire Titanium + (Direct),16,₹1 Cr,"₹2,250/month","₹27,000 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion,16,₹1 Cr,"₹2,594/month","₹31,130 / Year",92 % claim settlement ratio
+Niva Bupa,Health Companion + Safeguard,16,₹1 Cr,"₹2,789/month","₹33,465 / Year",92 % claim settlement ratio
+Niva Bupa,Health Premia Platinum,16,₹1 Cr,"₹5,302/month","₹63,627 / Year",92 % claim settlement ratio
+Aditya Birla,Activ One Max,14,₹75 Lac,"₹1,512/month","₹18,138 / Year",96 % claim settlement ratio
+Aditya Birla,Active Health Platinum - Enhanced,14,₹1 Cr,"₹2,015/month","₹24,182 / Year",96 % claim settlement ratio
+ICICI Lombard,Elevate + BeFit,12,₹1 Cr,"₹1,670/month","₹20,039 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,₹75 Lac,"₹2,299/month","₹27,583 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,₹75 Lac,"₹2,299/month","₹27,583 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,₹75 Lac,"₹2,330/month","₹27,954 / Year",99.80 % claim settlement ratio
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,₹75 Lac,"₹2,330/month","₹27,954 / Year",99.80 % claim settlement ratio
+Reliance,Health Gain Prime,15,₹1 Cr,"₹1,843/month","₹22,120 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Time,15,₹1 Cr,"₹1,848/month","₹22,176 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Global,15,₹1 Cr,"₹1,848/month","₹22,176 / Year",99.90 % claim settlement ratio
+Reliance,Health Infinity With More Cover,15,₹1 Cr,"₹1,848/month","₹22,176 / Year",99.90 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹2,106/month","₹25,277 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹1,212/month","₹14,545 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,₹75 Lac,"₹1,229/month","₹14,747 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹1,206/month","₹14,477 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,₹75 Lac,"₹2,090/month","₹25,075 / Year",93.4 % claim settlement ratio
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,₹75 Lac,"₹2,084/month","₹25,008 / Year",93.4 % claim settlement ratio
+Royal Sundaram,Lifeline Supreme,15,₹1 Cr,"₹1,583/month","₹18,991 / Year",92 % claim settlement ratio
+Royal Sundaram,Lifeline Elite,15,₹1 Cr,"₹5,641/month","₹67,695 / Year",92 % claim settlement ratio
+Universal Sompo,A Plus Silver,20,₹75 Lac,"₹1,733/month","₹20,792 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold,20,₹75 Lac,"₹1,789/month","₹21,464 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond,20,₹75 Lac,"₹1,993/month","₹23,919 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + Non medical items,20,₹75 Lac,"₹1,802/month","₹21,629 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + Non medical items,20,₹75 Lac,"₹1,859/month","₹22,302 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + Non medical items,20,₹75 Lac,"₹2,063/month","₹24,756 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,₹75 Lac,"₹2,084/month","₹25,004 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,₹75 Lac,"₹2,140/month","₹25,677 / Year",96 % claim settlement ratio
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,₹75 Lac,"₹2,344/month","₹28,131 / Year",96 % claim settlement ratio
+Digit Insurance,Double Wallet Plan,10,₹1 Cr,"₹1,613/month","₹19,352 / Year",96 % claim settlement ratio
+Digit Insurance,Infinity Wallet Plan,10,₹1 Cr,"₹1,932/month","₹23,189 / Year",96 % claim settlement ratio
+Digit Insurance,Worldwide Treatment plan,10,₹1 Cr,"₹3,447/month","₹41,360 / Year",96 % claim settlement ratio
