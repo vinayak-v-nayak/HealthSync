@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
 import "../assets/css/chatbot.css";
+import { generateChatResponse } from "./googleGenAiService"; // Import the service function
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,8 +20,8 @@ const Chatbot = () => {
     const newMessage = { type: "user", text: userInput };
     setMessages((prev) => [...prev, newMessage]);
 
-    const userId = Cookies.get('user');
-    const token = Cookies.get('token');
+    const userId = Cookies.get("user");
+    const token = Cookies.get("token");
 
     if (!token) {
       setMessages((prev) => [
@@ -31,35 +32,20 @@ const Chatbot = () => {
     }
 
     try {
-      const response = await axios.post(
-        "https://api.openai.com/v1/chat/completions",
-        {
-          model: "gpt-4o",
-          messages: [
-            { role: "user", content: userInput }
-          ]
-        },
-        {
-          headers: {
-            Authorization: `Bearer ${process.env.REACT_APP_OPENAI_API_KEY}`,
-            "Content-Type": "application/json",
-          },
-        }
-      );
-      // Process the response
+      // Use the generateChatResponse function from googleGenAiService.js to get the bot's response
+      const botResponse = await generateChatResponse(userInput);
+
+      // Add the bot's response to the messages
+      setMessages((prev) => [
+        ...prev,
+        { type: "bot", text: botResponse },
+      ]);
     } catch (error) {
-      if (error.response) {
-        // The request was made and the server responded with a status code
-        console.error("Error response:", error.response.data);
-      } else if (error.request) {
-        // The request was made but no response was received
-        console.error("Error request:", error.request);
-      } else {
-        // Something happened in setting up the request
-        console.error("Error message:", error.message);
-      }
+      setMessages((prev) => [
+        ...prev,
+        { type: "bot", text: "Sorry, there was an error with the response." },
+      ]);
     }
-    
 
     setUserInput("");
   };
@@ -130,7 +116,7 @@ const Chatbot = () => {
               placeholder="Type your question..."
               value={userInput}
               onChange={(e) => setUserInput(e.target.value)}
-              onKeyPress={(e) => e.key === 'Enter' && handleSend()}
+              onKeyPress={(e) => e.key === "Enter" && handleSend()}
               className="chat-input"
             />
             <button onClick={handleSend} className="send-btn">Send</button>

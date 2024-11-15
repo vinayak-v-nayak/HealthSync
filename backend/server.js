@@ -321,6 +321,49 @@ app.post('/api/chat/messages', isAuthenticated, async (req, res) => {
     }
   });
 
+
+
+// New Recommendation Route based on Fitness Score and Salary
+app.get('/api/policies/recommendations', verifyUser, async (req, res) => {
+    try {
+        const userId = req.user.userId;
+
+        // Fetch user’s fitness score and salary
+        const fitnessData = await FitnessScore.findOne({ userId });
+        const user = await User.findById(userId).select('salary'); // Only select the salary field
+
+        // Handle case where fitness or salary data is not found
+        if (!fitnessData || !user) {
+            return res.status(404).json({ message: 'User fitness score or salary data not found' });
+        }
+
+        const { fitnessScore } = fitnessData;
+        const { salary } = user;
+
+        // Define policy recommendation criteria based on fitness score and salary
+        let recommendationCriteria = {};
+        
+        // Recommendation logic based on the fitness score and salary
+        if (fitnessScore >= 80 && salary >= 50000) {
+            recommendationCriteria = { premium: { $lt: 500 } };  // Less expensive premium
+        } else if (fitnessScore >= 50 && fitnessScore < 80 && salary >= 30000) {
+            recommendationCriteria = { premium: { $lt: 300 } };  // Medium premium
+        } else {
+            recommendationCriteria = { premium: { $lt: 200 } };  // Low premium
+        }
+
+        // Fetch policies that match the recommendation criteria (limit to 5 policies)
+        const recommendedPolicies = await Policy.find(recommendationCriteria).limit(5);
+
+        // Return the recommended policies as the response
+        res.json(recommendedPolicies);
+    } catch (error) {
+        console.error('Error fetching recommendations:', error);
+        res.status(500).json({ message: 'Error fetching recommendations' });
+    }
+});
+
+
   
 // Server Listening
 app.listen(port, () => {

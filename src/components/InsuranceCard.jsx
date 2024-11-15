@@ -27,8 +27,8 @@ const InsuranceCard = ({ policy }) => {
           <span className="value">{policy.Coverage_Amount}</span>
         </div>
         <div className="premium">
-          <span className="monthly-premium">₹{policy.Monthly_Premium}</span>
-          <span className="annual-premium">{policy.Annual_Premium} for 3 Years</span>
+          <span className="monthly-premium">{policy.Monthly_Premium}</span>
+          <span className="annual-premium">{policy.Annual_Premium}</span>
         </div>
         <div className="compare-option">
           <input type="checkbox" id={`compare-${policy._id}`} />
