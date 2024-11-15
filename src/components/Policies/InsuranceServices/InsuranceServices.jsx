@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';  
-import InsuranceCard from '../components/InsuranceCard';
-import '../assets/css/card.css';
-import '../assets/css/InsuranceServices.css';
+import InsuranceCard from '../InsuranceCard/InsuranceCard';
+import './InsuranceServices.css';
 
 const InsuranceServices = () => {
   const [policies, setPolicies] = useState([]);
@@ -22,7 +21,8 @@ const InsuranceServices = () => {
 
       const response = await fetch(url);
       const data = await response.json();
-      setPolicies(Array.isArray(data) ? data : []);  // Ensure it's an array
+      const sortedPolicies = Array.isArray(data) ? data.sort((a, b) => a.coverageAmount - b.coverageAmount) : [];
+      setPolicies(sortedPolicies);  // Sort the policies by coverage amount
       setShowingRecommendations(false);
     } catch (error) {
       console.error('Error fetching policies:', error);
@@ -36,7 +36,8 @@ const InsuranceServices = () => {
       const response = await fetch('http://localhost:3000/api/policies/filters');
       const data = await response.json();
       setBrands(data.brandNames || []);
-      setCoverages(data.coverageAmounts || []);
+      // Sort coverage options in ascending order
+      setCoverages(data.coverageAmounts ? data.coverageAmounts.sort((a, b) => a - b) : []);
     } catch (error) {
       console.error('Error fetching filters:', error);
     }

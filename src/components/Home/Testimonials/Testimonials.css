@@ -1,0 +1,82 @@
+
+.team-item {
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+  }
+  
+  .team-item:hover .team-content .team-info {
+    margin-left: 30px;
+  }
+  
+  .team-item i {
+    display: block;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 30px;
+    color: #4E47DE;
+    text-align: center;
+  }
+  
+  .team-item .user-image {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    margin-left: 25px;
+    float: left;
+  }
+  
+  .team-item .team-content {
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .team-item .team-content .team-info {
+    float: left;
+    margin-left: 20px;
+    margin-top: 8px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .team-item .team-content .team-info .user-name {
+    display: block;
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+  }
+  
+  .team-item .team-content .team-info span {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+  }
+  
+  .team-item .team-content p {
+    margin-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+  }
+  

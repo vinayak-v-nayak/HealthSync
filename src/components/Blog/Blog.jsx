@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../assets/css/blog.css'; // Import the CSS file
+import './blog.css'; // Import the CSS file
 
 const InsuranceServices = () => {
   const [articles, setArticles] = useState([]);

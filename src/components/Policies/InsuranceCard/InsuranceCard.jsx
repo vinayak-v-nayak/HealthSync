@@ -1,7 +1,7 @@
 // InsuranceCard.js
 import React from 'react';
-import '../assets/css/card.css';
-import img from '../assets/images/shield-icon.jpeg'
+import './card.css';
+import img from '../../../assets/images/shield-icon.jpeg'
 
 const InsuranceCard = ({ policy }) => {
   return (

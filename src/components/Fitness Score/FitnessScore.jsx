@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Calculator } from 'lucide-react';
-import '../assets/css/FitnessScore.css';
+import './FitnessScore.css';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 

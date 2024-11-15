@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'; 
 import Cookies from 'js-cookie';
-import '../assets/css/profile.css'; // Ensure to include your CSS file
-import defaultAvatar from '../assets/images/defaultAvatar.png';
+import './profile.css'; // Ensure to include your CSS file
+import defaultAvatar from '../../assets/images/defaultAvatar.png';
 import { useNavigate } from 'react-router-dom'; // Use useNavigate for navigation
 
 const Profile = () => {

@@ -1,4 +1,5 @@
 import React from 'react';
+import './welcomeArea.css'
 
 const WelcomeArea = () => {
   return (

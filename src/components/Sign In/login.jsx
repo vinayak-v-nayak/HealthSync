@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
-import '../assets/css/login.css'; // Ensure to include your CSS file
+import './login.css'; // Ensure to include your CSS file
 
 const Auth = () => {
   const navigate = useNavigate();

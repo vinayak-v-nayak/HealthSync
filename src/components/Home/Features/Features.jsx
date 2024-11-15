@@ -1,5 +1,6 @@
 import React from 'react';
-import featureditem01 from '../assets/images/featured-item-01.png';
+import featureditem01 from '../../../assets/images/featured-item-01.png';
+import './Features.css'
 
 const Features = () => {
   return (

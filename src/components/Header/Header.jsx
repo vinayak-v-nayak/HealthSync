@@ -1,8 +1,8 @@
 import React from "react";
-import logo from "../assets/images/healthsynclogo.png";
-import userImage from "../assets/images/login.png"; // Placeholder user image
+import logo from "../../assets/images/healthsynclogo.png";
+import userImage from "../../assets/images/login.png"; // Placeholder user image
 import { Link, useNavigate } from "react-router-dom";
-import '../assets/css/header.css'
+import './header.css'
 
 const Header = () => {
   const navigate = useNavigate();

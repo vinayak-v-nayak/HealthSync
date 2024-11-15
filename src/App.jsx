@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import InsuranceServices from "./Features/InsuranceServices";
-import HealthSync from "./Features/HealthSync";
-import Blog from "./Features/Blog";
+import InsuranceServices from "../src/components/Policies/InsuranceServices/InsuranceServices";
+import HealthSync from "./HealthSync";
+import Blog from "../src/components/Blog/Blog";
 // import PolicyRecommendation from "./Features/PolicyRecommendation";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import FitnessScore from "./Features/FitnessScore";
-import Auth from "./Features/login";
-import Profile from "./Features/profile";
-import GeneralPolicies from "./components/GeneralPolicies";
-import RecommendedPolicies from "./components/RecommendedPolicies";
+import Header from "../src/components/Header/Header";
+import Footer from "../src/components/Footer/Footer";
+import FitnessScore from "../src/components/Fitness Score/FitnessScore";
+import Auth from "../src/components/Sign In/login";
+import Profile from "../src/components/Profile/profile";
+// import GeneralPolicies from "./components/GeneralPolicies";
+// import RecommendedPolicies from "./components/RecommendedPolicies";
 
 function App() {
   return (

@@ -1,5 +1,6 @@
 import React from "react";
-import testimonialicon from "../assets/images/testimonial-icon.png";
+import testimonialicon from "../../../assets/images/testimonial-icon.png";
+import './Testimonials.css'
 
 const Testimonials = () => {
   return (
@@ -10,7 +11,7 @@ const Testimonials = () => {
             <div className="center-heading">
               <h2 className="section-title">Customer Reviews</h2>
             </div>
-          </div>
+          </div> 
           <div className="offset-lg-3 col-lg-6">
             <div className="center-text">
               <p>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
-import "../assets/css/chatbot.css";
+import "./chatbot.css";
 import { generateChatResponse } from "./googleGenAiService"; // Import the service function
 
 const Chatbot = () => {
