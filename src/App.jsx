@@ -9,8 +9,10 @@ import Footer from "../src/components/Footer/Footer";
 import FitnessScore from "../src/components/Fitness Score/FitnessScore";
 import Auth from "../src/components/Sign In/login";
 import Profile from "../src/components/Profile/profile";
+import UserForm from "./components/UserDetails/UserForm";
 // import GeneralPolicies from "./components/GeneralPolicies";
 // import RecommendedPolicies from "./components/RecommendedPolicies";
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
         {/* <Route path="/recommendation" element={<PolicyRecommendation />} /> */}
         <Route path="/login" element={<Auth />} />
         <Route path="/profile" element={<Profile />} />
+        <Route path="/user" element={<UserForm />} />
         {/* <Route path="/services" element={<RecommendedPolicies />} /> 
         <Route path="/general" element={<GeneralPolicies />} /> */}
       </Routes>

@@ -38,6 +38,10 @@
   margin-bottom: 40px;
   position: relative;
 }
+.main-button-slider{
+  text-decoration: none;
+
+}
 
 @media (max-width: 991px) {
   .welcome-area .header-text {
