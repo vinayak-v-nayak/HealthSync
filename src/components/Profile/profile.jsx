@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react'; 
 import Cookies from 'js-cookie';
-import './profile.css'; // Ensure to include your CSS file
+import './profile.css'; 
 import defaultAvatar from '../../assets/images/defaultAvatar.png';
-import { useNavigate } from 'react-router-dom'; // Use useNavigate for navigation
+import { useNavigate } from 'react-router-dom'; 
 
 const Profile = () => {
-  const navigate = useNavigate(); // Initialize useNavigate
+  const navigate = useNavigate(); 
   const [user, setUser] = useState(null);
   const [error, setError] = useState('');
   const [isEditing, setIsEditing] = useState(false);
@@ -22,7 +22,7 @@ const Profile = () => {
       const token = Cookies.get('token');
       if (!token) {
         setError('User not authenticated. Please login.');
-        navigate('/login'); // Navigate correctly
+        navigate('/login'); // Navigate to login if no token
         return;
       }
 
@@ -36,19 +36,27 @@ const Profile = () => {
           credentials: 'include',
         });
 
-        const data = await response.json();
-        if (response.ok) {
-          setUser(data.user);
-          setFormData({
-            name: data.user.name,
-            job: data.user.job,
-            gender: data.user.gender,
-            phone: data.user.phone,
-            address: data.user.address
-          });
-        } else {
-          setError(data.message || 'Failed to fetch user data');
+        if (!response.ok) {
+          if (response.status === 401) {
+            setError('Token expired. Please login again.');
+            Cookies.remove('token'); // Remove expired token
+            navigate('/login'); // Redirect to login
+          } else {
+            const data = await response.json();
+            setError(data.message || 'Failed to fetch user data');
+          }
+          return;
         }
+
+        const data = await response.json();
+        setUser(data.user);
+        setFormData({
+          name: data.user.name,
+          job: data.user.job,
+          gender: data.user.gender,
+          phone: data.user.phone,
+          address: data.user.address
+        });
       } catch (err) {
         console.error('Error fetching user data:', err);
         setError('Something went wrong while fetching user data');
@@ -56,7 +64,7 @@ const Profile = () => {
     };
 
     fetchUserData();
-  }, [navigate]); // Include navigate in dependencies
+  }, [navigate]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -83,13 +91,20 @@ const Profile = () => {
         body: JSON.stringify(formData)
       });
 
-      if (response.ok) {
-        const updatedUser = await response.json();
-        setUser(updatedUser.user);
-        setIsEditing(false);
-      } else {
-        setError('Failed to update user data');
+      if (!response.ok) {
+        if (response.status === 401) {
+          setError('Token expired. Please login again.');
+          Cookies.remove('token');
+          navigate('/login');
+        } else {
+          setError('Failed to update user data');
+        }
+        return;
       }
+
+      const updatedUser = await response.json();
+      setUser(updatedUser.user);
+      setIsEditing(false);
     } catch (err) {
       console.error('Error updating user data:', err);
       setError('Something went wrong while updating user data');
@@ -97,10 +112,10 @@ const Profile = () => {
   };
 
   const handleLogout = () => {
-    Cookies.remove('token'); // Clear token on logout
-    Cookies.remove('user'); // Clear user cookie
-    setUser(null); // Clear user state
-    window.location.href = '/login'; // Redirect to login page
+    Cookies.remove('token'); 
+    Cookies.remove('user'); 
+    setUser(null); 
+    navigate('/login'); // Redirect to login page
   };
 
   return (
@@ -110,7 +125,7 @@ const Profile = () => {
       {user ? (
         <div className="profile-details">
           <img
-            src={defaultAvatar} // Replace with a default avatar if none exists
+            src={defaultAvatar} 
             alt="User Avatar"
             className="profile-avatar"
           />

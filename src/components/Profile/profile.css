@@ -1,6 +1,6 @@
 /* Profile Container */
 .profile-container {
-    max-width: 600px; /* Maximum width for the profile container */
+    width: 500px; /* Maximum width for the profile container */
     margin: 20px auto; /* Centered with some margin at the top */
     margin-top: 150px;
     padding: 20px; /* Padding around the content */
