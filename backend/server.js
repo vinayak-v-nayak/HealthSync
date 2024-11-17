@@ -375,40 +375,6 @@ app.get('/api/policies/recommendations', async (req, res) => {
 });
 
 
-
-  app.post("/api/ask", async (req, res) => {
-    const { question } = req.body;
-  
-    if (!question || typeof question !== "string") {
-      return res.status(400).json({ error: "Invalid or missing question" });
-    }
-  
-    try {
-      // Replace this URL with the endpoint for Google's Generative AI API
-      const response = await axios.post(
-        "https://api.generativeai.google.com/v1beta2/chat:complete",
-        {
-          prompt: question,
-          temperature: 0.7,
-          maxTokens: 200,
-        },
-        {
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${process.env.REACT_APP_GOOGLE_API_KEY}`, // API key for authentication
-          },
-        }
-      );
-  
-      res.json(response.data.choices[0].text); // Adjust based on API response structure
-    } catch (error) {
-      console.error("Error with AI API:", error.message || error);
-      res.status(500).json({ error: "An error occurred while processing your request." });
-    }
-  });
-
-
-
 // Server Listening
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);

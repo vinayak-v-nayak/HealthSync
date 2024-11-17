@@ -1,18 +1,40 @@
 import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 import "./chatbot.css";
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState([]);
   const [userInput, setUserInput] = useState("");
+  const [aiResponse, setAiResponse] = useState("");
+  const [userQuestion, setUserQuestion] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [showHistory, setShowHistory] = useState(false);
   const messagesEndRef = useRef(null);
 
   const toggleChat = () => setIsOpen(!isOpen);
 
+  // Function to call Gemini API with the specific prompt format
+  const gemini = async (userQuestion) => {
+    try {
+      const genAI = new GoogleGenerativeAI(process.env.REACT_APP_GOOGLE_API_KEY);
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      
+      // Customize the prompt to reflect an insurance policyholder asking a question
+      const prompt = `You are an expert insurance agent. A policyholder has asked the following question: "${userQuestion}".
+      Please explain the concept in a clear, step-by-step manner. Use simple language and examples where possible.`;
+
+      const result = await model.generateContent(prompt);
+      setAiResponse(result ? result.response.text() : "No response received");
+    } catch (error) {
+      console.error("Error with Gemini API:", error);
+      setAiResponse("Sorry, there was an error while fetching the response.");
+    }
+  };
+
+  // Handle sending the user's question and displaying the response
   const handleSend = async () => {
     if (!userInput.trim()) {
       return;
@@ -22,7 +44,6 @@ const Chatbot = () => {
     setMessages((prev) => [...prev, newMessage]);
 
     // Check user authentication
-    const userId = Cookies.get("user");
     const token = Cookies.get("token");
 
     if (!token) {
@@ -34,43 +55,33 @@ const Chatbot = () => {
       return;
     }
 
-    try {
-      const response = await axios.post("http://localhost:3000/api/ask", {
-        question: userInput,
-      });
-
-      if (response.data) {
-        setMessages((prev) => [
-          ...prev,
-          { type: "bot", text: response.data },
-        ]);
-      } else {
-        setMessages((prev) => [
-          ...prev,
-          { type: "bot", text: "No response from the bot. Please try again." },
-        ]);
-      }
-    } catch (error) {
-      console.error("Error fetching bot response:", error.message || error);
-      setMessages((prev) => [
-        ...prev,
-        { type: "bot", text: "Sorry, an error occurred. Please try again later." },
-      ]);
-    }
+    // Set user question and send it to Gemini API for response
+    setUserQuestion(userInput);
+    gemini(userInput);
 
     setUserInput("");
   };
 
+  // Start a new chat
   const startNewChat = () => {
     setChatHistory((prev) => [...prev, messages]);
     setMessages([]);
   };
 
+  // Toggle chat history view
   const toggleHistory = () => setShowHistory(!showHistory);
 
+  // Scroll to the bottom when messages change
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages]);
+
+  // Whenever the user question changes, trigger the Gemini API
+  useEffect(() => {
+    if (userQuestion) {
+      gemini(userQuestion);
+    }
+  }, [userQuestion]);
 
   return (
     <div id="chat-widget" className="chat-widget">
@@ -127,6 +138,28 @@ const Chatbot = () => {
                 {msg.text}
               </div>
             ))}
+
+            {aiResponse && (
+              <div className="mt-4 p-4 bg-gray-200 rounded-md">
+                <h4 className="font-semibold text-lg mb-2">Explanation:</h4>
+                <div className="space-y-3 leading-relaxed text-gray-800">
+                  {aiResponse.split("\n").map((line, index) => (
+                    <div key={index} className="mb-2">
+                      {line.startsWith("") ? (
+                        <p className="font-bold text-blue-600">{line}</p>
+                      ) : line.startsWith("* ") ? (
+                        <li className="list-disc list-inside ml-4">
+                          {line.replace("* ", "")}
+                        </li>
+                      ) : (
+                        <p>{line}</p>
+                      )}
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
             <div ref={messagesEndRef} />
           </div>
 
