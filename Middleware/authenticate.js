@@ -7,7 +7,7 @@ const authenticate = (req, res, next) => {
   }
 
   try {
-    const decoded = jwt.verify(token, 'My-secret-key');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'My-secret-key');
     req.userId = decoded.userId; // Attach `userId` to the request object
     next();
   } catch (error) {

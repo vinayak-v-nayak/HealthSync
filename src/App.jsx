@@ -10,7 +10,6 @@ import Auth from './components/Sign In/login';
 import Profile from './components/Profile/profile';
 import PrivateRoute from './PrivateRoute'; // Import PrivateRoute component
 import UserForm from './components/UserDetails/UserForm';
-import ProtectedPage from './ProtectedPage'
 
 
 function App() {
