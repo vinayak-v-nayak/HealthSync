@@ -3,14 +3,12 @@ const jwt = require('jsonwebtoken');
 const authenticateToken = (req, res, next) => {
     const token = req.headers['authorization']?.split(' ')[1]; // Extract token
 
-    console.log('Incoming Token:', token); // Log the token for debugging
-
     if (!token) {
         return res.status(401).json({ message: 'Authorization token is missing.' }); // No token, unauthorized
     }
 
     // Verify the token
-    jwt.verify(token, 'My-secret-key', (err, user) => {
+    jwt.verify(token, process.env.JWT_SECRET || 'My-secret-key', (err, user) => {
         if (err) {
             // Log the error for debugging
             console.error('Token verification error:', err);

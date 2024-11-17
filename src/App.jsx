@@ -9,6 +9,8 @@ import FitnessScore from './components/Fitness Score/FitnessScore';
 import Auth from './components/Sign In/login';
 import Profile from './components/Profile/profile';
 import PrivateRoute from './PrivateRoute'; // Import PrivateRoute component
+import UserForm from './components/UserDetails/UserForm';
+import ProtectedPage from './ProtectedPage'
 
 function App() {
   return (
@@ -21,22 +23,17 @@ function App() {
         <Route path="/services" element={<PrivateRoute><InsuranceServices /></PrivateRoute>} />
         <Route path="/login" element={<Auth />} />
         
+        
         {/* Private Route - Protected */}
-        <Route
-          path="/"
-          element={
-            <PrivateRoute>
-              <HealthSync /> {/* This page will be protected */}
-            </PrivateRoute>
-          }
-        />
+        <Route path="/" element={ <HealthSync />} />
         <Route path="/profile" element={<PrivateRoute><Profile /></PrivateRoute>} />
         
         {/* Other Routes */}
-        <Route path="/user" element={<PrivateRoute><Profile /></PrivateRoute>} />
+        <Route path="/userform" element={<PrivateRoute><UserForm /></PrivateRoute>} />
       </Routes>
       <Footer />
     </Router>
+
   );
 }
 

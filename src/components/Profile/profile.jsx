@@ -39,7 +39,8 @@ const Profile = () => {
         if (!response.ok) {
           if (response.status === 401) {
             setError('Token expired. Please login again.');
-            Cookies.remove('token'); // Remove expired token
+            Cookies.remove('user'); 
+            Cookies.remove('token');
             navigate('/login'); // Redirect to login
           } else {
             const data = await response.json();
@@ -95,6 +96,8 @@ const Profile = () => {
         if (response.status === 401) {
           setError('Token expired. Please login again.');
           Cookies.remove('token');
+          Cookies.remove('user');
+
           navigate('/login');
         } else {
           setError('Failed to update user data');
@@ -112,8 +115,8 @@ const Profile = () => {
   };
 
   const handleLogout = () => {
-    Cookies.remove('token'); 
     Cookies.remove('user'); 
+    Cookies.remove('token'); 
     setUser(null); 
     navigate('/login'); // Redirect to login page
   };

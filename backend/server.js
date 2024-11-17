@@ -11,6 +11,10 @@ const FitnessScore = require('./models/FitnessScore');
 const { verifyUser } = require('../Middleware/verifyUser'); // Updated path
 const ChatMessage = require('./models/chatMessage');
 const {isAuthenticated} = require('../Middleware/isAuthenticated');
+const UserData = require('./models/userData');
+const {authenticate}= require('../Middleware/authenticate');
+const { authenticatedToken } = require('../Middleware/authenticatedToken'); // Updated path
+
 
 const app = express();
 const port = 3000;
@@ -55,33 +59,49 @@ app.get('/api/policies', async (req, res) => {
 });
 
 // Auth Routes
+// **Signup Route**
 app.post('/api/auth/signup', async (req, res) => {
     try {
-        const { name, email, password } = req.body;
-
-        // Check if user already exists
-        const existingUser = await User.findOne({ email });
-        if (existingUser) {
-            return res.status(400).json({ message: 'User already exists' });
-        }
-
-        // Hash password
-        const salt = await bcrypt.genSalt(10);
-        const hashedPassword = await bcrypt.hash(password, salt);
-
-        // Create new user
-        const user = new User({
-            name,
-            email,
-            password: hashedPassword,
-        });
-
-        await user.save();
-        res.status(201).json({ message: 'User created successfully' });
+      const { name, email, password } = req.body;
+  
+      // Check if the user already exists
+      const existingUser = await User.findOne({ email });
+      if (existingUser) {
+        return res.status(400).json({ message: 'User already exists' });
+      }
+  
+      // Hash the password
+      const salt = await bcrypt.genSalt(10);
+      const hashedPassword = await bcrypt.hash(password, salt);
+  
+      // Create a new user
+      const newUser = new User({
+        name,
+        email,
+        password: hashedPassword,
+      });
+  
+      await newUser.save();
+  
+      // Generate a JWT token
+      const token = jwt.sign(
+        { userId: newUser._id },
+        process.env.JWT_SECRET || 'My-secret-key',
+        { expiresIn: '1h' }
+      );
+  
+      // Send response with token and user data
+      res.status(201).json({
+        message: 'User created successfully',
+        token,
+        user: { id: newUser._id, name: newUser.name, email: newUser.email },
+      });
     } catch (error) {
-        res.status(500).json({ message: 'Server error' });
+      console.error('Signup error:', error);
+      res.status(500).json({ message: 'Server error' });
     }
-});
+  });
+
 
 // Login route to authenticate user and set cookie
 app.post('/api/auth/login', async (req, res) => {
@@ -276,53 +296,6 @@ app.post('/api/fitness-score', verifyUser, async (req, res) => {
 });
 
 
-app.post('/api/chat/messages', isAuthenticated, async (req, res) => {
-    const { userId } = req.user; // Assuming userId is available in req.user
-    const { userMessage, botResponse } = req.body;
-  
-    try {
-      // Check if a chat history already exists for this user
-      let chatMessage = await ChatMessage.findOne({ userId });
-  
-      if (!chatMessage) {
-        // Create a new chat history if it doesn't exist
-        chatMessage = new ChatMessage({ userId, messages: [] });
-      }
-  
-      // Add the new messages to the existing chat history
-      chatMessage.messages.push({ type: 'user', text: userMessage });
-      chatMessage.messages.push({ type: 'bot', text: botResponse });
-      
-      // Save the updated chat history
-      await chatMessage.save();
-  
-      res.status(201).json({ message: 'Chat stored successfully', chatMessage });
-    } catch (error) {
-      console.error("Error storing chat message:", error);
-      res.status(500).json({ message: 'Failed to store chat message' });
-    }
-  });
-  
-  // Endpoint to fetch chat messages
-  app.get('/api/chat/messages', isAuthenticated, async (req, res) => {
-    const { userId } = req.user; // Assuming userId is available in req.user
-  
-    try {
-      const chatMessages = await ChatMessage.findOne({ userId });
-  
-      if (!chatMessages) {
-        return res.status(404).json({ message: 'No chat history found for this user.' });
-      }
-  
-      res.json(chatMessages.messages); // Return the messages array
-    } catch (error) {
-      console.error("Error fetching chat history:", error);
-      res.status(500).json({ message: 'Failed to fetch chat history' });
-    }
-  });
-
-
-
 // New Recommendation Route based on Fitness Score and Salary
 app.get('/api/policies/recommendations', verifyUser, async (req, res) => {
     try {
@@ -363,8 +336,107 @@ app.get('/api/policies/recommendations', verifyUser, async (req, res) => {
     }
 });
 
+  // Update user details and mark profile as completed
+  app.post('/api/user/update-data', authenticate, async (req, res) => {
+    const {
+      gender, age, height, weight, heartRate,
+      diabetes, bloodPressureProblems, anyTransplants,
+      anyChronicDiseases, knownAllergies,
+      historyOfCancerInFamily, numberOfMajorSurgeries
+    } = req.body;
+  
+    try {
+      const userId = req.userId;
+      if (!userId) {
+        return res.status(400).json({ message: "User ID is required." });
+      }
+  
+      const existingUser = await UserData.findOne({ userId });
+  
+      if (existingUser) {
+        Object.assign(existingUser, {
+          gender, age, height, weight, heartRate, diabetes,
+          bloodPressureProblems, anyTransplants, anyChronicDiseases,
+          knownAllergies, historyOfCancerInFamily,
+          numberOfMajorSurgeries, profileCompleted: true,
+        });
+  
+        await existingUser.save();
+        res.json({ message: "User data updated successfully", user: existingUser });
+      } else {
+        const newUser = new UserData({
+          userId, gender, age, height, weight, heartRate, diabetes,
+          bloodPressureProblems, anyTransplants, anyChronicDiseases,
+          knownAllergies, historyOfCancerInFamily,
+          numberOfMajorSurgeries, profileCompleted: true,
+        });
+  
+        await newUser.save();
+        res.json({ message: "User data created successfully", user: newUser });
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      res.status(500).json({ message: "Server error." });
+    }
+  });
+
 
   
+  app.get('/api/check-form-status', authenticatedToken, async (req, res) => {
+  const userId = req.userId; // Extract userId from the authenticated token middleware
+
+  try {
+    // Query the database for the user's data
+    const user = await UserData.findById(userId);
+
+    if (!user) {
+      return res.status(404).json({ error: 'User not found' });
+    }
+
+    // Check if the user's profile is completed
+    const formCompleted = user.profileCompleted || false; // Default to false if the field is undefined
+    return res.json({ userFormCompleted: formCompleted });
+  } catch (error) {
+    console.error('Error checking form status:', error);
+    return res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
+
+
+
+  app.post("/api/ask", async (req, res) => {
+    const { question } = req.body;
+  
+    if (!question || typeof question !== "string") {
+      return res.status(400).json({ error: "Invalid or missing question" });
+    }
+  
+    try {
+      // Replace this URL with the endpoint for Google's Generative AI API
+      const response = await axios.post(
+        "https://api.generativeai.google.com/v1beta2/chat:complete",
+        {
+          prompt: question,
+          temperature: 0.7,
+          maxTokens: 200,
+        },
+        {
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${process.env.REACT_APP_GOOGLE_API_KEY}`, // API key for authentication
+          },
+        }
+      );
+  
+      res.json(response.data.choices[0].text); // Adjust based on API response structure
+    } catch (error) {
+      console.error("Error with AI API:", error.message || error);
+      res.status(500).json({ error: "An error occurred while processing your request." });
+    }
+  });
+
+
+
 // Server Listening
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);

@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from "react";
 import axios from "axios";
 import Cookies from "js-cookie";
 import "./chatbot.css";
-import { generateChatResponse } from "./googleGenAiService"; // Import the service function
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,11 +14,14 @@ const Chatbot = () => {
   const toggleChat = () => setIsOpen(!isOpen);
 
   const handleSend = async () => {
-    if (userInput.trim() === "") return;
+    if (!userInput.trim()) {
+      return;
+    }
 
     const newMessage = { type: "user", text: userInput };
     setMessages((prev) => [...prev, newMessage]);
 
+    // Check user authentication
     const userId = Cookies.get("user");
     const token = Cookies.get("token");
 
@@ -28,22 +30,31 @@ const Chatbot = () => {
         ...prev,
         { type: "bot", text: "You need to log in to send messages." },
       ]);
+      setUserInput("");
       return;
     }
 
     try {
-      // Use the generateChatResponse function from googleGenAiService.js to get the bot's response
-      const botResponse = await generateChatResponse(userInput);
+      const response = await axios.post("http://localhost:3000/api/ask", {
+        question: userInput,
+      });
 
-      // Add the bot's response to the messages
-      setMessages((prev) => [
-        ...prev,
-        { type: "bot", text: botResponse },
-      ]);
+      if (response.data) {
+        setMessages((prev) => [
+          ...prev,
+          { type: "bot", text: response.data },
+        ]);
+      } else {
+        setMessages((prev) => [
+          ...prev,
+          { type: "bot", text: "No response from the bot. Please try again." },
+        ]);
+      }
     } catch (error) {
+      console.error("Error fetching bot response:", error.message || error);
       setMessages((prev) => [
         ...prev,
-        { type: "bot", text: "Sorry, there was an error with the response." },
+        { type: "bot", text: "Sorry, an error occurred. Please try again later." },
       ]);
     }
 
@@ -63,22 +74,31 @@ const Chatbot = () => {
 
   return (
     <div id="chat-widget" className="chat-widget">
-      {!isOpen && (
+      {!isOpen ? (
         <button className="chat-toggle-btn" onClick={toggleChat}>
           💬
         </button>
-      )}
-      {isOpen && (
+      ) : (
         <div className="chat-window">
           <div className="chat-header">
-            <button onClick={startNewChat} className="new-chat-btn" title="New Chat">
+            <button
+              onClick={startNewChat}
+              className="new-chat-btn"
+              title="Start New Chat"
+            >
               🔄
             </button>
             <h2>IVA Chatbot</h2>
-            <button onClick={toggleHistory} className="history-btn" title="History">
+            <button
+              onClick={toggleHistory}
+              className="history-btn"
+              title="View Chat History"
+            >
               📜
             </button>
-            <button onClick={toggleChat} className="close-chat-btn">X</button>
+            <button onClick={toggleChat} className="close-chat-btn">
+              X
+            </button>
           </div>
 
           {showHistory && (
@@ -116,10 +136,12 @@ const Chatbot = () => {
               placeholder="Type your question..."
               value={userInput}
               onChange={(e) => setUserInput(e.target.value)}
-              onKeyPress={(e) => e.key === "Enter" && handleSend()}
+              onKeyDown={(e) => e.key === "Enter" && handleSend()}
               className="chat-input"
             />
-            <button onClick={handleSend} className="send-btn">Send</button>
+            <button onClick={handleSend} className="send-btn">
+              Send
+            </button>
           </div>
         </div>
       )}

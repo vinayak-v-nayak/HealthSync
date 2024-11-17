@@ -11,42 +11,25 @@ const Auth = () => {
     name: '',
     email: '',
     password: '',
-    confirmPassword: ''
+    confirmPassword: '',
   });
   const [error, setError] = useState('');
   const [success, setSuccess] = useState('');
   const [activeTab, setActiveTab] = useState('login'); // Default to login
 
-  // Fetch user data if logged in
+  // Check if the user is already authenticated
   useEffect(() => {
-    const fetchUserData = async () => {
-      const token = Cookies.get('token'); // Get token from cookies
-      if (token) {
-        try {
-          const response = await fetch('http://localhost:3000/api/auth/user', {
-            method: 'GET',
-            headers: {
-              'Authorization': `Bearer ${token}`, // Send the token for authentication
-              'Content-Type': 'application/json',
-            },
-            credentials: 'include', // Important for cookie management
-          });
-
-          const data = await response.json();
-          if (response.ok) {
-            navigate('/profile'); // Redirect to profile page if logged in
-          } else {
-            setError(data.message || 'Failed to fetch user data');
-          }
-        } catch (err) {
-          console.error('Error fetching user data:', err);
-          setError('Something went wrong while fetching user data');
-        }
-      }
-    };
-
-    fetchUserData();
+    const token = Cookies.get('token');
+    if (token) {
+      navigate('/'); // If token exists, navigate to home page or dashboard
+    }
   }, [navigate]);
+
+  // Helper function to set cookies
+  const setAuthCookies = (token, user) => {
+    Cookies.set('token', token, { expires: 7, path: '/', sameSite: 'Lax' });
+    Cookies.set('user', JSON.stringify(user), { expires: 7, path: '/', sameSite: 'Lax' });
+  };
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -58,16 +41,15 @@ const Auth = () => {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(loginData),
-        credentials: 'include', // Important for cookie management
+        credentials: 'include',
       });
 
       const data = await response.json();
 
       if (response.ok) {
-        Cookies.set('token', data.token, { expires: 7, path: '/', sameSite: 'Lax' });
-        Cookies.set('user', JSON.stringify(data.user), { expires: 7, path: '/', sameSite: 'Lax' });
+        setAuthCookies(data.token, data.user);
         setSuccess('Login successful!');
-        navigate('/profile'); // Redirect to profile page after successful login
+        navigate('/');
       } else {
         setError(data.message || 'Login failed');
       }
@@ -97,8 +79,9 @@ const Auth = () => {
       const data = await response.json();
 
       if (response.ok) {
-        setSuccess('Signup successful! Please login.');
-        setTimeout(() => navigate('/login'), 3000); // Redirect to login page after 3 seconds
+        setAuthCookies(data.token, data.user);
+        setSuccess('Signup successful! Redirecting...');
+        setTimeout(() => navigate('/userform'), 3000); // Redirect to profile form after 3 seconds
       } else {
         setError(data.message || 'Signup failed');
       }
@@ -109,20 +92,24 @@ const Auth = () => {
   };
 
   return (
-    <MDBContainer fluid className="p-3 my-5 auth-container" style={{ marginTop: '100px' }}>
+    <MDBContainer fluid className="p-3 my-5 auth-container">
       <MDBRow>
-        <MDBCol col='10' md='6'>
-          <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" className="img-fluid" alt="Phone image" />
+        <MDBCol col="10" md="6">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg"
+            className="img-fluid"
+            alt="Phone image"
+          />
         </MDBCol>
-        <MDBCol col='4' md='6'>
+        <MDBCol col="4" md="6">
           <h2 className="auth-title">Welcome</h2>
-          
+
           {activeTab === 'login' ? (
             <form onSubmit={handleLogin} className="auth-form">
               <MDBInput
                 wrapperClass="mb-4"
                 placeholder="Enter your email address"
-                id="formControlLg"
+                id="emailInput"
                 type="email"
                 size="lg"
                 value={loginData.email}
@@ -132,7 +119,7 @@ const Auth = () => {
               <MDBInput
                 wrapperClass="mb-4"
                 placeholder="Enter your password"
-                id="formControlLg"
+                id="passwordInput"
                 type="password"
                 size="lg"
                 value={loginData.password}
@@ -140,15 +127,12 @@ const Auth = () => {
                 required
               />
               <div className="d-flex justify-content-between mx-4 mb-4">
-                <MDBCheckbox
-                  name="flexCheck"
-                  value=""
-                  id="flexCheckDefault"
-                  label="Remember me"
-                />
+                <MDBCheckbox name="flexCheck" id="flexCheckDefault" label="Remember me" />
                 <a href="#!">Forgot password?</a>
               </div>
-              <MDBBtn className="mb-4 w-100" size="lg" type="submit">Sign in</MDBBtn>
+              <MDBBtn className="mb-4 w-100" size="lg" type="submit">
+                Sign in
+              </MDBBtn>
               {error && <p className="error-message">{error}</p>}
               {success && <p className="success-message">{success}</p>}
               <p className="ms-5">
@@ -163,7 +147,7 @@ const Auth = () => {
               <MDBInput
                 wrapperClass="mb-4"
                 placeholder="Enter your full name"
-                id="formControlLg"
+                id="nameInput"
                 type="text"
                 size="lg"
                 value={signupData.name}
@@ -173,7 +157,7 @@ const Auth = () => {
               <MDBInput
                 wrapperClass="mb-4"
                 placeholder="Enter your email address"
-                id="formControlLg"
+                id="emailSignupInput"
                 type="email"
                 size="lg"
                 value={signupData.email}
@@ -183,7 +167,7 @@ const Auth = () => {
               <MDBInput
                 wrapperClass="mb-4"
                 placeholder="Enter your password"
-                id="formControlLg"
+                id="passwordSignupInput"
                 type="password"
                 size="lg"
                 value={signupData.password}
@@ -193,14 +177,16 @@ const Auth = () => {
               <MDBInput
                 wrapperClass="mb-4"
                 placeholder="Confirm your password"
-                id="formControlLg"
+                id="confirmPasswordInput"
                 type="password"
                 size="lg"
                 value={signupData.confirmPassword}
                 onChange={(e) => setSignupData({ ...signupData, confirmPassword: e.target.value })}
                 required
               />
-              <MDBBtn className="mb-4 w-100" size="lg" type="submit">Sign Up</MDBBtn>
+              <MDBBtn className="mb-4 w-100" size="lg" type="submit">
+                Sign Up
+              </MDBBtn>
               {error && <p className="error-message">{error}</p>}
               {success && <p className="success-message">{success}</p>}
               <p className="ms-5">

@@ -1,63 +1,134 @@
 import React, { useState } from "react";
+import Cookies from "js-cookie";
+import { useNavigate } from "react-router-dom";
+import axios from "axios";
 import "./UserForm.css";
 
 const UserForm = () => {
-  const [gender, setGender] = useState("");
-  const [age, setAge] = useState(28);
-  const [height, setHeight] = useState(167);
-  const [weight, setWeight] = useState(65);
-  const [heartRate, setHeartRate] = useState(63);
   const [step, setStep] = useState(1);
+  const [formData, setFormData] = useState({
+    age: "",
+    gender: "",
+    height: "",
+    weight: "",
+    diabetes: false,
+    bloodPressureProblems: false,
+    anyTransplants: false,
+    anyChronicDiseases: false,
+    knownAllergies: false,
+    historyOfCancerInFamily: false,
+    numberOfMajorSurgeries: "",
+  });
+  const navigate = useNavigate();
 
   const handleNext = () => setStep((prev) => prev + 1);
   const handleBack = () => setStep((prev) => prev - 1);
 
-  const handleSubmit = () => {
-    const userData = {
-      gender,
-      age,
-      height,
-      weight,
-      heartRate,
-    };
-    console.log("User Data:", userData);
-    alert("Form submitted successfully!");
+  const handleSubmit = async () => {
+    const token = Cookies.get("token");
+    const userId = Cookies.get("user"); // Retrieve userId directly from cookies
+
+    if (!token ) {
+      alert("User is not authenticated.");
+      return;
+    }
+
+    try {
+      // Make API request to update user data on the backend
+      const response = await axios.post(
+        "http://localhost:3000/api/user/update-data",
+        { userId, ...formData }, // Include userId and formData
+        {
+          headers: {
+            Authorization: `Bearer ${token}`, // Pass token in Authorization header
+          },
+        }
+      );
+ 
+      if (response.status === 200) {
+        alert("Form submitted successfully!");
+        navigate("/"); // Redirect to home page after form submission
+      } else {
+        alert("Error submitting the form, please try again.");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("An error occurred, please try again.");
+    }
+  };
+
+  const handleChange = (e) => {
+    const { name, value, type, checked } = e.target;
+    setFormData((prev) => ({
+      ...prev,
+      [name]: type === "checkbox" ? checked : value,
+    }));
   };
 
   return (
     <div className="user-form-container">
       {step === 1 && (
         <div className="form-step">
-          <h2 className="form-title">Who are you?</h2>
-          <div className="gender-selection">
-            <div
-              className={`gender-option ${
-                gender === "Female" ? "selected" : ""
-              }`}
-              onClick={() => setGender("Female")}
-            >
-              <span role="img" aria-label="Female">
-                ♀️
-              </span>
-              <p>FEMALE</p>
-            </div>
-            <div
-              className={`gender-option ${
-                gender === "Male" ? "selected" : ""
-              }`}
-              onClick={() => setGender("Male")}
-            >
-              <span role="img" aria-label="Male">
-                ♂️
-              </span>
-              <p>MALE</p>
+          <h2 className="form-title">Personal Details</h2>
+          <div className="form-group">
+            <label>Age:</label>
+            <input
+              type="number"
+              name="age"
+              value={formData.age}
+              onChange={handleChange}
+              placeholder="Enter your age"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label>Gender:</label>
+            <div>
+              <label>
+                <input
+                  type="radio"
+                  name="gender"
+                  value="Male"
+                  checked={formData.gender === "Male"}
+                  onChange={handleChange}
+                />
+                Male
+              </label>
+              <label>
+                <input
+                  type="radio"
+                  name="gender"
+                  value="Female"
+                  checked={formData.gender === "Female"}
+                  onChange={handleChange}
+                />
+                Female
+              </label>
             </div>
           </div>
-          <button
-            onClick={handleNext}
-            disabled={!gender}
-            className="next-button"
-          >
+          <div className="form-group">
+            <label>Height (cm):</label>
+            <input
+              type="number"
+              name="height"
+              value={formData.height}
+              onChange={handleChange}
+              placeholder="Enter your height"
+              required
+            />
+          </div>
+          <div className="form-group">
+            <label>Weight (kg):</label>
+            <input
+              type="number"
+              name="weight"
+              value={formData.weight}
+              onChange={handleChange}
+              placeholder="Enter your weight"
+              required
+            />
+          </div>
+          <button onClick={handleNext} className="next-button">
             Next
           </button>
         </div>
@@ -65,85 +136,97 @@ const UserForm = () => {
 
       {step === 2 && (
         <div className="form-step">
-          <h2 className="form-title">How old are you?</h2>
-          <div className="slider-container">
+          <h2 className="form-title">Medical Details</h2>
+          <div className="form-group">
+            <label>
+              <input
+                type="checkbox"
+                name="diabetes"
+                checked={formData.diabetes}
+                onChange={handleChange}
+              />
+              Diabetes
+            </label>
+          </div>
+          <div className="form-group">
+            <label>
+              <input
+                type="checkbox"
+                name="bloodPressureProblems"
+                checked={formData.bloodPressureProblems}
+                onChange={handleChange}
+              />
+              Blood Pressure Problems
+            </label>
+          </div>
+          <div className="form-group">
+            <label>
+              <input
+                type="checkbox"
+                name="anyTransplants"
+                checked={formData.anyTransplants}
+                onChange={handleChange}
+              />
+              Any Transplants
+            </label>
+          </div>
+          <div className="form-group">
+            <label>
+              <input
+                type="checkbox"
+                name="anyChronicDiseases"
+                checked={formData.anyChronicDiseases}
+                onChange={handleChange}
+              />
+              Any Chronic Diseases
+            </label>
+          </div>
+          <div className="form-group">
+            <label>
+              <input
+                type="checkbox"
+                name="knownAllergies"
+                checked={formData.knownAllergies}
+                onChange={handleChange}
+              />
+              Known Allergies
+            </label>
+          </div>
+          <div className="form-group">
+            <label>
+              <input
+                type="checkbox"
+                name="historyOfCancerInFamily"
+                checked={formData.historyOfCancerInFamily}
+                onChange={handleChange}
+              />
+              History of Cancer in Family
+            </label>
+          </div>
+          <div className="form-group">
+            <label>Number of Major Surgeries:</label>
             <input
-              type="range"
-              min="10"
-              max="100"
-              value={age}
-              onChange={(e) => setAge(Number(e.target.value))}
-              className="slider"
+              type="number"
+              name="numberOfMajorSurgeries"
+              value={formData.numberOfMajorSurgeries}
+              onChange={handleChange}
+              placeholder="Enter number"
             />
-            <p className="slider-value">{age} years</p>
           </div>
           <div className="button-group">
             <button onClick={handleBack} className="back-button">
               Back
             </button>
-            <button onClick={handleNext} className="next-button">
-              Next
-            </button>
-          </div>
-        </div>
-      )}
-
-      {step === 3 && (
-        <div className="form-step">
-          <h2 className="form-title">How tall are you?</h2>
-          <div className="slider-container">
-            <input
-              type="range"
-              min="100"
-              max="220"
-              value={height}
-              onChange={(e) => setHeight(Number(e.target.value))}
-              className="slider"
-            />
-            <p className="slider-value">{height} cm</p>
-          </div>
-          <h2 className="form-title">How much do you weigh?</h2>
-          <div className="slider-container">
-            <input
-              type="range"
-              min="30"
-              max="200"
-              value={weight}
-              onChange={(e) => setWeight(Number(e.target.value))}
-              className="slider"
-            />
-            <p className="slider-value">{weight} kg</p>
-          </div>
-          <div className="button-group">
-            <button onClick={handleBack} className="back-button">
-              Back
-            </button>
-            <button onClick={handleNext} className="next-button">
-              Next
-            </button>
-          </div>
-        </div>
-      )}
-
-      {step === 4 && (
-        <div className="form-step">
-          <h2 className="form-title">What is your resting heart rate?</h2>
-          <div className="slider-container">
-            <input
-              type="range"
-              min="40"
-              max="120"
-              value={heartRate}
-              onChange={(e) => setHeartRate(Number(e.target.value))}
-              className="slider"
-            />
-            <p className="slider-value">{heartRate} bpm</p>
-          </div>
-          <div className="button-group">
-            <button onClick={handleBack} className="back-button">
-              Back
-            </button>
-            <button onClick={handleSubmit} className="next-button">
+            <button
+              onClick={handleSubmit}
+              className="next-button"
+              disabled={
+                !formData.age ||
+                !formData.gender ||
+                !formData.height ||
+                !formData.weight
+              }
+            >
               Submit
             </button>
           </div>

@@ -1,98 +1,201 @@
-/* UserForm.css */
-
 .user-form-container {
-    max-width: 450px;
-    margin: auto;
+  max-width: 500px;
+  margin: 50px auto;
+  background: linear-gradient(145deg, #ffffff, #f2f3f7);
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1), -5px -5px 15px rgba(255, 255, 255, 0.7);
+  padding: 40px; /* Increased padding for a spacious layout */
+  font-family: 'Roboto', sans-serif;
+  animation: fadeIn 0.8s ease-in-out;
+  margin-top: 110px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.form-title {
+  font-size: 1.8rem;
+  color: #333;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px; /* Added spacing below titles */
+}
+
+.gender-selection {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 10px; /* Added padding for a balanced look */
+}
+
+.gender-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 120px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e0e0e0, #ffffff);
+  box-shadow: inset 5px 5px 10px #c8c9cd, inset -5px -5px 10px #ffffff;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.gender-option:hover,
+.gender-option.selected {
+  transform: scale(1.1);
+  background: #007bff;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 123, 255, 0.4), 0 -2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.gender-option span {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.gender-option p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.slider-container {
+  text-align: center;
+  margin: 30px 0;
+  padding: 10px; /* Added padding to slider section */
+}
+
+.slider {
+  width: 100%;
+  appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  outline: none;
+  transition: background 0.3s;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #007bff;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
+
+.slider-value {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Added gap for balanced button spacing */
+  padding: 10px; /* Added padding to button group */
+}
+
+.back-button,
+.next-button {
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px; /* Enhanced padding for larger buttons */
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.back-button {
+  background: #6c757d;
+}
+
+.next-button:hover,
+.back-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}
+
+.back-button:hover {
+  box-shadow: 0 5px 15px rgba(108, 117, 125, 0.3);
+}
+
+.back-button:disabled,
+.next-button:disabled {
+  background: #d6d6d6;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1rem;
+  color: #555;
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"],
+input[type="text"],
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+input[type="number"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: linear-gradient(145deg, #e0e0e0, #ffffff);
+  box-shadow: inset 3px 3px 5px #c8c9cd, inset -3px -3px 5px #ffffff;
+  outline: none;
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .user-form-container {
     padding: 20px;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
-    font-family: "Arial", sans-serif;
-    margin-top: 120px;
   }
-  
-  .form-step {
-    text-align: center;
-  }
-  
-  .form-title {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  .gender-selection {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
+
   .gender-option {
-    flex: 1;
+    width: 100px;
     padding: 15px;
-    margin: 0 10px;
-    border: 2px solid #dcdcdc;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-    transition: all 0.3s ease;
   }
-  
-  .gender-option.selected {
-    border-color: #007bff;
-    background: #eef7ff;
-  }
-  
-  .gender-option:hover {
-    border-color: #007bff;
-    background: #f0f8ff;
-  }
-  
-  .gender-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 10px;
-  }
-  
-  .slider-container {
-    margin-bottom: 20px;
-  }
-  
-  .slider {
-    width: 100%;
-  }
-  
-  .slider-value {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #555;
-  }
-  
+
   .button-group {
-    display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 15px;
   }
-  
-  .next-button,
-  .back-button {
-    padding: 10px 20px;
-    font-size: 14px;
-    color: #ffffff;
-    background: #007bff;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  
-  .next-button:hover,
-  .back-button:hover {
-    background: #0056b3;
-  }
-  
-  .next-button:disabled {
-    background: #dcdcdc;
-    cursor: not-allowed;
-  }
-  
+}
