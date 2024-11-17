@@ -1,9 +1,8 @@
-// InsuranceCard.js
 import React from 'react';
-import './card.css';
-import img from '../../../assets/images/shield-icon.jpeg'
+import './InsuranceCard.css';
+import img from '../../../assets/images/shield-icon.jpeg';
 
-const InsuranceCard = ({ policy }) => {
+const InsuranceCard = ({ policy, onSelect, isSelected }) => {
   return (
     <div className="insurance-card">
       <div className="card-header">
@@ -30,8 +29,15 @@ const InsuranceCard = ({ policy }) => {
           <span className="monthly-premium">{policy.Monthly_Premium}</span>
           <span className="annual-premium">{policy.Annual_Premium}</span>
         </div>
+
+        {/* Add to Compare Checkbox */}
         <div className="compare-option">
-          <input type="checkbox" id={`compare-${policy._id}`} />
+          <input 
+            type="checkbox" 
+            id={`compare-${policy._id}`} 
+            checked={isSelected} 
+            onChange={() => onSelect(policy._id)} 
+          />
           <label htmlFor={`compare-${policy._id}`}>Add to Compare</label>
         </div>
       </div>

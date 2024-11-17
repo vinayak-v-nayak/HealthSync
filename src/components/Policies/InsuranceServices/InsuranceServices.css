@@ -1,12 +1,120 @@
+/* General Layout */
 .insurance-services {
-  padding: 16px;
-  max-width: 1200px; /* Limits max width for larger screens */
-  margin: auto;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f4f7fb; /* Light background color for the page */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   margin-top: 100px;
 }
 
+/* Navbar Styling */
+.navbar {
+  width: 100%;
+  background-color: #002c5f;
+  color: white;
+  padding: 10px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar li:hover {
+  color: #f39c12;
+}
+
+.navbar .font-bold {
+  font-weight: 700;
+  border-bottom: 2px solid #f39c12;
+  padding-bottom: 5px;
+}
+
+/* Filters Section */
+.filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+.filters select {
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  transition: border-color 0.3s ease;
+}
+
+.filters select:focus {
+  border-color: #f39c12;
+  outline: none;
+}
+
+/* Policies Section Styling */
+.selectable-policies {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.recommended-policies {
+  width: 100%;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.space-y-4 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.space-y-4 .insurance-card {
+  flex: 1 1 300px; /* Responsive card size */
+  margin-bottom: 20px;
+}
+
+/* Responsive Styling */
 @media (max-width: 768px) {
-  .insurance-services {
-    padding: 8px;
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filters select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .space-y-4 {
+    justify-content: center;
+  }
+
+  .insurance-card {
+    flex: 1 1 100%;
   }
 }

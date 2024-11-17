@@ -12,6 +12,7 @@ import PrivateRoute from './PrivateRoute'; // Import PrivateRoute component
 import UserForm from './components/UserDetails/UserForm';
 import ProtectedPage from './ProtectedPage'
 
+
 function App() {
   return (
     <Router>

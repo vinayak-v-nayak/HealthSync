@@ -1,32 +1,42 @@
-import React, { useState, useEffect } from 'react';  
+import React, { useState, useEffect } from 'react';
 import InsuranceCard from '../InsuranceCard/InsuranceCard';
 import './InsuranceServices.css';
 
 const InsuranceServices = () => {
   const [policies, setPolicies] = useState([]);
-  const [brand, setBrand] = useState('');
-  const [coverage, setCoverage] = useState('');
+  const [recommendations, setRecommendations] = useState([]);
   const [brands, setBrands] = useState([]);
   const [coverages, setCoverages] = useState([]);
-  const [recommendations, setRecommendations] = useState([]);
-  const [showingRecommendations, setShowingRecommendations] = useState(false);
+  const [activeSection, setActiveSection] = useState('general');
+  const [selectedPolicies, setSelectedPolicies] = useState([]);
+  const [brandFilter, setBrandFilter] = useState('');
+  const [coverageFilter, setCoverageFilter] = useState('');
 
-  // Fetch policies based on filters; if no filters, fetch all policies
+  // Fetch all policies (no filter)
   const fetchPolicies = async () => {
     try {
       let url = 'http://localhost:3000/api/policies';
-      if (brand || coverage) {
-        url += `?${brand ? `brandName=${brand}&` : ''}${coverage ? `coverageAmount=${coverage}` : ''}`;
+      if (brandFilter || coverageFilter) {
+        url += `?${brandFilter ? `brandName=${brandFilter}&` : ''}${coverageFilter ? `coverageAmount=${coverageFilter}` : ''}`;
       }
-
       const response = await fetch(url);
       const data = await response.json();
-      const sortedPolicies = Array.isArray(data) ? data.sort((a, b) => a.coverageAmount - b.coverageAmount) : [];
-      setPolicies(sortedPolicies);  // Sort the policies by coverage amount
-      setShowingRecommendations(false);
+      setPolicies(data);
     } catch (error) {
       console.error('Error fetching policies:', error);
-      setPolicies([]);  // Set empty array if an error occurs
+      setPolicies([]);
+    }
+  };
+
+  // Fetch random recommendations (10-15 policies)
+  const fetchRecommendations = async () => {
+    try {
+      const response = await fetch('http://localhost:3000/api/policies/recommendations');
+      const data = await response.json();
+      setRecommendations(data);  // Limit to 10-15 recommendations
+    } catch (error) {
+      console.error('Error fetching recommendations:', error);
+      setRecommendations([]);
     }
   };
 
@@ -36,75 +46,113 @@ const InsuranceServices = () => {
       const response = await fetch('http://localhost:3000/api/policies/filters');
       const data = await response.json();
       setBrands(data.brandNames || []);
-      // Sort coverage options in ascending order
-      setCoverages(data.coverageAmounts ? data.coverageAmounts.sort((a, b) => a - b) : []);
+      setCoverages(data.coverageAmounts || []);
     } catch (error) {
       console.error('Error fetching filters:', error);
     }
   };
 
-  // Fetch recommendations based on fitness score and salary
-  const fetchRecommendations = async () => {
-    try {
-      const response = await fetch('http://localhost:3000/api/policies/recommendations');
-      const data = await response.json();
-      setRecommendations(Array.isArray(data) ? data.slice(0, 10) : []);  // Limit to 10 recommendations
-      setShowingRecommendations(true);
-    } catch (error) {
-      console.error('Error fetching recommendations:', error);
-      setRecommendations([]);  // Set empty array if an error occurs
-    }
+  // Fetch all data initially
+  useEffect(() => {
+    fetchPolicies();
+    fetchRecommendations();
+    fetchFilters();
+  }, [brandFilter, coverageFilter]);  // Fetch policies whenever filters change
+
+  const handleSectionChange = (section) => {
+    setActiveSection(section);
   };
 
-  useEffect(() => {
-    fetchFilters();
-    fetchRecommendations(); // Fetch initial recommendations
-  }, []);
-
-  useEffect(() => {
-    fetchPolicies(); // Fetch filtered policies whenever brand or coverage changes
-  }, [brand, coverage]);
+  const handlePolicySelection = (policyId) => {
+    setSelectedPolicies((prev) => {
+      if (prev.includes(policyId)) {
+        return prev.filter(id => id !== policyId);
+      }
+      return [...prev, policyId];
+    });
+  };
 
   return (
     <div className="insurance-services max-w-6xl mx-auto p-4">
-      <div className="flex justify-between items-center mb-4">
-        <h2 className="text-xl font-semibold">
-          {showingRecommendations ? recommendations.length : policies.length} Plans found
-        </h2>
-        <p className="text-gray-600">All prices are inclusive of GST</p>
+      {/* Navbar */}
+      <div className="navbar mb-8">
+        <ul>
+          <li 
+            className={`cursor-pointer ${activeSection === 'general' ? 'font-bold' : ''}`}
+            onClick={() => handleSectionChange('general')}
+          >
+            General Policies
+          </li>
+          <li 
+            className={`cursor-pointer ${activeSection === 'recommended' ? 'font-bold' : ''}`}
+            onClick={() => handleSectionChange('recommended')}
+          >
+            Recommended Policies
+          </li>
+        </ul>
       </div>
 
-      {/* Dropdown Filters */}
-      <div className="flex space-x-4 mb-4">
-        <select value={brand} onChange={(e) => setBrand(e.target.value)} className="p-2 border border-gray-300 rounded">
-          <option value="">Select Brand</option>
-          {brands.map((brand) => (
-            <option key={brand} value={brand}>{brand}</option>
-          ))}
-        </select>
+      {/* General Policies Section */}
+      {activeSection === 'general' && (
+        <div className="selectable-policies">
 
-        <select value={coverage} onChange={(e) => setCoverage(e.target.value)} className="p-2 border border-gray-300 rounded">
-          <option value="">Select Coverage</option>
-          {coverages.map((coverage) => (
-            <option key={coverage} value={coverage}>{coverage}</option>
-          ))}
-        </select>
+          {/* Filter Section */}
+          <div className="filters mb-4">
+            <div className="flex space-x-4">
+              <select 
+                value={brandFilter} 
+                onChange={(e) => setBrandFilter(e.target.value)} 
+                className="p-2 border border-gray-300 rounded"
+              >
+                <option value="">Select Brand</option>
+                {brands.map((brand) => (
+                  <option key={brand} value={brand}>{brand}</option>
+                ))}
+              </select>
 
-        {/* Button to show recommended policies */}
-        <button 
-          onClick={fetchRecommendations} 
-          className="p-2 bg-blue-500 text-white rounded"
-        >
-          Show Recommended Policies
-        </button>
-      </div>
+              <select 
+                value={coverageFilter} 
+                onChange={(e) => setCoverageFilter(e.target.value)} 
+                className="p-2 border border-gray-300 rounded"
+              >
+                <option value="">Select Coverage</option>
+                {coverages.map((coverage) => (
+                  <option key={coverage} value={coverage}>{coverage}</option>
+                ))}
+              </select>
+            </div>
+          </div>
 
-      {/* Insurance Policies Display */}
-      <div className="space-y-4">
-        {(showingRecommendations ? recommendations : policies).map((policy) => (
-          <InsuranceCard key={policy._id} policy={policy} />
-        ))}
-      </div>
+          {/* Display filtered policies */}
+          <div className="space-y-4">
+            {policies.slice(0, 15).map((policy) => (
+              <InsuranceCard 
+                key={policy._id} 
+                policy={policy} 
+                onSelect={handlePolicySelection} 
+                isSelected={selectedPolicies.includes(policy._id)}
+              />
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Recommended Policies Section */}
+      {activeSection === 'recommended' && (
+        <div className="recommended-policies mt-8">
+          <h3>Recommended Policies</h3>
+          <div className="space-y-4">
+            {recommendations.slice(0, 15).map((policy) => (
+              <InsuranceCard 
+                key={policy._id} 
+                policy={policy} 
+                onSelect={handlePolicySelection} 
+                isSelected={selectedPolicies.includes(policy._id)}
+              />
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
