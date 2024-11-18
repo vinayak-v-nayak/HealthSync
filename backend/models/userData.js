@@ -1,4 +1,3 @@
-// models/User.js
 const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
@@ -7,15 +6,16 @@ const userSchema = new mongoose.Schema({
   age: Number,
   height: Number,
   weight: Number,
-  heartRate: Number,
   diabetes: Boolean,
   bloodPressureProblems: Boolean,
   anyTransplants: Boolean,
   anyChronicDiseases: Boolean,
   knownAllergies: Boolean,
   historyOfCancerInFamily: Boolean,
-  numberOfMajorSurgeries: Boolean,
+  numberOfMajorSurgeries: Number,
+  fitnessScore: { type: Number, default: 0 }, 
   profileCompleted: { type: Boolean, default: false },
+  
 });
 
 module.exports = mongoose.model('UserData', userSchema);

@@ -6,7 +6,6 @@ const userSchema = new mongoose.Schema({
     password: { type: String, required: true },
     createdAt: { type: Date, default: Date.now },
     job: { type: String, default: '' }, // Optional field
-    gender: { type: String, enum: ['Male', 'Female', 'Other'], default: 'Other' }, // Use enum for gender
     phone: { 
         type: String, 
         default: '' // Optional field

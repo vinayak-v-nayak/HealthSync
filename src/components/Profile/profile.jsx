@@ -138,8 +138,6 @@ const Profile = () => {
               <input type="text" name="name" value={formData.name} onChange={handleInputChange} />
               <label>Job:</label>
               <input type="text" name="job" value={formData.job} onChange={handleInputChange} />
-              <label>Gender:</label>
-              <input type="text" name="gender" value={formData.gender} onChange={handleInputChange} />
               <label>Phone No.:</label>
               <input type="text" name="phone" value={formData.phone} onChange={handleInputChange} />
               <label>Address:</label>
@@ -152,7 +150,6 @@ const Profile = () => {
               <p><strong>Name:</strong> {user.name}</p>
               <p><strong>Email:</strong> {user.email}</p>
               <p><strong>Job:</strong> {user.job}</p>
-              <p><strong>Gender:</strong> {user.gender}</p>
               <p><strong>Phone No.:</strong> {user.phone}</p>
               <p><strong>Address:</strong> {user.address}</p>
               <p><strong>Joined:</strong> {new Date(user.createdAt).toLocaleDateString()}</p>

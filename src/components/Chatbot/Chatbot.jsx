@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import axios from "axios";
 import Cookies from "js-cookie";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import "./chatbot.css";
@@ -21,7 +20,7 @@ const Chatbot = () => {
       const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
       // Customize the prompt to reflect an insurance policyholder asking a question
-      const prompt = `You are an expert insurance agent. A policyholder has asked the following question: "${userQuestion}". Please explain the concept in a clear, step-by-step manner. Use simple language and examples where possible.`;
+      const prompt = `You are an expert insurance agent. A policyholder has asked the following question: "${userQuestion}". `;
 
       const result = await model.generateContent(prompt);
       setAiResponse(result ? result.response.text() : "No response received");

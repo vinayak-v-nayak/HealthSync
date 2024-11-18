@@ -7,13 +7,10 @@ const jwt = require('jsonwebtoken');
 const cookieParser = require('cookie-parser');
 const User = require('./models/signup');
 const { authenticateToken } = require('../Middleware/authenticateToken'); // Updated path
-const FitnessScore = require('./models/FitnessScore');
-const { verifyUser } = require('../Middleware/verifyUser'); // Updated path
-const ChatMessage = require('./models/chatMessage');
-const {isAuthenticated} = require('../Middleware/isAuthenticated');
 const UserData = require('./models/userData');
 const {authenticate}= require('../Middleware/authenticate');
-const { authenticatedToken } = require('../Middleware/authenticatedToken'); // Updated path
+const {authenticateUser}= require('../Middleware/authenticateUser');
+const axios = require('axios');
 
 
 const app = express();
@@ -214,87 +211,6 @@ app.patch('/api/auth/user/update', authenticateToken, async (req, res) => {
     }
 });
 
-app.get('/api/fitness-score', verifyUser, async (req, res) => {
-    try {
-        const userId = req.user.userId; // Assuming `verifyUser` middleware attaches `userId` to `req.user`
-
-        const fitnessData = await FitnessScore.findOne({ userId });
-        
-        if (!fitnessData) {
-            console.log("No fitness data found for this user.");
-            return res.status(404).json({ message: 'No fitness data found for this user' });
-        }
-
-        res.status(200).json(fitnessData);
-    } catch (error) {
-        console.error('Error fetching fitness data:', error);
-        res.status(500).json({ message: 'Error fetching fitness data' });
-    }
-});
-
-
-app.post('/api/fitness-score', verifyUser, async (req, res) => {
-    try {
-        const userId = req.user.userId;
-        const { age, weight, height, exerciseMinutes, heartRate, stepsPerDay } = req.body;
-
-        // Calculate BMI and fitness score
-        const heightInMeters = height / 100;
-        const bmi = weight / (heightInMeters * heightInMeters);
-        let totalScore = 50;
-
-        // Calculate fitness score based on provided data
-        if (bmi >= 18.5 && bmi <= 24.9) totalScore += 12.5;
-        else if (bmi >= 25 && bmi <= 29.9) totalScore += 7.5;
-        else if (bmi >= 30) totalScore += 2.5;
-
-        if (exerciseMinutes >= 150) totalScore += 12.5;
-        else if (exerciseMinutes >= 75) totalScore += 7.5;
-        else totalScore += 2.5;
-
-        if (heartRate >= 60 && heartRate <= 100) totalScore += 12.5;
-        else totalScore += 5;
-
-        if (stepsPerDay >= 10000) totalScore += 12.5;
-        else if (stepsPerDay >= 7500) totalScore += 7.5;
-        else if (stepsPerDay >= 5000) totalScore += 5;
-
-        // Check if fitness data exists for this user
-        let fitnessData = await FitnessScore.findOne({ userId });
-
-        if (fitnessData) {
-            // Update existing record
-            fitnessData.age = age;
-            fitnessData.weight = weight;
-            fitnessData.height = height;
-            fitnessData.exerciseMinutes = exerciseMinutes;
-            fitnessData.heartRate = heartRate;
-            fitnessData.stepsPerDay = stepsPerDay;
-            fitnessData.bmi = bmi;
-            fitnessData.fitnessScore = totalScore;
-        } else {
-            // Create new record with userId
-            fitnessData = new FitnessScore({
-                userId, // Required userId field
-                age,
-                weight,
-                height,
-                exerciseMinutes,
-                heartRate,
-                stepsPerDay,
-                bmi,
-                fitnessScore: totalScore
-            });
-        }
-
-        await fitnessData.save();
-        res.status(200).json({ message: 'Fitness score saved successfully', fitnessData });
-    } catch (error) {
-        console.error("Error saving fitness data:", error);
-        res.status(500).json({ message: 'Error saving fitness data' });
-    }
-});
-
 //recommendations
 app.get('/api/policies/recommendations', async (req, res) => {
   try {
@@ -308,71 +224,109 @@ app.get('/api/policies/recommendations', async (req, res) => {
 });
 
 
-  // Update user details and mark profile as completed
-  app.post('/api/user/update-data', authenticate, async (req, res) => {
-    const {
-      gender, age, height, weight, heartRate,
-      diabetes, bloodPressureProblems, anyTransplants,
-      anyChronicDiseases, knownAllergies,
-      historyOfCancerInFamily, numberOfMajorSurgeries
-    } = req.body;
-  
-    try {
-      const userId = req.userId;
-      if (!userId) {
-        return res.status(400).json({ message: "User ID is required." });
-      }
-  
-      const existingUser = await UserData.findOne({ userId });
-  
-      if (existingUser) {
-        Object.assign(existingUser, {
-          gender, age, height, weight, heartRate, diabetes,
-          bloodPressureProblems, anyTransplants, anyChronicDiseases,
-          knownAllergies, historyOfCancerInFamily,
-          numberOfMajorSurgeries, profileCompleted: true,
-        });
-  
-        await existingUser.save();
-        res.json({ message: "User data updated successfully", user: existingUser });
-      } else {
-        const newUser = new UserData({
-          userId, gender, age, height, weight, heartRate, diabetes,
-          bloodPressureProblems, anyTransplants, anyChronicDiseases,
-          knownAllergies, historyOfCancerInFamily,
-          numberOfMajorSurgeries, profileCompleted: true,
-        });
-  
-        await newUser.save();
-        res.json({ message: "User data created successfully", user: newUser });
-      }
-    } catch (error) {
-      console.error("Error:", error);
-      res.status(500).json({ message: "Server error." });
-    }
-  });
-
-
-  
-  app.get('/api/check-form-status', authenticatedToken, async (req, res) => {
-  const userId = req.userId; // Extract userId from the authenticated token middleware
+// Route to handle user data and predict fitness score
+app.post('/api/user/update-data', authenticate, async (req, res) => {
+  const {
+    gender, age, height, weight, 
+    diabetes, bloodPressureProblems, anyTransplants,
+    anyChronicDiseases, knownAllergies, 
+    historyOfCancerInFamily, numberOfMajorSurgeries
+  } = req.body;
 
   try {
-    // Query the database for the user's data
-    const user = await UserData.findById(userId);
+    const userId = req.userId;
 
-    if (!user) {
-      return res.status(404).json({ error: 'User not found' });
+    if (!userId) {
+      return res.status(400).json({ message: "User ID is required." });
     }
 
-    // Check if the user's profile is completed
-    const formCompleted = user.profileCompleted || false; // Default to false if the field is undefined
-    return res.json({ userFormCompleted: formCompleted });
+    // Prepare the data for prediction (only use relevant features for the prediction)
+    const predictionData = {
+      age: parseInt(age),
+      diabetes: diabetes ? 1 : 0,
+      bloodPressureProblems: bloodPressureProblems ? 1 : 0,
+      anyTransplants: anyTransplants ? 1 : 0,
+      anyChronicDiseases: anyChronicDiseases ? 1 : 0,
+      height: parseInt(height),
+      weight: parseInt(weight),
+      knownAllergies: knownAllergies ? 1 : 0,
+      historyOfCancerInFamily: historyOfCancerInFamily ? 1 : 0,
+      numberOfMajorSurgeries:parseInt(numberOfMajorSurgeries),
+
+    };
+
+    // Make prediction request to the ML model
+    const predictionResponse = await axios.post('http://127.0.0.1:5000/predict', {
+      features: Object.values(predictionData)
+    });
+
+    const { predicted_fitness_score } = predictionResponse.data;
+
+    if (!predicted_fitness_score) {
+      return res.status(500).json({ message: "Failed to retrieve fitness score." });
+    }
+
+    const existingUser = await UserData.findOne({ userId });
+
+    // Prepare the full data object (including all form data)
+    const fullData = {
+      gender,
+      age,
+      height,
+      weight,
+      diabetes,
+      bloodPressureProblems,
+      anyTransplants,
+      anyChronicDiseases,
+      knownAllergies,
+      historyOfCancerInFamily,
+      numberOfMajorSurgeries,
+      fitnessScore:predicted_fitness_score,
+      profileCompleted: true,
+    };
+
+    if (existingUser) {
+      // Update existing user data and add the fitness score
+      Object.assign(existingUser, fullData);
+
+      await existingUser.save();
+      res.json({ message: "User data updated successfully", user: existingUser });
+    } else {
+      // Create a new user entry with the fitness score
+      const newUser = new UserData({
+        userId,
+        ...fullData,
+      });
+
+      await newUser.save();
+      res.json({ message: "User data created successfully", user: newUser });
+    }
   } catch (error) {
-    console.error('Error checking form status:', error);
-    return res.status(500).json({ error: 'Internal Server Error' });
+    console.error("Error:", error);
+    res.status(500).json({ message: "Server error." });
   }
 });
+
+
+app.get('/api/fitness-data', authenticateUser, async (req, res) => {
+  try {
+      const userId = req.userId; // From authenticated token
+
+      // Fetch fitness data for the authenticated user
+      const userFitnessData = await UserData.findOne({ userId });
+
+      if (!userFitnessData) {
+          return res.status(404).json({ message: "No fitness data found for the user." });
+      }
+
+      // Send the fitness data as response
+      res.json(userFitnessData);
+  } catch (error) {
+      console.error('Error fetching fitness data:', error);
+      res.status(500).json({ message: 'Server error while fetching fitness data.' });
+  }
+});
+
 
 
 // Server Listening
