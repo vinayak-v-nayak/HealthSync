@@ -51,8 +51,11 @@
 }
 
 .chat-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Default alignment */
   padding: 10px;
-  height: 500px; /* Adjust height */
+  height: 500px;
   overflow-y: auto;
   background: #f9f9f9;
 }
@@ -69,12 +72,16 @@
   background: #0078ff;
   color: #fff;
   align-self: flex-end; /* Align user messages to the right */
+  text-align: left;
+  margin-left: auto; /* Push user messages to the right */
 }
 
 .bot {
   background: #e1e1e1;
   color: #333;
-  align-self: flex-start; /* Align bot messages to the left */
+  align-self: flex-start; /* Align bot messages to the right */
+  text-align: left;
+  margin-right: auto; /* Push bot messages to the right */
 }
 
 .chat-footer {

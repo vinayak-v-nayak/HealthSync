@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Cookies from 'js-cookie';
 import { MDBContainer, MDBCol, MDBRow, MDBBtn, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 import './login.css'; // Ensure you include the necessary CSS
+const baseUrl = process.env.REACT_APP_API_URL;
 
 const Auth = () => {
   const navigate = useNavigate();
@@ -37,7 +38,7 @@ const Auth = () => {
     setSuccess('');
 
     try {
-      const response = await fetch('http://localhost:3000/api/auth/login', {
+      const response = await fetch(`${baseUrl}/api/auth/login`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(loginData),
@@ -70,7 +71,7 @@ const Auth = () => {
     }
 
     try {
-      const response = await fetch('http://localhost:3000/api/auth/signup', {
+      const response = await fetch(`${baseUrl}/api/auth/signup`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(signupData),

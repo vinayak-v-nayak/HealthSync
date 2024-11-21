@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner, faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import "./blog.css"; // Import the CSS file
+const apiKey = process.env.REACT_APP_NEWS_KEY;
+
 
 const InsuranceServices = () => {
   const [articles, setArticles] = useState([]);
@@ -15,7 +17,6 @@ const InsuranceServices = () => {
         setLoading(true);
         setError(null);
 
-        const apiKey = "6cf8f68cbb2249ca8870d9d8a2d3de23"; // Replace with your News API key
         const response = await fetch(
           `https://newsapi.org/v2/everything?q=insurance+policy&apiKey=${apiKey}`
         );

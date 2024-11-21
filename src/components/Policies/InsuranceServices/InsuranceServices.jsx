@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import InsuranceCard from '../InsuranceCard/InsuranceCard';
 import './InsuranceServices.css';
+const baseUrl = process.env.REACT_APP_API_URL;
 
 const InsuranceServices = () => {
   const [policies, setPolicies] = useState([]);
@@ -15,7 +16,7 @@ const InsuranceServices = () => {
   // Fetch all policies (no filter)
   const fetchPolicies = async () => {
     try {
-      let url = 'http://localhost:3000/api/policies';
+      let url = `${baseUrl}/api/policies`;
       if (brandFilter || coverageFilter) {
         url += `?${brandFilter ? `brandName=${brandFilter}&` : ''}${coverageFilter ? `coverageAmount=${coverageFilter}` : ''}`;
       }
@@ -31,7 +32,7 @@ const InsuranceServices = () => {
   // Fetch random recommendations (10-15 policies)
   const fetchRecommendations = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/policies/recommendations');
+      const response = await fetch(`${baseUrl}/api/policies/recommendations`);
       const data = await response.json();
       setRecommendations(data);  // Limit to 10-15 recommendations
     } catch (error) {
@@ -43,7 +44,7 @@ const InsuranceServices = () => {
   // Fetch available brands and coverages for filter dropdowns
   const fetchFilters = async () => {
     try {
-      const response = await fetch('http://localhost:3000/api/policies/filters');
+      const response = await fetch(`${baseUrl}/api/policies/filters`);
       const data = await response.json();
       setBrands(data.brandNames || []);
       setCoverages(data.coverageAmounts || []);

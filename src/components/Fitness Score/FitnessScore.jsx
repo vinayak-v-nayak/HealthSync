@@ -3,6 +3,7 @@ import './FitnessScore.css';
 import axios from 'axios';
 import Cookies from 'js-cookie';
 import { useNavigate } from 'react-router-dom'; // To handle navigation
+const baseUrl = process.env.REACT_APP_API_URL;
 
 const FitnessScore = () => {
   const [fitnessData, setFitnessData] = useState({
@@ -27,7 +28,7 @@ const FitnessScore = () => {
       const token = Cookies.get('token');
       if (token) {
         try {
-          const response = await axios.get('http://localhost:3000/api/fitness-data', { 
+          const response = await axios.get(`${baseUrl}/api/fitness-data`, { 
             withCredentials: true 
           });
           if (response.data) {

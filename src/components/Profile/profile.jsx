@@ -3,6 +3,7 @@ import Cookies from 'js-cookie';
 import './profile.css'; 
 import defaultAvatar from '../../assets/images/defaultAvatar.png';
 import { useNavigate } from 'react-router-dom'; 
+const baseUrl = process.env.REACT_APP_API_URL;
 
 const Profile = () => {
   const navigate = useNavigate(); 
@@ -27,7 +28,7 @@ const Profile = () => {
       }
 
       try {
-        const response = await fetch('http://localhost:3000/api/auth/user', {
+        const response = await fetch(`${baseUrl}/api/auth/user`, {
           method: 'GET',
           headers: {
             'Authorization': `Bearer ${token}`,
@@ -83,7 +84,7 @@ const Profile = () => {
     const token = Cookies.get('token');
 
     try {
-      const response = await fetch('http://localhost:3000/api/auth/user/update', {
+      const response = await fetch(`${baseUrl}/api/auth/user/update`, {
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${token}`,
