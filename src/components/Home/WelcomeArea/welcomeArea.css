@@ -28,7 +28,11 @@
   margin-bottom: 30px;
   color: #fff;
 }
+.welcome-area .header-text h1 strong{
+  font-size: 60px;
+  color:aqua;
 
+}
 .welcome-area .header-text p {
   font-weight: 400;
   font-size: 15px;
@@ -59,6 +63,9 @@
       color: #fff;
       margin-bottom: 20px;
   }
+  .welcome-area .header-text h1 strong{
+    font-size: 40px;
+  }
 }
 
 @media (max-width: 820px) {
@@ -73,6 +80,9 @@
   }
   .welcome-area .header-text p {
       margin-bottom: 20px;
+  }
+  .welcome-area .header-text h1 strong{
+    font-size: 40px;
   }
 }
 
@@ -103,5 +113,8 @@
       font-size: 14px;
       line-height: 22px;
       margin-bottom: 40px;
+  }
+  .welcome-area .header-text h1 strong{
+    font-size: 50px;
   }
 }

@@ -11,6 +11,7 @@ const UserData = require('./models/userData');
 const {authenticate}= require('../Middleware/authenticate');
 const {authenticateUser}= require('../Middleware/authenticateUser');
 const axios = require('axios');
+const { authenticatedToken } = require('../Middleware/authenticatedToken'); // Updated path
 
 
 const app = express();
@@ -83,8 +84,7 @@ app.post('/api/auth/signup', async (req, res) => {
       // Generate a JWT token
       const token = jwt.sign(
         { userId: newUser._id },
-        process.env.JWT_SECRET || 'My-secret-key',
-        { expiresIn: '1h' }
+        process.env.JWT_SECRET || 'My-secret-key'
       );
   
       // Send response with token and user data
@@ -120,8 +120,7 @@ app.post('/api/auth/login', async (req, res) => {
         // Generate JWT
         const token = jwt.sign(
             { userId: user._id },
-            process.env.JWT_SECRET || 'My-secret-key',
-            { expiresIn: '1h' }
+            process.env.JWT_SECRET || 'My-secret-key'
         );
 
         // Set cookie with user data (without password)
@@ -209,18 +208,6 @@ app.patch('/api/auth/user/update', authenticateToken, async (req, res) => {
         console.error('Error updating user:', err);
         res.status(500).json({ message: 'Internal server error' });
     }
-});
-
-//recommendations
-app.get('/api/policies/recommendations', async (req, res) => {
-  try {
-    // Randomly select 10-15 policies from the database
-    const recommendations = await Policy.aggregate([{ $sample: { size: 15 } }]);  // Random sample of 15 policies
-    res.json(recommendations);
-  } catch (error) {
-    console.error('Error fetching recommendations:', error);
-    res.status(500).send('Internal Server Error');
-  }
 });
 
 
@@ -327,6 +314,46 @@ app.get('/api/fitness-data', authenticateUser, async (req, res) => {
   }
 });
 
+
+app.get('/api/policies/recommendations', authenticatedToken, async (req, res) => {
+  try {
+    const userId = req.user.userId; // Get the userId from the token
+
+    // Fetch user data to retrieve the fitness score
+    const userData = await UserData.findOne({ userId });
+    if (!userData) {
+      console.log("No user data found for user:", userId); // Log if no data is found
+      return res.status(404).json({ message: 'User data not found' });
+    }
+
+    const fitnessScore = userData.fitnessScore; // Extract the fitness score from the user data
+
+    // Ensure fitnessScore is a valid number before sending to the model
+    if (isNaN(fitnessScore) || fitnessScore < 0 || fitnessScore > 100) {
+      console.log("Invalid fitness score:", fitnessScore); // Log invalid score
+      return res.status(400).json({ message: 'Invalid fitness score' });
+    }
+
+    // Send fitness score to the model to get recommendations
+    const predictionResponse = await axios.post('http://127.0.0.1:5000/recommend', {
+      fitness_score: fitnessScore, // Send the fitness score for model prediction
+    });
+
+    const recommendedPolicies = predictionResponse.data.recommendations;
+
+    // If no recommended policies are found, handle gracefully
+    if (!recommendedPolicies || recommendedPolicies.length === 0) {
+      console.log("No recommendations found."); // Log if no recommendations
+      return res.status(404).json({ message: 'No recommendations found' });
+    }
+
+    // Return the recommended policies
+    res.json(recommendedPolicies);
+  } catch (error) {
+    console.error('Error fetching recommendations:', error.message); // Log error message
+    res.status(500).json({ message: 'Internal Server Error' });
+  }
+});
 
 
 // Server Listening

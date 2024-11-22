@@ -1,6 +1,6 @@
 import React from "react";
 import testimonialicon from "../../../assets/images/testimonial-icon.png";
-import './Testimonials.css'
+import './Testimonials.css';
 
 const Testimonials = () => {
   return (
@@ -9,14 +9,13 @@ const Testimonials = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="center-heading">
-              <h2 className="section-title">Customer Reviews</h2>
+              <h2 className="section-title">What Our Customers Say</h2>
             </div>
-          </div> 
+          </div>
           <div className="offset-lg-3 col-lg-6">
             <div className="center-text">
               <p>
-                Read what our valued customers have to say about their
-                experience with Insurance Company.
+                Discover how HealthSync is transforming insurance experiences with personalized, AI-powered solutions.
               </p>
             </div>
           </div>
@@ -29,16 +28,14 @@ const Testimonials = () => {
                   <img src={testimonialicon} alt="Testimonial Icon" />
                 </i>
                 <p>
-                  "Insurance Company provided me with excellent service and
-                  comprehensive coverage. I highly recommend them to anyone
-                  looking for reliable insurance solutions."
+                  "HealthSync's AI-powered platform made selecting the right insurance plan effortless and efficient. Truly revolutionary!"
                 </p>
                 <div className="user-image">
                   <img src={testimonialicon} alt="User" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">John Doe</h3>
-                  <span>Homeowner</span>
+                  <h3 className="user-name">Lucas Mitchell</h3>
+                  <span>Health Enthusiast</span>
                 </div>
               </div>
             </div>
@@ -50,16 +47,14 @@ const Testimonials = () => {
                   <img src={testimonialicon} alt="Testimonial Icon" />
                 </i>
                 <p>
-                  "I've been a customer of Insurance Company for years, and they
-                  have always been responsive and helpful whenever I've needed
-                  them. Great service!"
+                  "The fitness-based premium adjustments helped me save money while encouraging a healthier lifestyle. Highly recommended!"
                 </p>
                 <div className="user-image">
                   <img src={testimonialicon} alt="User" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Jane Smith</h3>
-                  <span>Business Owner</span>
+                  <h3 className="user-name">Ava Thompson</h3>
+                  <span>Entrepreneur</span>
                 </div>
               </div>
             </div>
@@ -71,16 +66,14 @@ const Testimonials = () => {
                   <img src={testimonialicon} alt="Testimonial Icon" />
                 </i>
                 <p>
-                  "Insurance Company helped me find the perfect insurance plan
-                  tailored to my needs and budget. I couldn't be happier with
-                  their service."
+                  "The real-time assistance from HealthSync's AI agents is a game-changer. I always feel supported and well-informed."
                 </p>
                 <div className="user-image">
                   <img src={testimonialicon} alt="User" />
                 </div>
                 <div className="team-info">
-                  <h3 className="user-name">Michael Johnson</h3>
-                  <span>Parent</span>
+                  <h3 className="user-name">Isabella Parker</h3>
+                  <span>Tech-Savvy</span>
                 </div>
               </div>
             </div>

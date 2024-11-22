@@ -1,17 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import InsuranceCard from '../InsuranceCard/InsuranceCard';
+import RecommendedCard from '../InsuranceCard/RecommendedCard';
 import './InsuranceServices.css';
+import Cookies from 'js-cookie'; // For reading cookies
+
 const baseUrl = process.env.REACT_APP_API_URL;
 
 const InsuranceServices = () => {
-  const [policies, setPolicies] = useState([]);
-  const [recommendations, setRecommendations] = useState([]);
-  const [brands, setBrands] = useState([]);
-  const [coverages, setCoverages] = useState([]);
-  const [activeSection, setActiveSection] = useState('general');
-  const [selectedPolicies, setSelectedPolicies] = useState([]);
-  const [brandFilter, setBrandFilter] = useState('');
-  const [coverageFilter, setCoverageFilter] = useState('');
+  const [policies, setPolicies] = useState([]); 
+  const [recommendations, setRecommendations] = useState([]); 
+  const [brands, setBrands] = useState([]); 
+  const [coverages, setCoverages] = useState([]); 
+  const [activeSection, setActiveSection] = useState('general'); 
+  const [selectedPolicies, setSelectedPolicies] = useState([]); 
+  const [brandFilter, setBrandFilter] = useState(''); 
+  const [coverageFilter, setCoverageFilter] = useState(''); 
 
   // Fetch all policies (no filter)
   const fetchPolicies = async () => {
@@ -29,12 +32,32 @@ const InsuranceServices = () => {
     }
   };
 
-  // Fetch random recommendations (10-15 policies)
+  // Fetch user recommendations based on token (GET request, no fitness score)
   const fetchRecommendations = async () => {
     try {
-      const response = await fetch(`${baseUrl}/api/policies/recommendations`);
-      const data = await response.json();
-      setRecommendations(data);  // Limit to 10-15 recommendations
+      const token = Cookies.get('token'); // Get the token from cookies
+      if (!token) {
+        alert('Token not found in cookies. Please log in.');
+        return;
+      }
+
+      // Send the token in the Authorization header to the backend
+      const recommendationResponse = await fetch(`${baseUrl}/api/policies/recommendations`, {
+        method: 'GET',
+        headers: {
+          'Authorization': `Bearer ${token}`, // Send token to authenticate the user
+        },
+      });
+
+      const recommendationData = await recommendationResponse.json();
+
+      // Check if recommendations are available
+      if (Array.isArray(recommendationData)) {
+        setRecommendations(recommendationData);  // Set the recommendations
+      } else {
+        console.error('Invalid recommendations format:', recommendationData);
+        setRecommendations([]);
+      }
     } catch (error) {
       console.error('Error fetching recommendations:', error);
       setRecommendations([]);
@@ -56,9 +79,9 @@ const InsuranceServices = () => {
   // Fetch all data initially
   useEffect(() => {
     fetchPolicies();
-    fetchRecommendations();
     fetchFilters();
-  }, [brandFilter, coverageFilter]);  // Fetch policies whenever filters change
+    fetchRecommendations();  // Fetch recommendations based on token
+  }, [brandFilter, coverageFilter]);  // Fetch policies and recommendations whenever filters change
 
   const handleSectionChange = (section) => {
     setActiveSection(section);
@@ -96,7 +119,6 @@ const InsuranceServices = () => {
       {/* General Policies Section */}
       {activeSection === 'general' && (
         <div className="selectable-policies">
-
           {/* Filter Section */}
           <div className="filters mb-4">
             <div className="flex space-x-4">
@@ -126,7 +148,7 @@ const InsuranceServices = () => {
 
           {/* Display filtered policies */}
           <div className="space-y-4">
-            {policies.slice(0, 15).map((policy) => (
+            {policies.slice().map((policy) => (
               <InsuranceCard 
                 key={policy._id} 
                 policy={policy} 
@@ -144,7 +166,7 @@ const InsuranceServices = () => {
           <h3>Recommended Policies</h3>
           <div className="space-y-4">
             {recommendations.slice(0, 15).map((policy) => (
-              <InsuranceCard 
+              <RecommendedCard 
                 key={policy._id} 
                 policy={policy} 
                 onSelect={handlePolicySelection} 

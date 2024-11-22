@@ -1,29 +1,32 @@
 const jwt = require('jsonwebtoken');
 
+// Middleware to authenticate and validate JWT token
 const authenticateToken = (req, res, next) => {
-    const token = req.headers['authorization']?.split(' ')[1]; // Extract token
+    // Extract the token from the Authorization header
+    const token = req.headers['authorization']?.split(' ')[1];
 
     if (!token) {
-        return res.status(401).json({ message: 'Authorization token is missing.' }); // No token, unauthorized
+        return res.status(401).json({ message: 'Authorization token is missing. Please log in.' });
     }
 
     // Verify the token
     jwt.verify(token, process.env.JWT_SECRET || 'My-secret-key', (err, user) => {
         if (err) {
-            // Log the error for debugging
+            // Log the error for debugging purposes
             console.error('Token verification error:', err);
 
-            // Handle different token errors
+            // Handle different types of token errors
             if (err.name === 'TokenExpiredError') {
-                return res.status(401).json({ message: 'Token expired. Please log in again.' }); // Token expired
-            }
+                return res.status(401).json({ message: 'Token expired. Please log in again.' });
+            } 
 
-            // If the error is anything else (invalid token, etc.)
+            // Handle any other token-related errors (invalid token, etc.)
             return res.status(403).json({ message: 'Invalid token. Access denied.' });
         }
 
-        req.user = user; // Attach user info to the request
-        next(); // Proceed to the next middleware/route handler
+        // Attach the decoded user data to the request object
+        req.user = user;
+        next(); // Proceed to the next middleware or route handler
     });
 };
 
