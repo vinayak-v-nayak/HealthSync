@@ -4,12 +4,12 @@ const mongoose = require('mongoose');
 const policySchema = new mongoose.Schema({
     Brand_Name: String,
     Policy_Name: String,
-    Cashless_Hospitals: String,
-    Coverage_Amount: String,
-    Monthly_Premium: String,
-    Annual_Premium: String,
-    Claim_Settlement_Ratio: String
+    Cashless_Hospitals: Number,
+    Coverage_Amount: Number,
+    Monthly_Premium: Number,
+    Annual_Premium: Number,
+    Claim_Settlement_Ratio: Number,
 });
 
-const Policy = mongoose.model('Policy', policySchema,'Policies');
+const Policy = mongoose.model('Policy', policySchema);
 module.exports = Policy;

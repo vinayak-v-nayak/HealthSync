@@ -214,7 +214,7 @@ app.patch('/api/auth/user/update', authenticateToken, async (req, res) => {
 // Route to handle user data and predict fitness score
 app.post('/api/user/update-data', authenticate, async (req, res) => {
   const {
-    gender, age, height, weight, 
+    gender, age, height, weight,salary, 
     diabetes, bloodPressureProblems, anyTransplants,
     anyChronicDiseases, knownAllergies, 
     historyOfCancerInFamily, numberOfMajorSurgeries
@@ -261,6 +261,7 @@ app.post('/api/user/update-data', authenticate, async (req, res) => {
       age,
       height,
       weight,
+      salary,
       diabetes,
       bloodPressureProblems,
       anyTransplants,
@@ -327,6 +328,7 @@ app.get('/api/policies/recommendations', authenticatedToken, async (req, res) =>
     }
 
     const fitnessScore = userData.fitnessScore; // Extract the fitness score from the user data
+    const salary = userData.salary;
 
     // Ensure fitnessScore is a valid number before sending to the model
     if (isNaN(fitnessScore) || fitnessScore < 0 || fitnessScore > 100) {
@@ -336,7 +338,8 @@ app.get('/api/policies/recommendations', authenticatedToken, async (req, res) =>
 
     // Send fitness score to the model to get recommendations
     const predictionResponse = await axios.post('http://127.0.0.1:5000/recommend', {
-      fitness_score: fitnessScore, // Send the fitness score for model prediction
+      fitness_score: fitnessScore,
+      salary:salary // Send the fitness score for model prediction
     });
 
     const recommendedPolicies = predictionResponse.data.recommendations;

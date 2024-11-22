@@ -6,6 +6,7 @@ const userSchema = new mongoose.Schema({
   age: Number,
   height: Number,
   weight: Number,
+  salary:Number,
   diabetes: Boolean,
   bloodPressureProblems: Boolean,
   anyTransplants: Boolean,

@@ -12,6 +12,7 @@ const UserForm = () => {
     age: "",
     height: "",
     weight: "",
+    salary:"",
     diabetes: false,
     bloodPressureProblems: false,
     anyTransplants: false,
@@ -24,7 +25,7 @@ const UserForm = () => {
   const navigate = useNavigate();
 
   const handleNext = () => {
-    if (step === 1 && (!formData.gender || !formData.age || !formData.height || !formData.weight)) {
+    if (step === 1 && (!formData.gender || !formData.age || !formData.height || !formData.weight || !formData.salary)) {
       alert("Please fill out all the required fields.");
       return;
     }
@@ -135,6 +136,18 @@ const UserForm = () => {
                 value={formData.weight}
                 onChange={handleChange}
                 placeholder="Enter your weight"
+                className="form-input"
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label>Salary (Rs)</label>
+              <input
+                type="number"
+                name="salary"
+                value={formData.salary}
+                onChange={handleChange}
+                placeholder="Enter your Salary"
                 className="form-input"
                 required
               />

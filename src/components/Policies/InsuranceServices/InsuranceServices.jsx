@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import InsuranceCard from '../InsuranceCard/InsuranceCard';
-import RecommendedCard from '../InsuranceCard/RecommendedCard';
 import './InsuranceServices.css';
 import Cookies from 'js-cookie'; // For reading cookies
 
@@ -95,7 +94,16 @@ const InsuranceServices = () => {
       return [...prev, policyId];
     });
   };
-
+  const formatCoverageAmount = (amount) => {
+    if (amount >= 10000000) {
+      return `${(amount / 10000000).toFixed(1)}Cr`; // Convert to Crores
+    } else if (amount >= 100000) {
+      return `${(amount / 100000).toFixed(1)}Lac`; // Convert to Lakhs
+    } else {
+      return amount; // Display as is for smaller amounts
+    }
+  };
+  
   return (
     <div className="insurance-services max-w-6xl mx-auto p-4">
       {/* Navbar */}
@@ -140,7 +148,7 @@ const InsuranceServices = () => {
               >
                 <option value="">Select Coverage</option>
                 {coverages.map((coverage) => (
-                  <option key={coverage} value={coverage}>{coverage}</option>
+                  <option key={coverage} value={coverage}>{formatCoverageAmount(coverage)}</option>
                 ))}
               </select>
             </div>
@@ -166,7 +174,7 @@ const InsuranceServices = () => {
           <h3>Recommended Policies</h3>
           <div className="space-y-4">
             {recommendations.slice(0, 15).map((policy) => (
-              <RecommendedCard 
+              <InsuranceCard 
                 key={policy._id} 
                 policy={policy} 
                 onSelect={handlePolicySelection} 

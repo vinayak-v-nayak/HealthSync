@@ -2,6 +2,17 @@ import React from 'react';
 import './InsuranceCard.css';
 import img from '../../../assets/images/shield-icon.jpeg';
 
+// Utility function to format coverage amount
+const formatCoverageAmount = (amount) => {
+  if (amount >= 10000000) {
+    return `${(amount / 10000000).toFixed(1)}Cr`; // Convert to Crores
+  } else if (amount >= 100000) {
+    return `${(amount / 100000).toFixed(1)}Lac`; // Convert to Lakhs
+  } else {
+    return amount; // Display as is for smaller amounts
+  }
+};
+
 const InsuranceCard = ({ policy, onSelect, isSelected }) => {
   return (
     <div className="insurance-card">
@@ -15,7 +26,7 @@ const InsuranceCard = ({ policy, onSelect, isSelected }) => {
 
       <div className="card-body">
         <div className="claim-settlement">
-          <span>💼 {policy.Claim_Settlement_Ratio}</span>
+          <span>💼 {policy.Claim_Settlement_Ratio}% claim settlement ratio</span>
         </div>
         <div className="cashless-hospitals">
           <span>CASHLESS HOSPITALS</span>
@@ -23,11 +34,11 @@ const InsuranceCard = ({ policy, onSelect, isSelected }) => {
         </div>
         <div className="coverage">
           <span>COVER</span>
-          <span className="value">{policy.Coverage_Amount}</span>
+          <span className="value">₹{formatCoverageAmount(policy.Coverage_Amount)}</span>
         </div>
         <div className="premium">
-          <span className="monthly-premium">{policy.Monthly_Premium}</span>
-          <span className="annual-premium">{policy.Annual_Premium}</span>
+          <span className="monthly-premium">₹{policy.Monthly_Premium}/month</span>
+          <span className="annual-premium">₹{policy.Annual_Premium}/ Year</span>
         </div>
 
         {/* Add to Compare Checkbox */}

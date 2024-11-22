@@ -51,12 +51,12 @@ def predict():
     except Exception as e:
         return jsonify({'error': f'Error during prediction: {str(e)}'}), 500
 
-def recommend_policies(fitness_score, model, data, scaler):
+def recommend_policies(fitness_score, model, data, scaler,salary):
     """
     Recommend health insurance policies based on the given fitness score.
     """
     # Assuming fitness score is used as the 5th feature in the input
-    input_features = [0, 0, 0, 0, fitness_score]  # Adjust if more features are required
+    input_features = [fitness_score,salary]  # Adjust if more features are required
     normalized_input = scaler.transform([input_features])[0]
 
     # Get nearest neighbors
@@ -81,11 +81,12 @@ def recommend():
             return jsonify({'error': 'Missing "fitness_score" in the request'}), 400
 
         fitness_score = request_data['fitness_score']
+        salary = request_data['salary']
         if not isinstance(fitness_score, (int, float)) or not (0 <= fitness_score <= 100):
             return jsonify({'error': '"fitness_score" must be a number between 0 and 100'}), 400
 
         # Generate recommendations
-        recommendations = recommend_policies(fitness_score, knn_model, processed_data, knn_scaler)
+        recommendations = recommend_policies(fitness_score, knn_model, processed_data, knn_scaler,salary)
 
         # Convert DataFrame to JSON
         recommendations_json = recommendations.to_dict(orient='records')
