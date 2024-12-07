@@ -19,7 +19,7 @@ const UserForm = () => {
     anyChronicDiseases: false,
     knownAllergies: false,
     historyOfCancerInFamily: false,
-    numberOfMajorSurgeries: "",
+    numberOfMajorSurgeries: "" || 0,
   });
 
   const navigate = useNavigate();
@@ -42,6 +42,7 @@ const UserForm = () => {
       alert("User is not authenticated.");
       return;
     }
+    
 
     try {
       const response = await axios.post(

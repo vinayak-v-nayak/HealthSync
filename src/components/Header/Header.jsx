@@ -54,6 +54,9 @@ const Header = () => {
               <li>
                 <Link to="/blog">Blog</Link>
               </li>
+              <li>
+                <Link to="/feedback">Feedback</Link>
+              </li>
               <div className="login-icon" onClick={handleLoginClick}>
                 <img src={userImage} alt="User Icon" className="user-image" />
               </div>

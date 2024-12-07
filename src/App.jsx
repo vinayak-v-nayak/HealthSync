@@ -10,7 +10,7 @@ import Auth from './components/Sign In/login';
 import Profile from './components/Profile/profile';
 import PrivateRoute from './PrivateRoute'; // Import PrivateRoute component
 import UserForm from './components/UserDetails/UserForm';
-
+import UserFeedback from './components/Feedback/UserFeedback';
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
         <Route path="/blog" element={<PrivateRoute><Blog /></PrivateRoute>} />
         <Route path="/fitness" element={<PrivateRoute><FitnessScore /></PrivateRoute>} />
         <Route path="/services" element={<PrivateRoute><InsuranceServices /></PrivateRoute>} />
+        <Route path="/feedback" element={<PrivateRoute><UserFeedback /></PrivateRoute>} />
         <Route path="/login" element={<Auth />} />
         
         

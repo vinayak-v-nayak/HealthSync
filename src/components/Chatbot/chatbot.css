@@ -23,8 +23,8 @@
 }
 
 .chat-window {
-  width: 400px; /* Increased width */
-  max-height: 700px; /* Increased height */
+  width: 400px;
+  max-height: 700px;
   background: #fff;
   border-radius: 8px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
@@ -53,7 +53,7 @@
 .chat-body {
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Default alignment */
+  align-items: flex-start;
   padding: 10px;
   height: 500px;
   overflow-y: auto;
@@ -71,17 +71,17 @@
 .user {
   background: #0078ff;
   color: #fff;
-  align-self: flex-end; /* Align user messages to the right */
+  align-self: flex-end;
   text-align: left;
-  margin-left: auto; /* Push user messages to the right */
+  margin-left: auto;
 }
 
 .bot {
   background: #e1e1e1;
   color: #333;
-  align-self: flex-start; /* Align bot messages to the right */
+  align-self: flex-start;
   text-align: left;
-  margin-right: auto; /* Push bot messages to the right */
+  margin-right: auto;
 }
 
 .chat-footer {
@@ -128,4 +128,41 @@
 
 .history-item h4 {
   margin: 0 0 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .chat-window {
+    width: 100%;
+    height: 90%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .chat-toggle-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+
+  .chat-header {
+    padding: 8px;
+  }
+
+  .chat-body {
+    height: 400px;
+  }
+
+  .chat-input {
+    padding: 6px;
+  }
+
+  .send-btn {
+    padding: 6px 10px;
+    margin-left: 6px;
+  }
 }

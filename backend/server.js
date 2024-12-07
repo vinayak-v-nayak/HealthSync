@@ -12,6 +12,7 @@ const {authenticate}= require('../Middleware/authenticate');
 const {authenticateUser}= require('../Middleware/authenticateUser');
 const axios = require('axios');
 const { authenticatedToken } = require('../Middleware/authenticatedToken'); // Updated path
+const Feedback = require('./models/feedback');
 
 
 const app = express();
@@ -357,6 +358,36 @@ app.get('/api/policies/recommendations', authenticatedToken, async (req, res) =>
     res.status(500).json({ message: 'Internal Server Error' });
   }
 });
+
+// Insert Feedback
+app.post('/submit-feedback', authenticatedToken, async (req, res) => {
+  const { feedback, rating } = req.body;
+  const userId = req.user.userId;  // Get userId from the authenticated token
+
+  try {
+    const existingFeedback = await Feedback.findOne({ userId });
+
+    if (existingFeedback) {
+      // Update existing feedback
+      existingFeedback.feedback = feedback;
+      existingFeedback.rating = rating;
+      existingFeedback.updated_at = new Date();
+
+      await existingFeedback.save();
+      res.send({ message: 'Feedback updated successfully!', id: existingFeedback._id });
+    } else {
+      // Create new feedback
+      const newFeedback = new Feedback({ userId, feedback, rating });
+      const savedFeedback = await newFeedback.save();
+
+      res.send({ message: 'Feedback submitted successfully!', id: savedFeedback._id });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).send({ message: 'Error processing feedback.' });
+  }
+});
+
 
 
 // Server Listening

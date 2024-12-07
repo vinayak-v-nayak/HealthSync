@@ -21,6 +21,7 @@ const Auth = () => {
   // Check if the user is already authenticated
   useEffect(() => {
     const token = Cookies.get('token');
+    const user = Cookies.get('user');
     if (token) {
       navigate('/'); // If token exists, navigate to home page or dashboard
     }
