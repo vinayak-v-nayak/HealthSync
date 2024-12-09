@@ -2,47 +2,52 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #e2e8f0;
-  border-radius: 8px;
-  padding: 16px;
+  border-radius: 12px;
+  padding: 20px;
   background-color: #fff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin: auto;
-  margin-bottom: 10px;
-  max-width: 100%; /* Full width of container */
+  margin-bottom: 16px;
+  max-width: 100%;
   width: 100%;
-  transition: box-shadow 0.2s ease, transform 0.2s ease; /* Transition for hover effect */
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
 .insurance-card:hover {
-  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
-  transform: translateY(-2px); /* Lift effect on hover */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
 }
 
 .card-header {
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 20px;
 }
 
 .icon {
-  width: 32px; /* Kept original size */
-  height: 32px;
-  margin-right: 8px;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
 }
 
 .card-header-text {
   flex-grow: 1;
 }
 
-.brand-name {
-  font-size: 1.2rem;
+.brand-name a {
+  font-size: 1.25rem;
   font-weight: bold;
-  margin: 0;
-  color: #1f2937; /* Darker color for better contrast */
+  color: #1f2937;
+  text-decoration: none;
+}
+
+.brand-name a:hover {
+  color: #2563eb; /* Blue highlight on hover */
+  text-decoration: underline;
 }
 
 .policy-description {
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   color: #6b7280;
   margin-top: 4px;
 }
@@ -50,7 +55,7 @@
 .card-body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 8px;
+  gap: 12px;
   align-items: center;
 }
 
@@ -58,49 +63,71 @@
   grid-column: 1 / span 2;
   display: flex;
   align-items: center;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   color: #4b5563;
 }
 
 .cashless-hospitals,
 .coverage {
   text-align: center;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   color: #6b7280;
 }
 
 .value {
   display: block;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #111827;
 }
 
 .premium {
   text-align: right;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: bold;
   color: #dc2626;
 }
 
 .annual-premium {
   display: block;
-  font-size: 0.875rem;
+  font-size: 0.9rem;
   color: #4b5563;
 }
 
-.compare-option {
-  display: flex;
-  align-items: center;
-  font-size: 0.875rem;
-  color: #4b5563;
-  gap: 4px;
+.view-details-button {
+  background-color:cadetblue;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 0.85rem; /* Smaller font size */
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.view-details-button:hover {
+  background-color: #1e3a8a; /* Darker blue */
+  transform: translateY(-2px); /* Lift effect */
+}
+
+.view-details-button:active {
+  background-color: #1e40af;
+  transform: translateY(0); /* Reset on click */
+}
+
+.view-details-button:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 2px rgba(37, 99, 235, 0.6); /* Blue glow on focus */
 }
 
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .card-body {
-    grid-template-columns: 1fr 1fr; /* Two columns on smaller screens */
+    grid-template-columns: 1fr 1fr;
   }
 
   .claim-settlement {
@@ -115,7 +142,7 @@
 
 @media (max-width: 480px) {
   .insurance-card {
-    padding: 12px;
+    padding: 16px;
   }
 
   .card-header {
@@ -123,8 +150,8 @@
     align-items: flex-start;
   }
 
-  .brand-name {
-    font-size: 1rem; /* Slightly smaller for smaller screens */
+  .brand-name a {
+    font-size: 1rem;
   }
 
   .policy-description {
@@ -132,12 +159,12 @@
   }
 
   .card-body {
-    grid-template-columns: 1fr; /* Single column on very small screens */
-    gap: 4px; /* Adjusted gap for smaller screens */
+    grid-template-columns: 1fr;
+    gap: 8px;
   }
 
   .premium,
   .annual-premium {
-    font-size: 0.9rem; /* Adjusted font size for smaller screens */
+    font-size: 1rem;
   }
 }

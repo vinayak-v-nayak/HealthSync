@@ -2,10 +2,9 @@ import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSpinner, faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 import "./blog.css"; // Import the CSS file
-const apiKey = process.env.REACT_APP_NEWS_KEY;
+const baseUrl = process.env.REACT_APP_API_URL;
 
-
-const InsuranceServices = () => {
+const Blog = () => {
   const [articles, setArticles] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -17,18 +16,16 @@ const InsuranceServices = () => {
         setLoading(true);
         setError(null);
 
-        const response = await fetch(
-          `https://newsapi.org/v2/everything?q=insurance+policy&apiKey=${apiKey}`
-        );
+        const response = await fetch(`${baseUrl}/api/articles`); // MongoDB API endpoint
 
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
 
         const data = await response.json();
-        const articlesWithPhotos = data.articles.filter(
-          (article) => article.urlToImage
-        );
+
+        // Filter articles that have a urlToImage (like in the previous code)
+        const articlesWithPhotos = data.filter((article) => article.urlToImage);
         setArticles(articlesWithPhotos);
       } catch (error) {
         console.error("Error fetching news:", error);
@@ -80,9 +77,7 @@ const InsuranceServices = () => {
         {featuredArticles.map((article, index) => (
           <div
             key={index}
-            className={`carousel-slide ${
-              index === currentSlide ? "active" : ""
-            }`}
+            className={`carousel-slide ${index === currentSlide ? "active" : ""}`}
           >
             <img
               src={article.urlToImage}
@@ -132,4 +127,4 @@ const InsuranceServices = () => {
   );
 };
 
-export default InsuranceServices;
+export default Blog;

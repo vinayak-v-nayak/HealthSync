@@ -19,7 +19,12 @@ const InsuranceCard = ({ policy, onSelect, isSelected }) => {
       <div className="card-header">
         <img src={img} alt="icon" className="icon" />
         <div className="card-header-text">
-          <h3 className="brand-name">{policy.Brand_Name}</h3>
+          {/* Hyperlink for the Brand Name */}
+          <h3 className="brand-name">
+            <a href={policy.Policy_URL} target="_blank" rel="noopener noreferrer">
+              {policy.Brand_Name}
+            </a>
+          </h3>
           <p className="policy-description">{policy.Policy_Name}</p>
         </div>
       </div>
@@ -41,15 +46,11 @@ const InsuranceCard = ({ policy, onSelect, isSelected }) => {
           <span className="annual-premium">₹{policy.Annual_Premium}/ Year</span>
         </div>
 
-        {/* Add to Compare Checkbox */}
-        <div className="compare-option">
-          <input 
-            type="checkbox" 
-            id={`compare-${policy._id}`} 
-            checked={isSelected} 
-            onChange={() => onSelect(policy._id)} 
-          />
-          <label htmlFor={`compare-${policy._id}`}>Add to Compare</label>
+        {/* View Details Button */}
+        <div className="view-details" style={{ gridColumn: '4 / 5', justifySelf: 'end' }}>
+          <button onClick={() => window.open(policy.Policy_URL, '_blank')} className="view-details-button" style={{ width: '120px' }}>
+            View Details
+          </button>
         </div>
       </div>
     </div>

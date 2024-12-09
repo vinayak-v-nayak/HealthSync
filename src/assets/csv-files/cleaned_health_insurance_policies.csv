@@ -1,810 +1,810 @@
-Brand_Name,Policy_Name,Cashless_Hospitals,Coverage_Amount,Monthly_Premium,Annual_Premium,Claim_Settlement_Ratio
-Care Health,Care Advantage,15,20000000,3468,41611,93
-Care Health,Care Advantage with NCB,15,20000000,3594,43122,93
-Care Health,Care Advantage with Reduction In PED Waiting period,15,20000000,3468,41611,93
-Care Health,Care Advantage with Global Coverage Inc US,15,20000000,4070,48834,93
-Care Health,Care Advantage with Global Coverage Ex US,15,20000000,3468,41611,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,20000000,4070,48834,93
-Star Health,Assure Insurance Policy,16,20000000,2272,27263,85.8
-Niva Bupa,Health Premia Platinum,16,20000000,5815,69780,92
-Aditya Birla,Activ One Max,14,20000000,1896,22756,96
-Aditya Birla,Active Health Platinum - Enhanced,14,15000000,2156,25874,96
-ICICI Lombard,Elevate + BeFit,12,30000000,2011,24136,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,20000000,2873,34475,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,20000000,2873,34475,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,20000000,2904,34846,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,20000000,2904,34846,99.8
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,15000000,2518,30212,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,15000000,1332,15989,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,15000000,1351,16213,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,15000000,1326,15915,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,15000000,2499,29989,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,15000000,2493,29915,93.4
-Royal Sundaram,Lifeline Elite,15,15000000,6976,83717,92
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1659,19908,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1709,"20,508",93
-Care Health,Care Advantage,15,10000000,1397,16761,93
-Care Health,Care Advantage with NCB,15,10000000,1501,18017,93
-Care Health,Care Advantage with Reduction In PED Waiting period,15,10000000,1397,16761,93
-Care Health,Care Advantage with Global Coverage Inc US,15,10000000,2470,29642,93
-Care Health,Care Advantage with Global Coverage Ex US,15,10000000,2189,26267,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,10000000,2470,29642,93
-Star Health,Young Star Silver,16,10000000,1936,23231,85.8
-Star Health,Young Star Gold,16,10000000,2048,24579,85.8
-Star Health,Assure Insurance Policy,16,10000000,2045,24536,85.8
-Star Health,Comprehensive Individual,16,10000000,2213,26556,85.8
-Star Health,Comprehensive with PED Buy Back,16,10000000,2877,34523,85.8
-Star Health,Smart Health Pro,16,10000000,1590,19081,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,10000000,2299,27584,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,10000000,2356,28266,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,10000000,2158,25894,92
-Niva Bupa,Aspire Gold + (Direct),16,10000000,1803,21638,92
-Niva Bupa,Aspire Diamond + (Direct),16,10000000,2031,24377,92
-Niva Bupa,Aspire Platinum + (Direct),16,10000000,2236,26833,92
-Niva Bupa,Aspire Titanium + (Direct),16,10000000,2250,27000,92
-Niva Bupa,Health Companion,16,10000000,2594,31130,92
-Niva Bupa,Health Companion + Safeguard,16,10000000,2789,33465,92
-Niva Bupa,Health Premia Platinum,16,10000000,5302,63627,92
-Aditya Birla,Activ One Max,14,10000000,1679,20142,96
-Aditya Birla,Active Health Platinum - Enhanced,14,10000000,2015,24182,96
-ICICI Lombard,Elevate + BeFit,12,10000000,1670,20039,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,10000000,2530,30362,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,10000000,2530,30362,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,10000000,2561,30733,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,10000000,2561,30733,99.8
-Reliance,Health Gain Prime,15,10000000,1843,22120,99.9
-Reliance,Health Infinity With More Time,15,10000000,1848,22176,99.9
-Reliance,Health Infinity With More Global,15,10000000,1848,22176,99.9
-Reliance,Health Infinity With More Cover,15,10000000,1848,22176,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,10000000,2325,27901,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,10000000,1273,15279,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,10000000,1291,15492,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,10000000,1267,15208,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,10000000,2307,27688,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,10000000,2301,27617,93.4
-Royal Sundaram,Lifeline Supreme,15,10000000,1583,18991,92
-Royal Sundaram,Lifeline Elite,15,10000000,5641,67695,92
-Universal Sompo,A Plus Silver,20,10000000,1832,21983,96
-Universal Sompo,A Plus Gold,20,10000000,1889,22668,96
-Universal Sompo,A Plus Diamond,20,10000000,2098,25181,96
-Universal Sompo,A Plus Silver + Non medical items,20,10000000,1908,22892,96
-Universal Sompo,A Plus Gold + Non medical items,20,10000000,1965,23576,96
-Universal Sompo,A Plus Diamond + Non medical items,20,10000000,2174,26090,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,10000000,2211,26526,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,10000000,2268,27211,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,10000000,2477,29724,96
-Digit Insurance,Double Wallet Plan,10,10000000,1613,19352,96
-Digit Insurance,Infinity Wallet Plan,10,10000000,1932,23189,96
-Digit Insurance,Worldwide Treatment plan,10,10000000,3447,41360,96
-Star Health,Mediclassic Individual Silver,16,150000,432,5189,85.8
-Star Health,Arogya Sanjivini Individual,16,100000,382,4578,85.8
-Star Health,Out Patient Care Platinum,16,100000,1236,14827,85.8
-Star Health,Out Patient Care Gold,16,100000,1172,14066,85.8
-Star Health,Out Patient Care Silver,16,100000,1019,12231,85.8
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-New India Assurance,New India Mediclaim 2012,16,100000,436,5237,98
-New India Assurance,Aarogya sanjeevani,16,100000,374,4490,98
-Royal Sundaram,Lifeline Classic,15,200000,615,7374,92
-IFFCO Tokio,Individual Health Protector,12,150000,413,4958,98.9
-Care Health,Care Advantage with Global Coverage Inc US,15,20000000,4070,48834,93
-Care Health,Care Advantage with Global Coverage Ex US,15,20000000,3468,41611,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,20000000,4070,48834,93
-Star Health,Assure Insurance Policy,16,20000000,2272,27263,85.8
-Niva Bupa,Health Premia Platinum,16,20000000,5815,69780,92
-Aditya Birla,Activ One Max,14,20000000,1896,22756,96
-Aditya Birla,Active Health Platinum - Enhanced,14,20000000,2405,28858,96
-ICICI Lombard,Elevate + BeFit,12,30000000,2011,24136,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,20000000,2873,34475,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,20000000,2873,34475,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,20000000,2904,34846,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,20000000,2904,34846,99.8
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,20000000,2730,32759,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,20000000,1411,16930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,20000000,1431,17168,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,20000000,1404,16851,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,20000000,2710,32522,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,20000000,2704,32442,93.4
-Star Health,Mediclassic Individual Silver,16,200000,448,5376,85.8
-Star Health,Arogya Sanjivini Individual,16,200000,411,4927,85.8
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-New India Assurance,New India Mediclaim 2012,16,200000,683,8200,98
-New India Assurance,Aarogya sanjeevani,16,200000,517,6203,98
-Royal Sundaram,Lifeline Classic,15,200000,615,7374,92
-IFFCO Tokio,Individual Health Protector,12,200000,471,5646,98.9
-Care Health,Care Supreme VFM Discounted,15,500000,581,6969,93
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,500000,732,8783,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,500000,755,"9,060",93
-Care Health,Care Freedom,15,300000,502,6024,93
-Care Health,Care Heart,15,300000,750,9000,93
-Care Health,Care Freedom with Health Check Plus,15,300000,502,6024,93
-Care Health,Care with Care Shield,15,500000,1276,15312,93
-Star Health,Young Star Silver,16,300000,456,5466,85.8
-Star Health,Young Star Gold,16,300000,570,6839,85.8
-Star Health,Assure Insurance Policy,16,500000,683,8192,85.8
-Star Health,Comprehensive Individual,16,500000,794,9529,85.8
-Star Health,Mediclassic Individual Gold,16,300000,661,7937,85.8
-Star Health,Mediclassic Individual Silver,16,300000,618,7419,85.8
-Star Health,Comprehensive with PED Buy Back,16,500000,1032,12388,85.8
-Star Health,Diabetes Safe Plan-A,16,300000,1526,18307,85.8
-Star Health,Diabetes Safe Plan-B,16,300000,1695,20341,85.8
-Star Health,Arogya Sanjivini Individual,16,300000,442,5298,85.8
-Star Health,Smart Health Pro,16,500000,618,7417,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,500000,912,10943,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,500000,937,11239,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,500000,830,9955,92
-Niva Bupa,Aspire Gold + (Direct),16,500000,683,8194,92
-Niva Bupa,Aspire Diamond + (Direct),16,500000,782,9383,92
-Niva Bupa,Aspire Platinum + (Direct),16,500000,843,10114,92
-Niva Bupa,Aspire Titanium + (Direct),16,500000,848,10179,92
-Niva Bupa,Health Companion,16,300000,873,10470,92
-Niva Bupa,Health Companion + Safeguard,16,300000,960,11518,92
-Niva Bupa,Health Premia Silver,16,500000,1413,16953,92
-Niva Bupa,Health Pulse,16,500000,601,7207,92
-Aditya Birla,Activ One Max,14,500000,654,7846,96
-Aditya Birla,Active Health Platinum - Enhanced,14,500000,710,8522,96
-ICICI Lombard,Elevate + BeFit,12,500000,736,8832,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,500000,876,10507,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,500000,909,10913,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,500000,1139,13670,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,500000,1105,13263,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,500000,940,11284,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,500000,907,10878,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,500000,1136,13634,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,500000,1170,14040,99.8
-Reliance,Health Gain Plus,15,500000,535,6416,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-Cholamandalam MS,Flexi Health Individual,16,500000,879,10550,94
-New India Assurance,New India Mediclaim 2012,16,300000,804,9642,98
-New India Assurance,Aarogya sanjeevani,16,300000,593,7120,98
-Royal Sundaram,Lifeline Classic,15,300000,707,8481,92
-Royal Sundaram,Lifeline Supreme,15,500000,797,9566,92
-Zuno,Zuno Gold + Health 241,10,500000,1309,15707,95
-Universal Sompo,A Plus Silver,20,500000,613,7351,96
-Universal Sompo,A Plus Gold,20,500000,657,7882,96
-Universal Sompo,A Plus Diamond,20,500000,828,9936,96
-Universal Sompo,Complete HealthCare Insurance - Privilege,20,600000,866,10396,96
-Universal Sompo,Complete HealthCare Insurance - Essential,20,400000,708,8496,96
-Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,400000,652,7823,96
-Universal Sompo,A Plus Silver + Non medical items,20,500000,641,7694,96
-Universal Sompo,A Plus Gold + Non medical items,20,500000,685,8225,96
-Universal Sompo,A Plus Diamond + Non medical items,20,500000,857,10278,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,500000,753,9039,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,500000,798,9570,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,500000,969,11623,96
-IFFCO Tokio,Individual Health Protector,12,300000,610,7321,98.9
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,400000,629,7550,90
-Care Health,Care Advantage with Global Coverage Inc US,15,30000000,4577,54927,93
-Care Health,Care Advantage with Global Coverage Ex US,15,30000000,3893,46716,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,30000000,4577,54927,93
-Niva Bupa,Health Premia Platinum,16,30000000,6208,74497,92
-Aditya Birla,Activ One Max,14,30000000,2185,26221,96
-ICICI Lombard,Elevate + BeFit,12,30000000,2011,24136,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,30000000,3122,37458,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,30000000,3122,37458,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,30000000,3152,37829,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,30000000,3152,37829,99.8
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,30000000,3287,39448,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,30000000,1655,19864,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,30000000,1679,20143,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,30000000,1648,19772,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,30000000,3264,39169,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,30000000,3256,39076,93.4
-Care Health,Care Supreme VFM Discounted,15,500000,581,6969,93
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,500000,732,8783,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,500000,755,"9,060",93
-Care Health,Care Freedom,15,300000,502,6024,93
-Care Health,Care Heart,15,300000,750,9000,93
-Care Health,Care Freedom with Health Check Plus,15,300000,502,6024,93
-Care Health,Care with Care Shield,15,500000,1276,15312,93
-Star Health,Young Star Silver,16,300000,456,5466,85.8
-Star Health,Young Star Gold,16,300000,570,6839,85.8
-Star Health,Assure Insurance Policy,16,500000,683,8192,85.8
-Star Health,Comprehensive Individual,16,500000,794,9529,85.8
-Star Health,Mediclassic Individual Gold,16,300000,661,7937,85.8
-Star Health,Mediclassic Individual Silver,16,300000,618,7419,85.8
-Star Health,Comprehensive with PED Buy Back,16,500000,1032,12388,85.8
-Star Health,Diabetes Safe Plan-A,16,300000,1526,18307,85.8
-Star Health,Diabetes Safe Plan-B,16,300000,1695,20341,85.8
-Star Health,Arogya Sanjivini Individual,16,300000,442,5298,85.8
-Star Health,Smart Health Pro,16,500000,618,7417,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,500000,912,10943,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,500000,937,11239,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,500000,830,9955,92
-Niva Bupa,Aspire Gold + (Direct),16,500000,683,8194,92
-Niva Bupa,Aspire Diamond + (Direct),16,500000,782,9383,92
-Niva Bupa,Aspire Platinum + (Direct),16,500000,843,10114,92
-Niva Bupa,Aspire Titanium + (Direct),16,500000,848,10179,92
-Niva Bupa,Health Companion,16,300000,873,10470,92
-Niva Bupa,Health Companion + Safeguard,16,300000,960,11518,92
-Niva Bupa,Health Premia Silver,16,500000,1413,16953,92
-Niva Bupa,Health Pulse,16,500000,601,7207,92
-Aditya Birla,Activ One Max,14,500000,654,7846,96
-Aditya Birla,Active Health Platinum - Enhanced,14,500000,710,8522,96
-ICICI Lombard,Elevate + BeFit,12,500000,736,8832,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,500000,876,10507,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,500000,909,10913,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,500000,1139,13670,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,500000,1105,13263,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,500000,940,11284,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,500000,907,10878,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,500000,1136,13634,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,500000,1170,14040,99.8
-Reliance,Health Gain Plus,15,500000,535,6416,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-Cholamandalam MS,Flexi Health Individual,16,500000,879,10550,94
-New India Assurance,New India Mediclaim 2012,16,300000,804,9642,98
-New India Assurance,Aarogya sanjeevani,16,300000,593,7120,98
-Royal Sundaram,Lifeline Classic,15,300000,707,8481,92
-Royal Sundaram,Lifeline Supreme,15,500000,797,9566,92
-Zuno,Zuno Gold + Health 241,10,500000,1309,15707,95
-Universal Sompo,A Plus Silver,20,500000,613,7351,96
-Universal Sompo,A Plus Gold,20,500000,657,7882,96
-Universal Sompo,A Plus Diamond,20,500000,828,9936,96
-Universal Sompo,Complete HealthCare Insurance - Privilege,20,600000,866,10396,96
-Universal Sompo,Complete HealthCare Insurance - Essential,20,400000,708,8496,96
-Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,400000,652,7823,96
-Universal Sompo,A Plus Silver + Non medical items,20,500000,641,7694,96
-Universal Sompo,A Plus Gold + Non medical items,20,500000,685,8225,96
-Universal Sompo,A Plus Diamond + Non medical items,20,500000,857,10278,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,500000,753,9039,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,500000,798,9570,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,500000,969,11623,96
-IFFCO Tokio,Individual Health Protector,12,300000,610,7321,98.9
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,400000,629,7550,90
-Care Health,Care Supreme VFM Discounted,15,500000,581,6969,93
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,500000,732,8783,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,500000,755,"9,060",93
-Care Health,Care Freedom,15,500000,589,7062,93
-Care Health,Care Heart,15,500000,956,11469,93
-Care Health,Care Freedom with Health Check Plus,15,500000,589,7062,93
-Star Health,Young Star Silver,16,500000,625,7497,85.8
-Star Health,Young Star Gold,16,500000,740,8876,85.8
-Star Health,Assure Insurance Policy,16,500000,683,8192,85.8
-Star Health,Comprehensive Individual,16,500000,794,9529,85.8
-Star Health,Mediclassic Individual Gold,16,500000,884,10609,85.8
-Star Health,Mediclassic Individual Silver,16,500000,826,9915,85.8
-Star Health,Comprehensive with PED Buy Back,16,500000,1032,12388,85.8
-Star Health,Diabetes Safe Plan-A,16,500000,1764,21167,85.8
-Star Health,Diabetes Safe Plan-B,16,500000,2004,24053,85.8
-Star Health,Arogya Sanjivini Individual,16,500000,533,6396,85.8
-Star Health,Smart Health Pro,16,500000,618,7417,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,500000,912,10943,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,500000,937,11239,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,500000,830,9955,92
-Niva Bupa,Aspire Gold + (Direct),16,500000,683,8194,92
-Niva Bupa,Aspire Diamond + (Direct),16,500000,782,9383,92
-Niva Bupa,Aspire Platinum + (Direct),16,500000,843,10114,92
-Niva Bupa,Aspire Titanium + (Direct),16,500000,848,10179,92
-Niva Bupa,Health Companion,16,500000,802,9629,92
-Niva Bupa,Health Companion + Safeguard,16,500000,883,10592,92
-Niva Bupa,Health Premia Gold,16,1000000,1840,22081,92
-Niva Bupa,Health Premia Silver,16,500000,1413,16953,92
-Niva Bupa,Health Pulse,16,500000,601,7207,92
-Aditya Birla,Activ One Max,14,500000,654,7846,96
-Aditya Birla,Active Health Platinum - Enhanced,14,500000,710,8522,96
-Aditya Birla,Active Health Platinum Essential - Waiver of mandatory co-payment,14,500000,710,8522,96
-ICICI Lombard,Elevate + BeFit,12,500000,736,8832,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,500000,876,10507,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,500000,909,10913,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,500000,1139,13670,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,500000,1105,13263,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,500000,940,11284,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,500000,907,10878,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,500000,1136,13634,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,500000,1170,14040,99.8
-Reliance,Health Gain Plus,15,500000,535,6416,99.9
-Reliance,Health Gain Power,15,1000000,756,9071,99.9
-Reliance,Health Infinity With More Time,15,1000000,766,9196,99.9
-Reliance,Health Infinity With More Global,15,1000000,766,9196,99.9
-Reliance,Health Infinity With More Cover,15,1000000,766,9196,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-Cholamandalam MS,Flexi Health Supreme Plus,16,750000,1009,12112,94
-Cholamandalam MS,Flexi Health Individual,16,500000,879,10550,94
-New India Assurance,New India Mediclaim 2012,16,500000,903,10832,98
-New India Assurance,Aarogya sanjeevani,16,500000,688,8260,98
-Royal Sundaram,Lifeline Supreme,15,500000,797,9566,92
-Zuno,Zuno Gold + Health 241,10,500000,1309,15707,95
-Universal Sompo,A Plus Silver,20,500000,613,7351,96
-Universal Sompo,A Plus Gold,20,500000,657,7882,96
-Universal Sompo,A Plus Diamond,20,500000,828,9936,96
-Universal Sompo,Complete HealthCare Insurance - Privilege,20,600000,866,10396,96
-Universal Sompo,Complete HealthCare Insurance - Essential,20,500000,791,9487,96
-Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,500000,594,7127,96
-Universal Sompo,A Plus Silver + Non medical items,20,500000,641,7694,96
-Universal Sompo,A Plus Gold + Non medical items,20,500000,685,8225,96
-Universal Sompo,A Plus Diamond + Non medical items,20,500000,857,10278,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,500000,753,9039,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,500000,798,9570,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,500000,969,11623,96
-IFFCO Tokio,Individual Health Protector,12,500000,872,10464,98.9
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,500000,672,8068,90
-Care Health,Care Supreme VFM Discounted,15,700000,603,7232,93
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,700000,757,9084,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,700000,780,"9,360",93
-Care Health,Care Heart,15,700000,1220,14635,93
-Care Health,Care with Care Shield,15,700000,1374,16489,93
-Star Health,Young Star Silver,16,1000000,814,9767,85.8
-Star Health,Young Star Gold,16,1000000,926,11117,85.8
-Star Health,Assure Insurance Policy,16,1000000,922,11059,85.8
-Star Health,Comprehensive Individual,16,750000,996,11948,85.8
-Star Health,Mediclassic Individual Gold,16,1000000,1149,13792,85.8
-Star Health,Mediclassic Individual Silver,16,1000000,1074,12889,85.8
-Star Health,Comprehensive with PED Buy Back,16,750000,1294,15532,85.8
-Star Health,Diabetes Safe Plan-A,16,1000000,2121,25448,85.8
-Star Health,Diabetes Safe Plan-B,16,1000000,2305,27660,85.8
-Star Health,Arogya Sanjivini Individual,16,700000,616,7393,85.8
-Star Health,Smart Health Pro,16,1000000,761,9137,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,1000000,1072,12868,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,1000000,1101,13213,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,1000000,984,11810,92
-Niva Bupa,Health Companion,16,750000,903,10834,92
-Niva Bupa,Health Companion + Safeguard,16,750000,971,11647,92
-Niva Bupa,Health Premia Gold,16,1000000,1840,22081,92
-Niva Bupa,Health Premia Silver,16,750000,1606,19271,92
-Niva Bupa,Health Pulse,16,750000,679,8149,92
-Aditya Birla,Activ One Max,14,700000,730,8764,96
-Aditya Birla,Active Health Platinum - Enhanced,14,700000,792,9509,96
-ICICI Lombard,Elevate + BeFit,12,750000,805,9655,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,750000,946,11355,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,750000,980,11762,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,750000,1011,12132,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,750000,977,11726,99.8
-Reliance,Health Gain Power,15,1000000,756,9071,99.9
-Reliance,Health Infinity With More Time,15,1000000,766,9196,99.9
-Reliance,Health Infinity With More Global,15,1000000,766,9196,99.9
-Reliance,Health Infinity With More Cover,15,1000000,766,9196,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-Cholamandalam MS,Flexi Health Supreme Plus,16,750000,1009,12112,94
-Cholamandalam MS,Flexi Health Individual,16,750000,998,11970,94
-New India Assurance,New India Mediclaim 2012,16,800000,1119,13428,98
-Royal Sundaram,Lifeline Supreme,15,750000,957,11480,92
-Zuno,Zuno Gold + Health 241,10,750000,1426,17109,95
-Universal Sompo,A Plus Silver,20,750000,762,9145,96
-Universal Sompo,A Plus Gold,20,750000,808,9700,96
-Universal Sompo,A Plus Diamond,20,750000,986,11835,96
-Universal Sompo,Complete HealthCare Insurance - Privilege,20,700000,976,11717,96
-Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,700000,875,10502,96
-Universal Sompo,A Plus Silver + Non medical items,20,750000,799,9582,96
-Universal Sompo,A Plus Gold + Non medical items,20,750000,845,10136,96
-Universal Sompo,A Plus Diamond + Non medical items,20,750000,1023,12272,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,750000,941,11293,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,750000,1077,12921,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,750000,1165,13983,96
-IFFCO Tokio,Individual Health Protector,12,700000,1082,12985,98.9
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,750000,807,9680,90
-Care Health,Care Supreme VFM Discounted,15,1000000,672,8061,93
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,1000000,839,10063,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,1000000,864,"10,368",93
-Care Health,Care Heart,15,1000000,1347,16161,93
-Care Health,Care with Care Shield,15,1000000,1481,17775,93
-Star Health,Young Star Silver,16,1000000,814,9767,85.8
-Star Health,Young Star Gold,16,1000000,926,11117,85.8
-Star Health,Assure Insurance Policy,16,1000000,922,11059,85.8
-Star Health,Comprehensive Individual,16,1000000,1158,13895,85.8
-Star Health,Mediclassic Individual Gold,16,1000000,1149,13792,85.8
-Star Health,Mediclassic Individual Silver,16,1000000,1074,12889,85.8
-Star Health,Comprehensive with PED Buy Back,16,1000000,1505,18063,85.8
-Star Health,Diabetes Safe Plan-A,16,1000000,2121,25448,85.8
-Star Health,Diabetes Safe Plan-B,16,1000000,2305,27660,85.8
-Star Health,Arogya Sanjivini Individual,16,1000000,713,8555,85.8
-Star Health,Smart Health Pro,16,1000000,761,9137,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,1000000,1072,12868,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,1000000,1101,13213,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,1000000,984,11810,92
-Niva Bupa,Aspire Gold + (Direct),16,1000000,746,8950,92
-Niva Bupa,Aspire Diamond + (Direct),16,1000000,847,10169,92
-Niva Bupa,Aspire Platinum + (Direct),16,1000000,964,11562,92
-Niva Bupa,Aspire Titanium + (Direct),16,1000000,969,11632,92
-Niva Bupa,Health Companion,16,1000000,1000,11999,92
-Niva Bupa,Health Companion + Safeguard,16,1000000,1365,16383,92
-Niva Bupa,Health Premia Gold,16,1000000,1840,22081,92
-Niva Bupa,Health Pulse,16,1000000,732,8778,92
-Aditya Birla,Activ One Max,14,1000000,773,9281,96
-Aditya Birla,Active Health Platinum - Enhanced,14,1000000,880,10557,96
-Aditya Birla,Active Health Platinum Essential - Waiver of mandatory co-payment,14,1000000,855,10259,96
-ICICI Lombard,Elevate + BeFit,12,1000000,845,10142,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,1000000,1089,13071,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,1000000,1123,13479,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,1000000,1154,13850,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,1000000,1120,13442,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,1000000,1577,18920,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,1000000,1611,19328,99.8
-Reliance,Health Gain Power,15,1000000,756,9071,99.9
-Reliance,Health Infinity With More Time,15,1000000,766,9196,99.9
-Reliance,Health Infinity With More Global,15,1000000,766,9196,99.9
-Reliance,Health Infinity With More Cover,15,1000000,766,9196,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-Cholamandalam MS,Flexi Health Supreme Plus,16,1000000,1112,13342,94
-Cholamandalam MS,Flexi Health Individual,16,1000000,1102,13224,94
-Kotak Mahindra,Kotak Health Premier – Total,16,1000000,918,11010,97
-Kotak Mahindra,Kotak Health Premier – Edge,16,1000000,1023,12274,97
-Kotak Mahindra,Kotak Health Premier – Elite,16,1000000,1157,13880,97
-New India Assurance,New India Mediclaim 2012,16,1000000,1265,15177,98
-Royal Sundaram,Lifeline Supreme,15,1000000,1043,12510,92
-Zuno,Zuno Gold + Health 241,10,1000000,1549,18584,95
-Universal Sompo,A Plus Silver,20,1000000,1028,12331,96
-Universal Sompo,A Plus Gold,20,1000000,1078,12933,96
-Universal Sompo,A Plus Diamond,20,1000000,1265,15175,96
-Universal Sompo,Complete HealthCare Insurance - Privilege,20,1000000,1362,16343,96
-Universal Sompo,Complete HealthCare Insurance - Plus,20,1500000,1553,18632,96
-Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,1000000,1222,14667,96
-Universal Sompo,A Plus Silver + Non medical items,20,1000000,1075,12897,96
-Universal Sompo,A Plus Gold + Non medical items,20,1000000,1125,13499,96
-Universal Sompo,A Plus Diamond + Non medical items,20,1000000,1312,15741,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,1000000,1266,15187,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,1000000,1316,15788,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,1000000,1503,18030,96
-IFFCO Tokio,Individual Health Protector,12,1000000,1172,14066,98.9
-Digit Insurance,Double Wallet Plan,10,1000000,977,11729,96
-Digit Insurance,Infinity Wallet Plan,10,1000000,1171,14054,96
-Digit Insurance,Worldwide Treatment plan,10,1000000,1269,15233,96
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,1000000,873,10475,90
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,1500000,998,11970,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,1500000,1028,"12,336",93
-Care Health,Care Advantage,15,2500000,926,11109,93
-Care Health,Care with Care Shield,15,1500000,1812,21745,93
-Care Health,Care Advantage with NCB,15,2500000,1018,12219,93
-Care Health,Care Advantage with Reduction In PED Waiting period,15,2500000,949,11386,93
-Care Health,Care Advantage with Global Coverage Inc US,15,2500000,1673,20076,93
-Care Health,Care Advantage with Global Coverage Ex US,15,2500000,1483,17801,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,2500000,1673,20076,93
-Star Health,Young Star Silver,16,1500000,990,11880,85.8
-Star Health,Young Star Gold,16,1500000,1102,13223,85.8
-Star Health,Assure Insurance Policy,16,1500000,1167,14008,85.8
-Star Health,Comprehensive Individual,16,1500000,1404,16845,85.8
-Star Health,Mediclassic Individual Gold,16,1500000,1379,16550,85.8
-Star Health,Mediclassic Individual Silver,16,1500000,1289,15468,85.8
-Star Health,Comprehensive with PED Buy Back,16,1500000,1825,21898,85.8
-Star Health,Smart Health Pro,16,1500000,920,11043,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,1500000,1361,16326,92
-Niva Bupa,Health Companion,16,1500000,1112,13348,92
-Niva Bupa,Health Companion + Safeguard,16,1500000,1196,14349,92
-Niva Bupa,Health Premia Gold,16,1500000,2067,24801,92
-Aditya Birla,Activ One Max,14,1500000,986,11828,96
-Aditya Birla,Active Health Platinum - Enhanced,14,1500000,1084,13012,96
-ICICI Lombard,Elevate + BeFit,12,1500000,1021,12249,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,1500000,1289,15469,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,1500000,1289,15469,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,1500000,1320,15840,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,1500000,1320,15840,99.8
-Reliance,Health Gain Power,15,1500000,941,11286,99.9
-Reliance,Health Gain Prime,15,2500000,1163,13952,99.9
-Reliance,Health Infinity With More Time,15,1500000,914,10972,99.9
-Reliance,Health Infinity With More Global,15,1500000,914,10972,99.9
-Reliance,Health Infinity With More Cover,15,1500000,914,10972,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4
-Cholamandalam MS,Flexi Health Supreme Plus,16,1500000,1292,15498,94
-Kotak Mahindra,Kotak Health Premier – Total,16,1500000,991,11887,97
-Kotak Mahindra,Kotak Health Premier – Edge,16,1500000,1096,13149,97
-Kotak Mahindra,Kotak Health Premier – Elite,16,1500000,1234,14810,97
-New India Assurance,New India Mediclaim 2012,16,1500000,1559,18702,98
-Royal Sundaram,Lifeline Supreme,15,1500000,1104,13247,92
-Royal Sundaram,Lifeline Elite,15,2500000,3301,39617,92
-Zuno,Zuno Gold + Health 241,10,1500000,1696,20354,95
-Universal Sompo,A Plus Silver,20,1500000,1353,16237,96
-Universal Sompo,A Plus Gold,20,1500000,1410,16921,96
-Universal Sompo,A Plus Diamond,20,1500000,1621,19446,96
-Universal Sompo,Complete HealthCare Insurance - Plus,20,1500000,1553,18632,96
-Universal Sompo,Complete HealthCare Insurance - Premier,20,2500000,1727,20721,96
-Universal Sompo,A Plus Silver + Non medical items,20,1500000,1404,16850,96
-Universal Sompo,A Plus Gold + Non medical items,20,1500000,1461,17535,96
-Universal Sompo,A Plus Diamond + Non medical items,20,1500000,1672,20060,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,1500000,1614,19364,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,1500000,1671,20048,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,1500000,1881,22573,96
-IFFCO Tokio,Individual Health Protector,12,1500000,1339,16072,98.9
-Digit Insurance,Double Wallet Plan,10,1500000,1059,12707,96
-Digit Insurance,Infinity Wallet Plan,10,1500000,1269,15226,96
-Digit Insurance,Worldwide Treatment plan,10,1500000,1450,17403,96
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,1500000,1135,13617,90
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1170,14044,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1206,"14,472",93
-Care Health,Care Advantage,15,2500000,926,11109,93
-Care Health,Care with Care Shield,15,2000000,1872,22461,93
-Care Health,Care Advantage with NCB,15,2500000,1018,12219,93
-Care Health,Care Advantage with Reduction In PED Waiting period,15,2500000,949,11386,93
-Care Health,Care Advantage with Global Coverage Inc US,15,2500000,1673,20076,93
-Care Health,Care Advantage with Global Coverage Ex US,15,2500000,1483,17801,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,2500000,1673,20076,93
-Star Health,Young Star Silver,16,2000000,1131,13570,85.8
-Star Health,Young Star Gold,16,2000000,1243,14913,85.8
-Star Health,Assure Insurance Policy,16,2000000,1306,15676,85.8
-Star Health,Comprehensive Individual,16,2000000,1588,19057,85.8
-Star Health,Mediclassic Individual Gold,16,2000000,1586,19034,85.8
-Star Health,Comprehensive with PED Buy Back,16,2000000,2065,24774,85.8
-Star Health,Smart Health Pro,16,2000000,1037,12448,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,2000000,1458,17490,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,2000000,1492,17907,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,2000000,1347,16168,92
-Niva Bupa,Aspire Gold + (Direct),16,2000000,1030,12359,92
-Niva Bupa,Aspire Diamond + (Direct),16,2000000,1177,14126,92
-Niva Bupa,Aspire Platinum + (Direct),16,2000000,1328,15941,92
-Niva Bupa,Aspire Titanium + (Direct),16,2000000,1336,16037,92
-Niva Bupa,Health Companion,16,2000000,1352,16223,92
-Niva Bupa,Health Companion + Safeguard,16,2000000,1585,19024,92
-Niva Bupa,Health Premia Gold,16,2000000,2189,26270,92
-Aditya Birla,Activ One Max,14,2000000,1051,12616,96
-Aditya Birla,Active Health Platinum - Enhanced,14,2000000,1140,13685,96
-ICICI Lombard,Elevate + BeFit,12,2000000,1129,13546,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,2000000,1408,16890,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,2000000,1408,16890,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,2000000,1438,17261,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,2000000,1438,17261,99.8
-Reliance,Health Gain Power,15,2000000,1002,12021,99.9
-Reliance,Health Gain Prime,15,2500000,1163,13952,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4
-Cholamandalam MS,Flexi Health Supreme Plus,16,2000000,1435,17220,94
-Kotak Mahindra,Kotak Health Premier – Total,16,2000000,1045,12543,97
-Kotak Mahindra,Kotak Health Premier – Edge,16,2000000,1151,13807,97
-Kotak Mahindra,Kotak Health Premier – Elite,16,2000000,1293,15512,97
-Royal Sundaram,Lifeline Supreme,15,2000000,1165,13983,92
-Royal Sundaram,Lifeline Elite,15,2500000,3301,39617,92
-Zuno,Zuno Gold + Health 241,10,2000000,1850,22197,95
-Universal Sompo,A Plus Silver,20,2000000,1499,17983,96
-Universal Sompo,A Plus Gold,20,2000000,1556,18668,96
-Universal Sompo,A Plus Diamond,20,2000000,1592,19104,96
-Universal Sompo,Complete HealthCare Insurance - Plus,20,2000000,1610,19317,96
-Universal Sompo,Complete HealthCare Insurance - Premier,20,2500000,1727,20721,96
-Universal Sompo,A Plus Silver + Non medical items,20,2000000,1553,18632,96
-Universal Sompo,A Plus Gold + Non medical items,20,2000000,1610,19317,96
-Universal Sompo,A Plus Diamond + Non medical items,20,2000000,1823,21877,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,2000000,1769,21228,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,2000000,1826,21913,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,2000000,2039,24473,96
-IFFCO Tokio,Individual Health Protector,12,2000000,1530,18365,98.9
-Digit Insurance,Double Wallet Plan,10,2000000,1124,13487,96
-Digit Insurance,Infinity Wallet Plan,10,2000000,1347,16162,96
-Digit Insurance,Worldwide Treatment plan,10,2000000,1606,19271,96
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,2000000,1178,14140,90
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1170,14044,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1206,"14,472",93
-Care Health,Care Advantage,15,2500000,926,11109,93
-Care Health,Care with Care Shield,15,2500000,2134,25604,93
-Care Health,Care Advantage with NCB,15,2500000,1018,12219,93
-Care Health,Care Advantage with Reduction In PED Waiting period,15,2500000,949,11386,93
-Care Health,Care Advantage with Global Coverage Inc US,15,2500000,1673,20076,93
-Care Health,Care Advantage with Global Coverage Ex US,15,2500000,1483,17801,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,2500000,1673,20076,93
-Star Health,Young Star Silver,16,2500000,1293,15512,85.8
-Star Health,Young Star Gold,16,2500000,1405,16855,85.8
-Star Health,Assure Insurance Policy,16,2500000,1442,17300,85.8
-Star Health,Comprehensive Individual,16,2500000,1732,20786,85.8
-Star Health,Mediclassic Individual Gold,16,2500000,1776,21317,85.8
-Star Health,Comprehensive with PED Buy Back,16,2500000,2252,27022,85.8
-Star Health,Smart Health Pro,16,2500000,1134,13606,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,2500000,1517,18208,92
-Niva Bupa,Aspire Gold + (Direct),16,2500000,1102,13227,92
-Niva Bupa,Aspire Diamond + (Direct),16,2500000,1256,15071,92
-Niva Bupa,Aspire Platinum + (Direct),16,2500000,1410,16915,92
-Niva Bupa,Aspire Titanium + (Direct),16,2500000,1418,17018,92
-Niva Bupa,Health Companion,16,3000000,1699,20383,92
-Niva Bupa,Health Companion + Safeguard,16,3000000,1522,18261,92
-Niva Bupa,Health Premia Gold,16,3000000,2261,27135,92
-Aditya Birla,Activ One Max,14,2500000,1095,13141,96
-Aditya Birla,Active Health Platinum - Enhanced,14,2500000,1191,14289,96
-ICICI Lombard,Elevate + BeFit,12,2500000,1183,14195,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,2500000,1730,20757,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,2500000,1730,20757,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,2500000,1761,21128,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,2500000,1761,21128,99.8
-Reliance,Health Gain Prime,15,2500000,1163,13952,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4
-Cholamandalam MS,Flexi Health Supreme Plus,16,2500000,1570,18834,94
-Kotak Mahindra,Kotak Health Premier – Total,16,2500000,1100,13202,97
-Kotak Mahindra,Kotak Health Premier – Elite,16,2500000,1351,16213,97
-Royal Sundaram,Lifeline Supreme,15,2500000,1221,14646,92
-Royal Sundaram,Lifeline Elite,15,2500000,3301,39617,92
-Universal Sompo,A Plus Silver,20,2500000,1389,16662,96
-Universal Sompo,A Plus Gold,20,2500000,1600,19199,96
-Universal Sompo,A Plus Diamond,20,2500000,1632,19588,96
-Universal Sompo,Complete HealthCare Insurance - Premier,20,2500000,1727,20721,96
-Universal Sompo,Complete HealthCare Insurance - Executive,20,4000000,1627,19529,96
-Universal Sompo,A Plus Silver + Non medical items,20,2500000,1596,19151,96
-Universal Sompo,A Plus Gold + Non medical items,20,2500000,1494,17924,96
-Universal Sompo,A Plus Diamond + Non medical items,20,2500000,1686,20237,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,2500000,1664,19966,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,2500000,1875,22503,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,2500000,1908,22892,96
-Digit Insurance,Double Wallet Plan,10,2500000,1222,14660,96
-Digit Insurance,Infinity Wallet Plan,10,2500000,1464,17568,96
-Digit Insurance,Worldwide Treatment plan,10,2500000,1803,21639,96
-Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,2500000,1222,14664,90
-Care Health,Care with Care Shield,15,3000000,2298,27577,93
-Niva Bupa,Health Companion,16,3000000,1699,20383,92
-Niva Bupa,Health Companion + Safeguard,16,3000000,1522,18261,92
-Niva Bupa,Health Premia Gold,16,3000000,2261,27135,92
-Aditya Birla,Active Health Platinum - Enhanced,14,3000000,1278,15340,96
-Reliance,Health Gain Prime,15,3000000,1236,14831,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4
-Royal Sundaram,Lifeline Elite,15,3000000,3570,42834,92
-Universal Sompo,Complete HealthCare Insurance - Premier,20,3000000,1754,21051,96
-Universal Sompo,Complete HealthCare Insurance - Executive,20,4000000,1627,19529,96
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,5000000,1318,15818,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,5000000,1358,"16,296",93
-Care Health,Care Advantage,15,5000000,1077,12923,93
-Care Health,Care with Care Shield,15,5000000,5511,66131,93
-Care Health,Care Advantage with NCB,15,5000000,1158,13892,93
-Care Health,Care Advantage with Reduction In PED Waiting period,15,5000000,1265,15183,93
-Care Health,Care Advantage with Global Coverage Inc US,15,5000000,2110,25325,93
-Care Health,Care Advantage with Global Coverage Ex US,15,5000000,1889,22669,93
-Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,5000000,2110,25325,93
-Star Health,Young Star Silver,16,5000000,1541,18494,85.8
-Star Health,Young Star Gold,16,5000000,1653,19837,85.8
-Star Health,Assure Insurance Policy,16,5000000,1685,20223,85.8
-Star Health,Comprehensive Individual,16,5000000,1906,22868,85.8
-Star Health,Comprehensive with PED Buy Back,16,5000000,2477,29729,85.8
-Star Health,Smart Health Pro,16,5000000,1293,15518,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,5000000,1686,20226,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,5000000,1726,20709,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,5000000,1575,18897,92
-Niva Bupa,Aspire Gold + (Direct),16,5000000,1361,16331,92
-Niva Bupa,Aspire Diamond + (Direct),16,5000000,1548,18580,92
-Niva Bupa,Aspire Platinum + (Direct),16,5000000,1737,20839,92
-Niva Bupa,Aspire Titanium + (Direct),16,5000000,1747,20967,92
-Niva Bupa,Health Companion,16,5000000,1695,20344,92
-Niva Bupa,Health Companion + Safeguard,16,5000000,2187,26244,92
-Niva Bupa,Health Premia Gold,16,5000000,2363,28359,92
-Aditya Birla,Activ One Max,14,5000000,1317,15801,96
-Aditya Birla,Active Health Platinum - Enhanced,14,5000000,1709,20502,96
-ICICI Lombard,Elevate + BeFit,12,5000000,1437,17243,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,5000000,2061,24730,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,5000000,2061,24730,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,5000000,2092,25100,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,5000000,2092,25100,99.8
-Reliance,Health Gain Prime,15,5000000,1497,17958,99.9
-Reliance,Health Infinity With More Time,15,5000000,1573,18879,99.9
-Reliance,Health Infinity With More Global,15,5000000,1573,18879,99.9
-Reliance,Health Infinity With More Cover,15,5000000,1573,18879,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4
-Royal Sundaram,Lifeline Supreme,15,5000000,1420,17042,92
-Royal Sundaram,Lifeline Elite,15,5000000,4943,59319,92
-Universal Sompo,A Plus Silver,20,5000000,1458,17499,96
-Universal Sompo,A Plus Gold,20,5000000,1510,18125,96
-Universal Sompo,A Plus Diamond,20,5000000,1706,20473,96
-Universal Sompo,Complete HealthCare Insurance - Executive,20,5000000,1877,22526,96
-Universal Sompo,A Plus Silver + Non medical items,20,5000000,1517,18207,96
-Universal Sompo,A Plus Gold + Non medical items,20,5000000,1569,18833,96
-Universal Sompo,A Plus Diamond + Non medical items,20,5000000,1765,21181,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,5000000,1750,21004,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,5000000,1802,21629,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,5000000,1998,23978,96
-Digit Insurance,Double Wallet Plan,10,5000000,1409,16909,96
-Digit Insurance,Infinity Wallet Plan,10,5000000,1689,20262,96
-Digit Insurance,Worldwide Treatment plan,10,5000000,2446,29349,96
-Care Health,Care with Care Shield,15,6000000,6416,76988,93
-Star Health,Young Star Silver,16,7500000,1690,20279,85.8
-Star Health,Young Star Gold,16,7500000,1802,21628,85.8
-Star Health,Assure Insurance Policy,16,7500000,1886,22635,85.8
-Star Health,Comprehensive Individual,16,7500000,2068,24815,85.8
-Star Health,Comprehensive with PED Buy Back,16,7500000,2688,32260,85.8
-Star Health,Smart Health Pro,16,7500000,1481,17767,85.8
-Aditya Birla,Activ One Max,14,7500000,1512,18138,96
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,7500000,2299,27583,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,7500000,2299,27583,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,7500000,2330,27954,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,7500000,2330,27954,99.8
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4
-Universal Sompo,A Plus Silver,20,7500000,1733,20792,96
-Universal Sompo,A Plus Gold,20,7500000,1789,21464,96
-Universal Sompo,A Plus Diamond,20,7500000,1993,23919,96
-Universal Sompo,A Plus Silver + Non medical items,20,7500000,1802,21629,96
-Universal Sompo,A Plus Gold + Non medical items,20,7500000,1859,22302,96
-Universal Sompo,A Plus Diamond + Non medical items,20,7500000,2063,24756,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,7500000,2084,25004,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,7500000,2140,25677,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,7500000,2344,28131,96
-Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1659,19908,93
-Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1709,"20,508",93
-Care Health,Care with Care Shield,15,7500000,7831,93969,93
-Star Health,Young Star Silver,16,7500000,1690,20279,85.8
-Star Health,Young Star Gold,16,7500000,1802,21628,85.8
-Star Health,Assure Insurance Policy,16,7500000,1886,22635,85.8
-Star Health,Comprehensive Individual,16,7500000,2068,24815,85.8
-Star Health,Comprehensive with PED Buy Back,16,7500000,2688,32260,85.8
-Star Health,Smart Health Pro,16,7500000,1481,17767,85.8
-Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,10000000,2299,27584,92
-Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,10000000,2356,28266,92
-Niva Bupa,Reassure 2.0 Bronze+(Direct),16,10000000,2158,25894,92
-Niva Bupa,Aspire Gold + (Direct),16,10000000,1803,21638,92
-Niva Bupa,Aspire Diamond + (Direct),16,10000000,2031,24377,92
-Niva Bupa,Aspire Platinum + (Direct),16,10000000,2236,26833,92
-Niva Bupa,Aspire Titanium + (Direct),16,10000000,2250,27000,92
-Niva Bupa,Health Companion,16,10000000,2594,31130,92
-Niva Bupa,Health Companion + Safeguard,16,10000000,2789,33465,92
-Niva Bupa,Health Premia Platinum,16,10000000,5302,63627,92
-Aditya Birla,Activ One Max,14,7500000,1512,18138,96
-Aditya Birla,Active Health Platinum - Enhanced,14,10000000,2015,24182,96
-ICICI Lombard,Elevate + BeFit,12,10000000,1670,20039,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,7500000,2299,27583,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,7500000,2299,27583,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,7500000,2330,27954,99.8
-ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,7500000,2330,27954,99.8
-Reliance,Health Gain Prime,15,10000000,1843,22120,99.9
-Reliance,Health Infinity With More Time,15,10000000,1848,22176,99.9
-Reliance,Health Infinity With More Global,15,10000000,1848,22176,99.9
-Reliance,Health Infinity With More Cover,15,10000000,1848,22176,99.9
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4
-Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4
-Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4
-Royal Sundaram,Lifeline Supreme,15,10000000,1583,18991,92
-Royal Sundaram,Lifeline Elite,15,10000000,5641,67695,92
-Universal Sompo,A Plus Silver,20,7500000,1733,20792,96
-Universal Sompo,A Plus Gold,20,7500000,1789,21464,96
-Universal Sompo,A Plus Diamond,20,7500000,1993,23919,96
-Universal Sompo,A Plus Silver + Non medical items,20,7500000,1802,21629,96
-Universal Sompo,A Plus Gold + Non medical items,20,7500000,1859,22302,96
-Universal Sompo,A Plus Diamond + Non medical items,20,7500000,2063,24756,96
-Universal Sompo,A Plus Silver + PED waiting period waiver,20,7500000,2084,25004,96
-Universal Sompo,A Plus Gold + PED waiting period waiver,20,7500000,2140,25677,96
-Universal Sompo,A Plus Diamond + PED waiting period waiver,20,7500000,2344,28131,96
-Digit Insurance,Double Wallet Plan,10,10000000,1613,19352,96
-Digit Insurance,Infinity Wallet Plan,10,10000000,1932,23189,96
-Digit Insurance,Worldwide Treatment plan,10,10000000,3447,41360,96
+Brand_Name,Policy_Name,Cashless_Hospitals,Coverage_Amount,Monthly_Premium,Annual_Premium,Claim_Settlement_Ratio,Links
+Care Health,Care Advantage,15,20000000,3468,41611,93,https://www.insurancedekho.com/health-'insurance/quotes?request=6717dc58f560c1cc69c9cc22#features)
+Care Health,Care Advantage with NCB,15,20000000,3594,43122,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period,15,20000000,3468,41611,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Inc US,15,20000000,4070,48834,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,20000000,3468,41611,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,20000000,4070,48834,93,https://www.careinsurance.com/
+Star Health,Assure Insurance Policy,16,20000000,2272,27263,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Health Premia Platinum,16,20000000,5815,69780,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,20000000,1896,22756,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,15000000,2156,25874,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,30000000,2011,24136,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,20000000,2873,34475,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,20000000,2873,34475,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,20000000,2904,34846,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,20000000,2904,34846,99.8,https://www.icicilombard.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,15000000,2518,30212,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,15000000,1332,15989,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,15000000,1351,16213,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,15000000,1326,15915,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,15000000,2499,29989,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,15000000,2493,29915,93.4,https://www.manipalcigna.com/health-insurance
+Royal Sundaram,Lifeline Elite,15,15000000,6976,83717,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1659,19908,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1709,"20,508",93,https://www.careinsurance.com/
+Care Health,Care Advantage,15,10000000,1397,16761,93,https://www.careinsurance.com/
+Care Health,Care Advantage with NCB,15,10000000,1501,18017,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period,15,10000000,1397,16761,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Inc US,15,10000000,2470,29642,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,10000000,2189,26267,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,10000000,2470,29642,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,10000000,1936,23231,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,10000000,2048,24579,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,10000000,2045,24536,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,10000000,2213,26556,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,10000000,2877,34523,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,10000000,1590,19081,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,10000000,2299,27584,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,10000000,2356,28266,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,10000000,2158,25894,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,10000000,1803,21638,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,10000000,2031,24377,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,10000000,2236,26833,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,10000000,2250,27000,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,10000000,2594,31130,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,10000000,2789,33465,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Platinum,16,10000000,5302,63627,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,10000000,1679,20142,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,10000000,2015,24182,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,10000000,1670,20039,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,10000000,2530,30362,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,10000000,2530,30362,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,10000000,2561,30733,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,10000000,2561,30733,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Prime,15,10000000,1843,22120,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,10000000,1848,22176,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,10000000,1848,22176,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,10000000,1848,22176,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,10000000,2325,27901,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,10000000,1273,15279,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,10000000,1291,15492,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,10000000,1267,15208,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,10000000,2307,27688,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,10000000,2301,27617,93.4,https://www.manipalcigna.com/health-insurance
+Royal Sundaram,Lifeline Supreme,15,10000000,1583,18991,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Elite,15,10000000,5641,67695,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Universal Sompo,A Plus Silver,20,10000000,1832,21983,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,10000000,1889,22668,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,10000000,2098,25181,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,10000000,1908,22892,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,10000000,1965,23576,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,10000000,2174,26090,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,10000000,2211,26526,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,10000000,2268,27211,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,10000000,2477,29724,96,https://www.universalsompo.com/health-insurance
+Digit Insurance,Double Wallet Plan,10,10000000,1613,19352,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,10000000,1932,23189,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,10000000,3447,41360,96,https://www.godigit.com/health-insurance-policy
+Star Health,Mediclassic Individual Silver,16,150000,432,5189,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,100000,382,4578,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Out Patient Care Platinum,16,100000,1236,14827,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Out Patient Care Gold,16,100000,1172,14066,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Out Patient Care Silver,16,100000,1019,12231,85.8,https://www.starhealth.in/health-insurance/
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+New India Assurance,New India Mediclaim 2012,16,100000,436,5237,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+New India Assurance,Aarogya sanjeevani,16,100000,374,4490,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Classic,15,200000,615,7374,92,https://www.royalsundaram.in/health-insurance/lifeline/
+IFFCO Tokio,Individual Health Protector,12,150000,413,4958,98.9,https://www.iffcotokio.co.in/health-insurance
+Care Health,Care Advantage with Global Coverage Inc US,15,20000000,4070,48834,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,20000000,3468,41611,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,20000000,4070,48834,93,https://www.careinsurance.com/
+Star Health,Assure Insurance Policy,16,20000000,2272,27263,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Health Premia Platinum,16,20000000,5815,69780,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,20000000,1896,22756,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,20000000,2405,28858,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,30000000,2011,24136,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,20000000,2873,34475,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,20000000,2873,34475,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,20000000,2904,34846,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,20000000,2904,34846,99.8,https://www.icicilombard.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,20000000,2730,32759,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,20000000,1411,16930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,20000000,1431,17168,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,20000000,1404,16851,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,20000000,2710,32522,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,20000000,2704,32442,93.4,https://www.manipalcigna.com/health-insurance
+Star Health,Mediclassic Individual Silver,16,200000,448,5376,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,200000,411,4927,85.8,https://www.starhealth.in/health-insurance/
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+New India Assurance,New India Mediclaim 2012,16,200000,683,8200,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+New India Assurance,Aarogya sanjeevani,16,200000,517,6203,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Classic,15,200000,615,7374,92,https://www.royalsundaram.in/health-insurance/lifeline/
+IFFCO Tokio,Individual Health Protector,12,200000,471,5646,98.9,https://www.iffcotokio.co.in/health-insurance
+Care Health,Care Supreme VFM Discounted,15,500000,581,6969,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,500000,732,8783,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,500000,755,"9,060",93,https://www.careinsurance.com/
+Care Health,Care Freedom,15,300000,502,6024,93,https://www.careinsurance.com/
+Care Health,Care Heart,15,300000,750,9000,93,https://www.careinsurance.com/
+Care Health,Care Freedom with Health Check Plus,15,300000,502,6024,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,500000,1276,15312,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,300000,456,5466,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,300000,570,6839,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,500000,683,8192,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,500000,794,9529,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,300000,661,7937,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Silver,16,300000,618,7419,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,500000,1032,12388,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-A,16,300000,1526,18307,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-B,16,300000,1695,20341,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,300000,442,5298,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,500000,618,7417,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,500000,912,10943,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,500000,937,11239,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,500000,830,9955,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,500000,683,8194,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,500000,782,9383,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,500000,843,10114,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,500000,848,10179,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,300000,873,10470,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,300000,960,11518,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Silver,16,500000,1413,16953,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Pulse,16,500000,601,7207,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,500000,654,7846,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,500000,710,8522,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,500000,736,8832,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,500000,876,10507,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,500000,909,10913,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,500000,1139,13670,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,500000,1105,13263,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,500000,940,11284,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,500000,907,10878,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,500000,1136,13634,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,500000,1170,14040,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Plus,15,500000,535,6416,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Individual,16,500000,879,10550,94,https://www.cholainsurance.com/health-insurance
+New India Assurance,New India Mediclaim 2012,16,300000,804,9642,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+New India Assurance,Aarogya sanjeevani,16,300000,593,7120,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Classic,15,300000,707,8481,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Supreme,15,500000,797,9566,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,500000,1309,15707,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,500000,613,7351,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,500000,657,7882,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,500000,828,9936,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,600000,866,10396,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Essential,20,400000,708,8496,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,400000,652,7823,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,500000,641,7694,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,500000,685,8225,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,500000,857,10278,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,500000,753,9039,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,500000,798,9570,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,500000,969,11623,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,300000,610,7321,98.9,https://www.iffcotokio.co.in/health-insurance
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,400000,629,7550,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Advantage with Global Coverage Inc US,15,30000000,4577,54927,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,30000000,3893,46716,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,30000000,4577,54927,93,https://www.careinsurance.com/
+Niva Bupa,Health Premia Platinum,16,30000000,6208,74497,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,30000000,2185,26221,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,30000000,2011,24136,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,30000000,3122,37458,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,30000000,3122,37458,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,30000000,3152,37829,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,30000000,3152,37829,99.8,https://www.icicilombard.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,30000000,3287,39448,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,30000000,1655,19864,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,30000000,1679,20143,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,30000000,1648,19772,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,30000000,3264,39169,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,30000000,3256,39076,93.4,https://www.manipalcigna.com/health-insurance
+Care Health,Care Supreme VFM Discounted,15,500000,581,6969,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,500000,732,8783,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,500000,755,"9,060",93,https://www.careinsurance.com/
+Care Health,Care Freedom,15,300000,502,6024,93,https://www.careinsurance.com/
+Care Health,Care Heart,15,300000,750,9000,93,https://www.careinsurance.com/
+Care Health,Care Freedom with Health Check Plus,15,300000,502,6024,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,500000,1276,15312,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,300000,456,5466,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,300000,570,6839,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,500000,683,8192,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,500000,794,9529,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,300000,661,7937,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Silver,16,300000,618,7419,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,500000,1032,12388,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-A,16,300000,1526,18307,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-B,16,300000,1695,20341,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,300000,442,5298,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,500000,618,7417,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,500000,912,10943,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,500000,937,11239,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,500000,830,9955,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,500000,683,8194,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,500000,782,9383,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,500000,843,10114,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,500000,848,10179,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,300000,873,10470,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,300000,960,11518,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Silver,16,500000,1413,16953,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Pulse,16,500000,601,7207,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,500000,654,7846,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,500000,710,8522,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,500000,736,8832,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,500000,876,10507,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,500000,909,10913,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,500000,1139,13670,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,500000,1105,13263,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,500000,940,11284,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,500000,907,10878,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,500000,1136,13634,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,500000,1170,14040,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Plus,15,500000,535,6416,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Individual,16,500000,879,10550,94,https://www.cholainsurance.com/health-insurance
+New India Assurance,New India Mediclaim 2012,16,300000,804,9642,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+New India Assurance,Aarogya sanjeevani,16,300000,593,7120,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Classic,15,300000,707,8481,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Supreme,15,500000,797,9566,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,500000,1309,15707,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,500000,613,7351,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,500000,657,7882,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,500000,828,9936,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,600000,866,10396,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Essential,20,400000,708,8496,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,400000,652,7823,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,500000,641,7694,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,500000,685,8225,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,500000,857,10278,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,500000,753,9039,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,500000,798,9570,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,500000,969,11623,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,300000,610,7321,98.9,https://www.iffcotokio.co.in/health-insurance
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,400000,629,7550,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Supreme VFM Discounted,15,500000,581,6969,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,500000,732,8783,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,500000,755,"9,060",93,https://www.careinsurance.com/
+Care Health,Care Freedom,15,500000,589,7062,93,https://www.careinsurance.com/
+Care Health,Care Heart,15,500000,956,11469,93,https://www.careinsurance.com/
+Care Health,Care Freedom with Health Check Plus,15,500000,589,7062,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,500000,625,7497,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,500000,740,8876,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,500000,683,8192,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,500000,794,9529,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,500000,884,10609,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Silver,16,500000,826,9915,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,500000,1032,12388,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-A,16,500000,1764,21167,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-B,16,500000,2004,24053,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,500000,533,6396,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,500000,618,7417,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,500000,912,10943,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,500000,937,11239,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,500000,830,9955,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,500000,683,8194,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,500000,782,9383,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,500000,843,10114,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,500000,848,10179,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,500000,802,9629,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,500000,883,10592,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,1000000,1840,22081,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Silver,16,500000,1413,16953,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Pulse,16,500000,601,7207,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,500000,654,7846,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,500000,710,8522,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum Essential - Waiver of mandatory co-payment,14,500000,710,8522,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,500000,736,8832,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,500000,876,10507,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,500000,909,10913,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + Befit,12,500000,1139,13670,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Befit,12,500000,1105,13263,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,500000,940,11284,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,500000,907,10878,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,500000,1136,13634,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,500000,1170,14040,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Plus,15,500000,535,6416,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Gain Power,15,1000000,756,9071,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Supreme Plus,16,750000,1009,12112,94,https://www.cholainsurance.com/health-insurance
+Cholamandalam MS,Flexi Health Individual,16,500000,879,10550,94,https://www.cholainsurance.com/health-insurance
+New India Assurance,New India Mediclaim 2012,16,500000,903,10832,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+New India Assurance,Aarogya sanjeevani,16,500000,688,8260,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Supreme,15,500000,797,9566,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,500000,1309,15707,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,500000,613,7351,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,500000,657,7882,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,500000,828,9936,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,600000,866,10396,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Essential,20,500000,791,9487,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,500000,594,7127,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,500000,641,7694,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,500000,685,8225,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,500000,857,10278,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,500000,753,9039,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,500000,798,9570,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,500000,969,11623,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,500000,872,10464,98.9,https://www.iffcotokio.co.in/health-insurance
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,500000,672,8068,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Supreme VFM Discounted,15,700000,603,7232,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,700000,757,9084,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,700000,780,"9,360",93,https://www.careinsurance.com/
+Care Health,Care Heart,15,700000,1220,14635,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,700000,1374,16489,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,1000000,814,9767,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,1000000,926,11117,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,1000000,922,11059,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,750000,996,11948,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,1000000,1149,13792,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Silver,16,1000000,1074,12889,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,750000,1294,15532,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-A,16,1000000,2121,25448,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-B,16,1000000,2305,27660,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,700000,616,7393,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,1000000,761,9137,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,1000000,1072,12868,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,1000000,1101,13213,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,1000000,984,11810,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,750000,903,10834,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,750000,971,11647,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,1000000,1840,22081,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Silver,16,750000,1606,19271,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Pulse,16,750000,679,8149,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,700000,730,8764,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,700000,792,9509,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,750000,805,9655,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,750000,946,11355,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,750000,980,11762,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,750000,1011,12132,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,750000,977,11726,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Power,15,1000000,756,9071,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Supreme Plus,16,750000,1009,12112,94,https://www.cholainsurance.com/health-insurance
+Cholamandalam MS,Flexi Health Individual,16,750000,998,11970,94,https://www.cholainsurance.com/health-insurance
+New India Assurance,New India Mediclaim 2012,16,800000,1119,13428,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Supreme,15,750000,957,11480,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,750000,1426,17109,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,750000,762,9145,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,750000,808,9700,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,750000,986,11835,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,700000,976,11717,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,700000,875,10502,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,750000,799,9582,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,750000,845,10136,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,750000,1023,12272,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,750000,941,11293,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,750000,1077,12921,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,750000,1165,13983,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,700000,1082,12985,98.9,https://www.iffcotokio.co.in/health-insurance
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,750000,807,9680,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Supreme VFM Discounted,15,1000000,672,8061,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,1000000,839,10063,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,1000000,864,"10,368",93,https://www.careinsurance.com/
+Care Health,Care Heart,15,1000000,1347,16161,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,1000000,1481,17775,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,1000000,814,9767,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,1000000,926,11117,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,1000000,922,11059,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,1000000,1158,13895,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,1000000,1149,13792,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Silver,16,1000000,1074,12889,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,1000000,1505,18063,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-A,16,1000000,2121,25448,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Diabetes Safe Plan-B,16,1000000,2305,27660,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Arogya Sanjivini Individual,16,1000000,713,8555,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,1000000,761,9137,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,1000000,1072,12868,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,1000000,1101,13213,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,1000000,984,11810,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,1000000,746,8950,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,1000000,847,10169,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,1000000,964,11562,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,1000000,969,11632,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,1000000,1000,11999,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,1000000,1365,16383,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,1000000,1840,22081,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Pulse,16,1000000,732,8778,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,1000000,773,9281,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,1000000,880,10557,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum Essential - Waiver of mandatory co-payment,14,1000000,855,10259,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,1000000,845,10142,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,1000000,1089,13071,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,1000000,1123,13479,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,1000000,1154,13850,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,1000000,1120,13442,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + SI Protector + Befit,12,1000000,1577,18920,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Maternity ( New born + Vaccination ) + Claim Protector + SI Protector + Befit,12,1000000,1611,19328,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Power,15,1000000,756,9071,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,1000000,766,9196,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Supreme Plus,16,1000000,1112,13342,94,https://www.cholainsurance.com/health-insurance
+Cholamandalam MS,Flexi Health Individual,16,1000000,1102,13224,94,https://www.cholainsurance.com/health-insurance
+Kotak Mahindra,Kotak Health Premier – Total,16,1000000,918,11010,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Edge,16,1000000,1023,12274,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Elite,16,1000000,1157,13880,97,https://www.kotaklife.com/insurance-plans/health-plans
+New India Assurance,New India Mediclaim 2012,16,1000000,1265,15177,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Supreme,15,1000000,1043,12510,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,1000000,1549,18584,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,1000000,1028,12331,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,1000000,1078,12933,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,1000000,1265,15175,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Privilege,20,1000000,1362,16343,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Plus,20,1500000,1553,18632,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Digi-Pro,20,1000000,1222,14667,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,1000000,1075,12897,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,1000000,1125,13499,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,1000000,1312,15741,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,1000000,1266,15187,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,1000000,1316,15788,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,1000000,1503,18030,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,1000000,1172,14066,98.9,https://www.iffcotokio.co.in/health-insurance
+Digit Insurance,Double Wallet Plan,10,1000000,977,11729,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,1000000,1171,14054,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,1000000,1269,15233,96,https://www.godigit.com/health-insurance-policy
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,1000000,873,10475,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,1500000,998,11970,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,1500000,1028,"12,336",93,https://www.careinsurance.com/
+Care Health,Care Advantage,15,2500000,926,11109,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,1500000,1812,21745,93,https://www.careinsurance.com/
+Care Health,Care Advantage with NCB,15,2500000,1018,12219,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period,15,2500000,949,11386,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Inc US,15,2500000,1673,20076,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,2500000,1483,17801,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,2500000,1673,20076,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,1500000,990,11880,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,1500000,1102,13223,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,1500000,1167,14008,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,1500000,1404,16845,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,1500000,1379,16550,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Silver,16,1500000,1289,15468,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,1500000,1825,21898,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,1500000,920,11043,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,1500000,1361,16326,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,1500000,1112,13348,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,1500000,1196,14349,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,1500000,2067,24801,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,1500000,986,11828,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,1500000,1084,13012,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,1500000,1021,12249,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,1500000,1289,15469,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,1500000,1289,15469,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,1500000,1320,15840,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,1500000,1320,15840,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Power,15,1500000,941,11286,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Gain Prime,15,2500000,1163,13952,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,1500000,914,10972,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,1500000,914,10972,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,1500000,914,10972,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Supreme Plus,16,1500000,1292,15498,94,https://www.cholainsurance.com/health-insurance
+Kotak Mahindra,Kotak Health Premier – Total,16,1500000,991,11887,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Edge,16,1500000,1096,13149,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Elite,16,1500000,1234,14810,97,https://www.kotaklife.com/insurance-plans/health-plans
+New India Assurance,New India Mediclaim 2012,16,1500000,1559,18702,98,https://www.newindia.co.in/health-insurance/health-insurance-policy
+Royal Sundaram,Lifeline Supreme,15,1500000,1104,13247,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Elite,15,2500000,3301,39617,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,1500000,1696,20354,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,1500000,1353,16237,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,1500000,1410,16921,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,1500000,1621,19446,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Plus,20,1500000,1553,18632,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Premier,20,2500000,1727,20721,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,1500000,1404,16850,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,1500000,1461,17535,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,1500000,1672,20060,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,1500000,1614,19364,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,1500000,1671,20048,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,1500000,1881,22573,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,1500000,1339,16072,98.9,https://www.iffcotokio.co.in/health-insurance
+Digit Insurance,Double Wallet Plan,10,1500000,1059,12707,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,1500000,1269,15226,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,1500000,1450,17403,96,https://www.godigit.com/health-insurance-policy
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,1500000,1135,13617,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1170,14044,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1206,"14,472",93,https://www.careinsurance.com/
+Care Health,Care Advantage,15,2500000,926,11109,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,2000000,1872,22461,93,https://www.careinsurance.com/
+Care Health,Care Advantage with NCB,15,2500000,1018,12219,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period,15,2500000,949,11386,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Inc US,15,2500000,1673,20076,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,2500000,1483,17801,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,2500000,1673,20076,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,2000000,1131,13570,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,2000000,1243,14913,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,2000000,1306,15676,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,2000000,1588,19057,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,2000000,1586,19034,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,2000000,2065,24774,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,2000000,1037,12448,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,2000000,1458,17490,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,2000000,1492,17907,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,2000000,1347,16168,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,2000000,1030,12359,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,2000000,1177,14126,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,2000000,1328,15941,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,2000000,1336,16037,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,2000000,1352,16223,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,2000000,1585,19024,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,2000000,2189,26270,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,2000000,1051,12616,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,2000000,1140,13685,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,2000000,1129,13546,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,2000000,1408,16890,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,2000000,1408,16890,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,2000000,1438,17261,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,2000000,1438,17261,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Power,15,2000000,1002,12021,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Gain Prime,15,2500000,1163,13952,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Supreme Plus,16,2000000,1435,17220,94,https://www.cholainsurance.com/health-insurance
+Kotak Mahindra,Kotak Health Premier – Total,16,2000000,1045,12543,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Edge,16,2000000,1151,13807,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Elite,16,2000000,1293,15512,97,https://www.kotaklife.com/insurance-plans/health-plans
+Royal Sundaram,Lifeline Supreme,15,2000000,1165,13983,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Elite,15,2500000,3301,39617,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Zuno,Zuno Gold + Health 241,10,2000000,1850,22197,95,https://www.hizuno.com/health-insurance-plan
+Universal Sompo,A Plus Silver,20,2000000,1499,17983,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,2000000,1556,18668,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,2000000,1592,19104,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Plus,20,2000000,1610,19317,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Premier,20,2500000,1727,20721,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,2000000,1553,18632,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,2000000,1610,19317,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,2000000,1823,21877,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,2000000,1769,21228,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,2000000,1826,21913,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,2000000,2039,24473,96,https://www.universalsompo.com/health-insurance
+IFFCO Tokio,Individual Health Protector,12,2000000,1530,18365,98.9,https://www.iffcotokio.co.in/health-insurance
+Digit Insurance,Double Wallet Plan,10,2000000,1124,13487,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,2000000,1347,16162,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,2000000,1606,19271,96,https://www.godigit.com/health-insurance-policy
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,2000000,1178,14140,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1170,14044,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,2500000,1206,"14,472",93,https://www.careinsurance.com/
+Care Health,Care Advantage,15,2500000,926,11109,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,2500000,2134,25604,93,https://www.careinsurance.com/
+Care Health,Care Advantage with NCB,15,2500000,1018,12219,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period,15,2500000,949,11386,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Inc US,15,2500000,1673,20076,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,2500000,1483,17801,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,2500000,1673,20076,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,2500000,1293,15512,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,2500000,1405,16855,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,2500000,1442,17300,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,2500000,1732,20786,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Mediclassic Individual Gold,16,2500000,1776,21317,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,2500000,2252,27022,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,2500000,1134,13606,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,2500000,1517,18208,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,2500000,1102,13227,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,2500000,1256,15071,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,2500000,1410,16915,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,2500000,1418,17018,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,3000000,1699,20383,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,3000000,1522,18261,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,3000000,2261,27135,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,2500000,1095,13141,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,2500000,1191,14289,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,2500000,1183,14195,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,2500000,1730,20757,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,2500000,1730,20757,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,2500000,1761,21128,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,2500000,1761,21128,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Prime,15,2500000,1163,13952,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4,https://www.manipalcigna.com/health-insurance
+Cholamandalam MS,Flexi Health Supreme Plus,16,2500000,1570,18834,94,https://www.cholainsurance.com/health-insurance
+Kotak Mahindra,Kotak Health Premier – Total,16,2500000,1100,13202,97,https://www.kotaklife.com/insurance-plans/health-plans
+Kotak Mahindra,Kotak Health Premier – Elite,16,2500000,1351,16213,97,https://www.kotaklife.com/insurance-plans/health-plans
+Royal Sundaram,Lifeline Supreme,15,2500000,1221,14646,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Elite,15,2500000,3301,39617,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Universal Sompo,A Plus Silver,20,2500000,1389,16662,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,2500000,1600,19199,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,2500000,1632,19588,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Premier,20,2500000,1727,20721,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Executive,20,4000000,1627,19529,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,2500000,1596,19151,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,2500000,1494,17924,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,2500000,1686,20237,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,2500000,1664,19966,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,2500000,1875,22503,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,2500000,1908,22892,96,https://www.universalsompo.com/health-insurance
+Digit Insurance,Double Wallet Plan,10,2500000,1222,14660,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,2500000,1464,17568,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,2500000,1803,21639,96,https://www.godigit.com/health-insurance-policy
+Magma HDI,Secure with Bonus Booster and Zonewise Copay Waiver,16,2500000,1222,14664,90,https://www.magmahdi.com/products/health-insurance/onehealth
+Care Health,Care with Care Shield,15,3000000,2298,27577,93,https://www.careinsurance.com/
+Niva Bupa,Health Companion,16,3000000,1699,20383,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,3000000,1522,18261,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,3000000,2261,27135,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Active Health Platinum - Enhanced,14,3000000,1278,15340,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Reliance,Health Gain Prime,15,3000000,1236,14831,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4,https://www.manipalcigna.com/health-insurance
+Royal Sundaram,Lifeline Elite,15,3000000,3570,42834,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Universal Sompo,Complete HealthCare Insurance - Premier,20,3000000,1754,21051,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Executive,20,4000000,1627,19529,96,https://www.universalsompo.com/health-insurance
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,5000000,1318,15818,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,5000000,1358,"16,296",93,https://www.careinsurance.com/
+Care Health,Care Advantage,15,5000000,1077,12923,93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,5000000,5511,66131,93,https://www.careinsurance.com/
+Care Health,Care Advantage with NCB,15,5000000,1158,13892,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period,15,5000000,1265,15183,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Inc US,15,5000000,2110,25325,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Global Coverage Ex US,15,5000000,1889,22669,93,https://www.careinsurance.com/
+Care Health,Care Advantage with Reduction In PED Waiting period and Global coverage Inc US,15,5000000,2110,25325,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,5000000,1541,18494,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,5000000,1653,19837,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,5000000,1685,20223,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,5000000,1906,22868,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,5000000,2477,29729,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,5000000,1293,15518,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,5000000,1686,20226,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,5000000,1726,20709,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,5000000,1575,18897,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,5000000,1361,16331,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,5000000,1548,18580,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,5000000,1737,20839,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,5000000,1747,20967,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,5000000,1695,20344,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,5000000,2187,26244,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Gold,16,5000000,2363,28359,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,5000000,1317,15801,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,5000000,1709,20502,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,5000000,1437,17243,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,5000000,2061,24730,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,5000000,2061,24730,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,5000000,2092,25100,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,5000000,2092,25100,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Prime,15,5000000,1497,17958,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,5000000,1573,18879,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,5000000,1573,18879,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,5000000,1573,18879,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,5000000,1859,22307,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,5000000,1161,13930,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,5000000,1177,14124,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,5000000,1156,13866,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,5000000,1843,22114,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,5000000,1837,22049,93.4,https://www.manipalcigna.com/health-insurance
+Royal Sundaram,Lifeline Supreme,15,5000000,1420,17042,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Elite,15,5000000,4943,59319,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Universal Sompo,A Plus Silver,20,5000000,1458,17499,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,5000000,1510,18125,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,5000000,1706,20473,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,Complete HealthCare Insurance - Executive,20,5000000,1877,22526,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,5000000,1517,18207,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,5000000,1569,18833,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,5000000,1765,21181,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,5000000,1750,21004,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,5000000,1802,21629,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,5000000,1998,23978,96,https://www.universalsompo.com/health-insurance
+Digit Insurance,Double Wallet Plan,10,5000000,1409,16909,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,5000000,1689,20262,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,5000000,2446,29349,96,https://www.godigit.com/health-insurance-policy
+Care Health,Care with Care Shield,15,6000000,6416,76988,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,7500000,1690,20279,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,7500000,1802,21628,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,7500000,1886,22635,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,7500000,2068,24815,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,7500000,2688,32260,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,7500000,1481,17767,85.8,https://www.starhealth.in/health-insurance/
+Aditya Birla,Activ One Max,14,7500000,1512,18138,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,7500000,2299,27583,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,7500000,2299,27583,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,7500000,2330,27954,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,7500000,2330,27954,99.8,https://www.icicilombard.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4,https://www.manipalcigna.com/health-insurance
+Universal Sompo,A Plus Silver,20,7500000,1733,20792,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,7500000,1789,21464,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,7500000,1993,23919,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,7500000,1802,21629,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,7500000,1859,22302,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,7500000,2063,24756,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,7500000,2084,25004,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,7500000,2140,25677,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,7500000,2344,28131,96,https://www.universalsompo.com/health-insurance
+Care Health,Care Supreme Discounted + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1659,19908,93,https://www.careinsurance.com/
+Care Health,Care Supreme Discounted (Quarterly) + Wellness Benefit + Air Ambulance + NCB Super,15,10000000,1709,"20,508",93,https://www.careinsurance.com/
+Care Health,Care with Care Shield,15,7500000,7831,93969,93,https://www.careinsurance.com/
+Star Health,Young Star Silver,16,7500000,1690,20279,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Young Star Gold,16,7500000,1802,21628,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Assure Insurance Policy,16,7500000,1886,22635,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive Individual,16,7500000,2068,24815,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Comprehensive with PED Buy Back,16,7500000,2688,32260,85.8,https://www.starhealth.in/health-insurance/
+Star Health,Smart Health Pro,16,7500000,1481,17767,85.8,https://www.starhealth.in/health-insurance/
+Niva Bupa,Reassure 2.0 Platinum+ (Direct),16,10000000,2299,27584,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Titanium+ (Direct),16,10000000,2356,28266,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Reassure 2.0 Bronze+(Direct),16,10000000,2158,25894,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Gold + (Direct),16,10000000,1803,21638,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Diamond + (Direct),16,10000000,2031,24377,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Platinum + (Direct),16,10000000,2236,26833,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Aspire Titanium + (Direct),16,10000000,2250,27000,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion,16,10000000,2594,31130,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Companion + Safeguard,16,10000000,2789,33465,92,https://www.nivabupa.com/health-insurance-plans.html
+Niva Bupa,Health Premia Platinum,16,10000000,5302,63627,92,https://www.nivabupa.com/health-insurance-plans.html
+Aditya Birla,Activ One Max,14,7500000,1512,18138,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+Aditya Birla,Active Health Platinum - Enhanced,14,10000000,2015,24182,96,https://www.adityabirlacapital.com/healthinsurance/homepage
+ICICI Lombard,Elevate + BeFit,12,10000000,1670,20039,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With Befit,12,7500000,2299,27583,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim Protector and Befit,12,7500000,2299,27583,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 with Claim + SI Protector + Befit,12,7500000,2330,27954,99.8,https://www.icicilombard.com/health-insurance
+ICICI Lombard,Health AdvantEdge Plus 2.0 With SI Protector and Befit,12,7500000,2330,27954,99.8,https://www.icicilombard.com/health-insurance
+Reliance,Health Gain Prime,15,10000000,1843,22120,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Time,15,10000000,1848,22176,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Global,15,10000000,1848,22176,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Reliance,Health Infinity With More Cover,15,10000000,1848,22176,99.9,https://www.reliancegeneral.co.in/health-insurance/health-gain-insurance?wpsrc=Google+Organic+Search
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 100L,25,7500000,2106,25277,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 50L,25,7500000,1212,14545,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 100L,25,7500000,1229,14747,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health India with World Wide Medical Emergency Cover of 25L,25,7500000,1206,14477,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 50L,25,7500000,2090,25075,93.4,https://www.manipalcigna.com/health-insurance
+Manipal Cigna,Lifetime Health Global with World Wide Medical Emergency Cover of 25L,25,7500000,2084,25008,93.4,https://www.manipalcigna.com/health-insurance
+Royal Sundaram,Lifeline Supreme,15,10000000,1583,18991,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Royal Sundaram,Lifeline Elite,15,10000000,5641,67695,92,https://www.royalsundaram.in/health-insurance/lifeline/
+Universal Sompo,A Plus Silver,20,7500000,1733,20792,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold,20,7500000,1789,21464,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond,20,7500000,1993,23919,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + Non medical items,20,7500000,1802,21629,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + Non medical items,20,7500000,1859,22302,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + Non medical items,20,7500000,2063,24756,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Silver + PED waiting period waiver,20,7500000,2084,25004,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Gold + PED waiting period waiver,20,7500000,2140,25677,96,https://www.universalsompo.com/health-insurance
+Universal Sompo,A Plus Diamond + PED waiting period waiver,20,7500000,2344,28131,96,https://www.universalsompo.com/health-insurance
+Digit Insurance,Double Wallet Plan,10,10000000,1613,19352,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Infinity Wallet Plan,10,10000000,1932,23189,96,https://www.godigit.com/health-insurance-policy
+Digit Insurance,Worldwide Treatment plan,10,10000000,3447,41360,96,https://www.godigit.com/health-insurance-policy

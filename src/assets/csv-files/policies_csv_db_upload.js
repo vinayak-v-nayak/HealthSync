@@ -26,6 +26,7 @@ const PolicySchema = new mongoose.Schema({
     Monthly_Premium: Number,
     Annual_Premium: Number,
     Claim_Settlement_Ratio: Number,
+    Policy_URL:String,
 });
 
 const Policy = mongoose.model('Policy', PolicySchema);
@@ -50,6 +51,7 @@ const uploadCSVToMongoDB = (filePath) => {
           Monthly_Premium: parseFloat(row.Monthly_Premium),
           Annual_Premium: parseFloat(row.Annual_Premium),
           Claim_Settlement_Ratio: parseFloat(row.Claim_Settlement_Ratio),
+          Policy_URL:row.Links,
         }));
 
         await Policy.insertMany(transformedData);

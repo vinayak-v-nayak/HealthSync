@@ -9,6 +9,7 @@ const policySchema = new mongoose.Schema({
     Monthly_Premium: Number,
     Annual_Premium: Number,
     Claim_Settlement_Ratio: Number,
+    Policy_URL:String,
 });
 
 const Policy = mongoose.model('Policy', policySchema);
