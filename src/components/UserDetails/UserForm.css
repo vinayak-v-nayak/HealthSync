@@ -104,3 +104,78 @@
   justify-content: space-between;
   margin-top: 1.5rem;
 }
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* For tablets and smaller screens */
+  .form-container {
+    min-height: 120vh;
+    padding: 2rem;
+  }
+
+  .form-card {
+    max-width: 90%;
+    padding: 1.5rem;
+  }
+
+  .form-title {
+    font-size: 1.5rem;
+  }
+
+  .form-step-indicator {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .form-input {
+    padding: 0.6rem;
+    font-size: 0.95rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* For smaller screens like mobile */
+  .form-container {
+    padding: 1rem;
+  }
+
+  .form-card {
+    max-width: 95%;
+    padding: 1rem;
+  }
+
+  .form-title {
+    font-size: 1.2rem;
+  }
+
+  .form-step-indicator {
+    font-size: 0.75rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .form-input {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  .button-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

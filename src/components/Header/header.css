@@ -1,42 +1,94 @@
-.container{
-    display: block;
-    justify-content: space-around;
+.container {
+  display: block;
+  justify-content: space-around;
 }
-  
 
-  .login-icon {
-    width: 40px;
+/* Navbar custom style */
+.navbar-custom {
+  background-color: white;
+  padding: 5px 20px;
+  border-radius: 50px; /* Border radius for the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar links */
+.nav-link {
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 10px 15px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+  
+}
+
+.nav-link:hover {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Login icon style */
+.login-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.login-icon:hover {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+
+.user-image {
+  margin: auto;
+  width: 130%;
+  height: 130%;
+}
+
+/* Menu toggle (bars) */
+.menu-toggle {
+  display: none; /* Hidden by default */
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* Hidden for mobile by default */
+  }
+
+  .menu-toggle {
+    display: block; /* Show toggle button on smaller screens */
+  }
+
+  .navbar-custom {
+    padding: 5px 15px;
+  }
+
+  .logo-image {
+    width: 70px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-image {
+    width: 50px;
     height: 40px;
-    border-radius: 50%;
-    overflow: hidden;
-    cursor: pointer;
-    transition: box-shadow 0.3s ease;
-    display: flex;
-    align-items: right;
-    justify-content: right;
-    padding: 5px;
   }
-  
-  .login-icon:hover {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  .user-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  .main-nav .nav li a {
-    text-decoration: none;
-  }
-  
-  .main-nav .nav li a:hover {
-    color: #007bff; 
-    text-decoration: none; 
-  }
-  
-  li {
-    list-style: none; 
-  }
-
-  
+}
