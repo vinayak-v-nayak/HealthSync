@@ -1,181 +1,205 @@
-/* Form container */
-.form-container {
+/* Base design for larger screens (laptops and above) */
+.insurance-card {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 130vh;
-  background: linear-gradient(135deg, #e2e8f0, #f8fafc);
-}
-
-/* Form card */
-.form-card {
-  background: #ffffff;
-  padding: 2rem;
+  flex-direction: column;
+  border: 1px solid #e2e8f0;
   border-radius: 12px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-bottom: 16px;
+  max-width: 100%;
   width: 100%;
-  max-width: 500px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-/* Form title */
-.form-title {
-  text-align: center;
-  font-size: 1.8rem;
+.insurance-card:hover {
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.card-header-text {
+  flex-grow: 1;
+}
+
+.brand-name a {
+  font-size: 1.25rem;
   font-weight: bold;
-  color: #2d3748;
+  color: #1f2937;
+  text-decoration: none;
 }
 
-/* Step indicator */
-.form-step-indicator {
-  text-align: center;
-  color: #718096;
+.brand-name a:hover {
+  color: #2563eb; /* Blue highlight on hover */
+  text-decoration: underline;
+}
+
+.policy-description {
   font-size: 0.9rem;
-  margin-bottom: 1.5rem;
+  color: #6b7280;
+  margin-top: 4px;
 }
 
-/* Form group */
-.form-group {
-  margin-bottom: 1.5rem;
+.card-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  align-items: center;
 }
 
-.form-group label {
+.claim-settlement {
+  grid-column: 1 / span 2;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+.cashless-hospitals,
+.coverage {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.value {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+.premium {
+  text-align: right;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #dc2626;
+}
+
+.annual-premium {
   display: block;
   font-size: 0.9rem;
-  font-weight: 500;
-  color: #4a5568;
-  margin-bottom: 0.5rem;
+  color: #4b5563;
 }
 
-.radio-group label {
-  display: inline-flex;
-  align-items: center;
-  margin-right: 1rem;
-  color: #4a5568;
-}
-
-/* Form input */
-.form-input {
-  width: 100%;
-  padding: 0.7rem;
-  border: 1px solid #cbd5e0;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
-}
-
-.form-input:focus {
-  border-color: #3182ce;
-  outline: none;
-  box-shadow: 0 0 4px rgba(49, 130, 206, 0.4);
-}
-
-/* Buttons */
-.btn {
-  padding: 0.7rem 1.5rem;
+.view-details-button {
+  background-color: cadetblue;
+  color: #fff;
   border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  font-weight: 600;
+  border-radius: 5px;
+  padding: 5px 10px; /* Reduced padding */
+  font-size: 0.85rem; /* Smaller font size */
+  font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-align: center;
+  margin-left: 50px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.btn-primary {
-  background-color: #3182ce;
-  color: white;
+
+.view-details-button:hover {
+  background-color: #1e3a8a; /* Darker blue */
+  transform: translateY(-2px); /* Lift effect */
 }
 
-.btn-primary:hover {
-  background-color: #2b6cb0;
+.view-details-button:active {
+  background-color: #1e40af;
+  transform: translateY(0); /* Reset on click */
 }
 
-.btn-secondary {
-  background-color: #e2e8f0;
-  color: #2d3748;
+.view-details-button:focus {
+  outline: none;
+  box-shadow: 0px 0px 4px 2px rgba(37, 99, 235, 0.6); /* Blue glow on focus */
 }
 
-.btn-secondary:hover {
-  background-color: #cbd5e0;
-}
-
-/* Button group */
-.button-group {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1.5rem;
-}
-
-/* Media queries for responsiveness */
+/* Mobile and Tablet Design Adjustments */
 @media (max-width: 768px) {
-  /* For tablets and smaller screens */
-  .form-container {
-    min-height: 120vh;
-    padding: 2rem;
+  .insurance-card {
+    min-height: 480px;  /* Ensure the card has enough space for content */
   }
 
-  .form-card {
-    max-width: 90%;
-    padding: 1.5rem;
-  }
-
-  .form-title {
-    font-size: 1.5rem;
-  }
-
-  .form-step-indicator {
-    font-size: 0.8rem;
-    margin-bottom: 1rem;
-  }
-
-  .form-input {
-    padding: 0.6rem;
-    font-size: 0.95rem;
-  }
-
-  .btn {
-    padding: 0.6rem 1.2rem;
-    font-size: 0.9rem;
-  }
-
-  .button-group {
+  .card-header {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+  }
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 16px;  /* Add more space between elements */
+    align-items: center;  /* Ensure content is centered */
+  }
+
+  .claim-settlement,
+  .cashless-hospitals,
+  .coverage,
+  .premium,
+  .annual-premium {
+    text-align: center;  /* Align content to the center */
+    font-size: 1rem;
+    color: #4b5563;
+    width: 100%;  /* Make these full width on small screens */
+  }
+
+  .value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #111827;
+  }
+
+  .view-details-button {
+    width: 100%;
+    margin-top: 12px;  /* Add margin between button and content */
+    font-size: 1rem;  /* Increase font size for better visibility */
+    padding: 12px 0;  /* Full height button */
   }
 }
 
+/* Very Small Screens (Phones) */
 @media (max-width: 480px) {
-  /* For smaller screens like mobile */
-  .form-container {
-    padding: 1rem;
+  .insurance-card {
+    padding: 16px;
+    margin: 8px;
+    min-height: 500px;  /* Ensure content is fully visible */
   }
 
-  .form-card {
-    max-width: 95%;
-    padding: 1rem;
+  .brand-name a {
+    font-size: 1.1rem;
   }
 
-  .form-title {
-    font-size: 1.2rem;
+  .policy-description {
+    font-size: 0.8rem;
   }
 
-  .form-step-indicator {
-    font-size: 0.75rem;
-    margin-bottom: 0.8rem;
+  .card-body {
+    gap: 12px;  /* Maintain space between stacked elements */
+    align-items: center;  /* Center content on mobile */
   }
 
-  .form-input {
-    padding: 0.5rem;
-    font-size: 0.9rem;
-  }
-
-  .btn {
-    padding: 0.5rem 1rem;
-    font-size: 0.85rem;
-  }
-
-  .button-group {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+  .view-details-button {
+    width: 100%;
+    margin-top: 12px;
+    font-size: 1rem;
+    padding: 12px 0;  /* Full width and full height button for touchscreens */
   }
 }
