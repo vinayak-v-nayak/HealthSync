@@ -65,7 +65,7 @@ def recommend_policies(fitness_score, model, data, scaler,salary):
     # Retrieve recommended policies
     recommendations = data.iloc[indices[0]]
     return recommendations[['Brand_Name','Policy_Name', 'Coverage_Amount','Cashless_Hospitals', 'Monthly_Premium', 
-                            'Annual_Premium', 'Claim_Settlement_Ratio','Public_URL']]
+                            'Annual_Premium', 'Claim_Settlement_Ratio','Policy_URL']]
 
 @app.route('/recommend', methods=['POST'])
 def recommend():
